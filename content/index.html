@@ -1,15 +1,31 @@
-___
+---
 title: Hi
 ---
 
 <h2>Episodes</h2>
 
 <div>
-
+  {{#site}}
+    {{#collections}}
+      {{#episodes}}
+        {{#pages}}
+          {{>episode}}
+        {{/pages}}
+      {{/episodes}}
+    {{/collections}}
+  {{/site}}
 </div>
 
 <h2>Posts</h2>
 
 <div>
-
+  {{#site}}
+    {{#collections}}
+      {{#posts}}
+        {{#pages}}
+          {{>episode}}
+        {{/pages}}
+      {{/posts}}
+    {{/collections}}
+  {{/site}}
 </div>
