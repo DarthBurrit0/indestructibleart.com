@@ -1,20 +1,71 @@
-
-<html>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
   <title>{{ title }} | indestructibleart.com</title>
 
-  <meta name="kewords" content="">
+  <meta name="description" content="{{ description }}" />
+  <meta name="author" content="{{ author }}" />
+  <meta name="keywords" content="{{tags}}" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <link rel="canonical" href="" />
+
+  <link rel="sitemap"
+    type="application/xml"
+    title="Sitemap"
+    href="/sitemap.xml" />
+
+  <link rel="alternate"
+    type="application/rss+xml"
+    title="RSS"
+    href="/rss.xml" />
+
+  <link rel="alternate"
+    type="application/atom+xml"
+    title="Atom"
+    href="/atom.xml" />
+
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+
+  <script src="/javascripts/lib/modernizr.js"></script>
 </head>
 
 <body>
-  <header>
-    <a href="/" class="logo">phoot</a>
-  </header>
-
-  <h1>{{ title }}</h1>
 
   <div id="content">
     {{{ yield }}}
   </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
+</script>
+
+<script>
+  var scriptTag = '<script src="javascripts/lib/jquery.js"><\/script>';
+
+  window.jQuery || document.write(scriptTag);
+</script>
+
+
+<script defer src="/javascripts/application.js"></script>
+
+<script>
+  var protocol = 'https:' == location.protocol ? '//ssl' : '//www'
+      url = protocol + '.google-analytics.com/ga.js'
+  ;
+
+  window._gaq = [ ['_setAccount', 'UA-27302223-1']
+    ,['_trackPageview']
+    ,['_trackPageLoadTime']
+  ];
+
+  Modernizr.load({ load: url });
+</script>
 </body>
 </html>
