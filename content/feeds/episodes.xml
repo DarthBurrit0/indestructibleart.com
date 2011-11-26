@@ -2,50 +2,45 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0" >
     <channel>
         <title>Indestructible Art</title>
-        
+
         <link>http://indestructibleart.com/</link>
-        
+
         <language>en-us</language>
-        
-        <copyright>℗ &amp; © 2011 Evan Campbell</copyright>
-        
-        <itunes:subtitle>A podcast series on RSS</itunes:subtitle>
-        
+
+        <copyright>℗ &amp; © 2011 indestructibleart.com</copyright>
+
+        <itunes:subtitle>From Pixels to Panels.</itunes:subtitle>
+
         <itunes:author>Evan Campbell &amp; Ryan Adams</itunes:author>
-        
-        <itunes:summary>Creating a well formed RSS feed is important for
-        iTunes U. This weekly series follows the methods to ensure your
-        success.</itunes:summary>
-        
-        <description>Creating a well formed RSS feed is important for
-        iTunes U. This weekly series follows the methods to ensure your
-        success.</description>
+
+        <itunes:summary>Indestructible Art is a podcast about video games and comic books. Every week, Ryan and Evan discuss news, reviews, and current trends surrounding two of earths greatest mediums.</itunes:summary>
+
+        <description>Indestructible Art is a podcast about video games and comic books. Every week, Ryan and Evan discuss news, reviews, and current trends surrounding two of earths greatest mediums.</description>
 
         <itunes:owner>
             <itunes:name>Evan Campbell</itunes:name>
             <itunes:email>evan@indestructibleart.com</itunes:email>
         </itunes:owner>
 
-        <itunes:image href="http://images.apple.com/pr/images/rotation
-        /leopardbox.jpg"/>
+        <itunes:image
+          href="http://indestructibleart.com/images/podacst-icon.png" />
 
         <itunes:explicit>no</itunes:explicit>
 
         {{#episodes}}
           <item>
-              <title>XML Basics</title>
-              <itunes:author>Jane Doe</itunes:author>
-              <itunes:subtitle>A short primer on RSS and XML</itunes:subtitle>
-              <itunes:summary>The basics of RSS is XML.  This episode will
-              assist in the development of the RSS shell used for iTunes U
-              RSS feeds.</itunes:summary>
-              <enclosure url="http://example.com/podcasts/RSS-Basics.m4a"
-              length="234233" type="audio/x-m4a"/>
-              <guid>http://example.com/podcasts/RSS-Basics.m4a</guid>
-              <pubDate>Tue, 17 Jun 2008 19:00:00 GMT</pubDate>
-              <itunes:duration>7:04</itunes:duration>
-              <itunes:keywords>rss, itunesu, xml, tutorial,
-              training</itunes:keywords>
+              <title>{{ title }}</title>
+              <itunes:author>{{ author }}</itunes:author>
+              <itunes:subtitle>{{ subtitle }}</itunes:subtitle>
+              <itunes:summary>{{ summary }}</itunes:summary>
+
+              <enclosure url="http://indestructibleart.com{{ file }}"
+                type="audio/x-mpeg-3" />
+
+              <guid>http://indestructibleart.com{{ file }}</guid>
+              <pubDate>{{ published }}</pubDate>
+              <itunes:duration>{{ duration }}</itunes:duration>
+              <itunes:keywords>{{ tags }}</itunes:keywords>
           </item>
         {{/episodes}}
     </channel>
