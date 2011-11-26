@@ -3,10 +3,12 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+{{#nerds}}
+  {{ role }}: {{ name }}
+  Site: {{ site }}
+  Twitter: {{ twitter }}
+  Location: {{ location }}
+{{/nerds}}
 
 /* THANKS */
   Names (& URL):
@@ -14,4 +16,4 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: haiku
