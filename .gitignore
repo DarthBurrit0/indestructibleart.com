@@ -1,4 +1,4 @@
-
+config
 *.tmproj
 public/audio
 build
