@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0" >
-    <channel>
-        <title>Indestructible Art</title>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  version="2.0" >
 
-        <link>http://indestructibleart.com/</link>
+  <channel>
+    <title>Indestructible Art</title>
+    <link>http://indestructibleart.com/</link>
+    <atom:link href="http://www.indestructibleart.com/feeds/episodes.xml"
+      rel="self"
+      type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>℗ &amp; © 2011 indestructibleart.com</copyright>
+    <itunes:subtitle>From Pixels to Panels.</itunes:subtitle>
+    <itunes:author>Evan Campbell &amp; Ryan Adams</itunes:author>
+    <itunes:summary>Indestructible Art is a podcast about video games and comic books. Every week, Ryan and Evan discuss news, reviews, and current trends surrounding two of earths greatest mediums.</itunes:summary>
+    <description>Indestructible Art is a podcast about video games and comic books. Every week, Ryan and Evan discuss news, reviews, and current trends surrounding two of earths greatest mediums.</description>
+    <itunes:owner>
+        <itunes:name>Evan Campbell</itunes:name>
+        <itunes:email>evan@indestructibleart.com</itunes:email>
+    </itunes:owner>
+    <itunes:image
+      href="http://indestructibleart.com/images/podcast-icon.png" />
+    <itunes:explicit>no</itunes:explicit>
 
-        <language>en-us</language>
+    <itunes:category text="Games &amp; Hobbies">
+      <itunes:category text="Video Games" />
+    </itunes:category>
 
-        <copyright>℗ &amp; © 2011 indestructibleart.com</copyright>
+    <itunes:category text="Arts">
+      <itunes:category text="Visual Arts" />
+    </itunes:category>
 
-        <itunes:subtitle>From Pixels to Panels.</itunes:subtitle>
-
-        <itunes:author>Evan Campbell &amp; Ryan Adams</itunes:author>
-
-        <itunes:summary>Indestructible Art is a podcast about video games and comic books. Every week, Ryan and Evan discuss news, reviews, and current trends surrounding two of earths greatest mediums.</itunes:summary>
-
-        <description>Indestructible Art is a podcast about video games and comic books. Every week, Ryan and Evan discuss news, reviews, and current trends surrounding two of earths greatest mediums.</description>
-
-        <itunes:owner>
-            <itunes:name>Evan Campbell</itunes:name>
-            <itunes:email>evan@indestructibleart.com</itunes:email>
-        </itunes:owner>
-
-        <itunes:image
-          href="http://indestructibleart.com/images/podacst-icon.png" />
-
-        <itunes:explicit>no</itunes:explicit>
-
+    {{#site}}
+      {{#collections}}
         {{#episodes}}
-          <item>
-              <title>{{ title }}</title>
-              <itunes:author>{{ author }}</itunes:author>
-              <itunes:subtitle>{{ subtitle }}</itunes:subtitle>
-              <itunes:summary>{{ summary }}</itunes:summary>
+          {{#pages}}
+            <item>
+                <title>{{ title }}</title>
+                <itunes:author>{{ author }}</itunes:author>
+                <itunes:subtitle>{{ subtitle }}</itunes:subtitle>
+                <itunes:summary>{{ summary }}</itunes:summary>
 
-              <enclosure url="http://indestructibleart.com{{ file }}"
-                type="audio/x-mpeg-3" />
+                <enclosure url="http://indestructibleart.com{{ file }}"
+                  length="{{ length }}"
+                  type="audio/mpeg" />
 
-              <guid>http://indestructibleart.com{{ file }}</guid>
-              <pubDate>{{ published }}</pubDate>
-              <itunes:duration>{{ duration }}</itunes:duration>
-              <itunes:keywords>{{ tags }}</itunes:keywords>
-          </item>
+                <guid>http://indestructibleart.com{{ file }}</guid>
+                <pubDate>{{ published }}</pubDate>
+                <itunes:duration>{{ duration }}</itunes:duration>
+                <itunes:keywords>{{ tags }}</itunes:keywords>
+            </item>
+          {{/pages}}
         {{/episodes}}
-    </channel>
+      {{/collections}}
+    {{/site}}
+  </channel>
 </rss>
