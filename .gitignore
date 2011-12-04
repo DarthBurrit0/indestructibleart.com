@@ -2,3 +2,4 @@ config
 *.tmproj
 public/audio
 build
+.dropbox
