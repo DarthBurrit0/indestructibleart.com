@@ -14,9 +14,9 @@ author: Evan Campbell, Ryan Adams, &amp; Omar de Armas
 
 #### {{ published }}
 
-{{ subtitle }}
-
-{{ summary }}
+{{ subtitle }}  
+  
+{{ summary }}  
 
 <audio src={{ file }} preload="false" />
 
