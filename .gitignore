@@ -4,6 +4,6 @@ config
 public/audio
 build
 .dropbox
-
+.sass-cache
 Icon
 
