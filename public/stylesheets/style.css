@@ -106,3 +106,33 @@ header {
   .audios ul li a {
     font-weight: bold;
     color: #1E90FF; }
+
+.videos {
+  height: auto;
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgba(128, 128, 128, 0.9);
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 5%;
+  padding: 3%; }
+  .videos a {
+    text-decoration: none;
+    color: #1E90FF; }
+  .videos h1 {
+    font-family: verdana; }
+
+.vid_container {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56%;
+  height: 0;
+  overflow: hidden; }
+  .vid_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
