@@ -10,7 +10,7 @@ title: Hi
       {{#episodes}}
         {{#pages}}
           <div class="audios">
-          {{{ content }}}
+            {{{ content }}}
           </div>
         {{/pages}}
       {{/episodes}}
@@ -26,7 +26,7 @@ title: Hi
       {{#videos}}
         {{#pages}}
           <div class="videos">
-          {{{ content }}}
+            {{{ content }}}
           </div>
         {{/pages}}
       {{/videos}}
@@ -41,8 +41,9 @@ title: Hi
     {{#collections}}
       {{#posts}}
         {{#pages}}
-          .
-          {{ content }}
+          <div class="blog">
+            {{{ content }}}
+          </div>
         {{/pages}}
       {{/posts}}
     {{/collections}}

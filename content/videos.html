@@ -1,0 +1,19 @@
+---
+title:Videos
+---
+
+<h2>Videos</h2>
+
+<div>
+  {{#site}}
+    {{#collections}}
+      {{#videos}}
+        {{#pages}}
+          <div class="videos">
+            {{{ content }}}
+          </div>
+        {{/pages}}
+      {{/videos}}
+    {{/collections}}
+  {{/site}}
+</div>
