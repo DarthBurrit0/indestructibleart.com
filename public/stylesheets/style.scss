@@ -1,8 +1,9 @@
 /*-----Site Wide CSS-----*/
 body{
-	background-color:#DCDCDC;
+	background-color:#778899;
 	background-attachment:fixed;
 	font-family:courier;
+	
 }
 .audiojs {
   margin: 15px 0px 20px;
@@ -23,7 +24,7 @@ body{
 	border-radius:2px;
 	padding:8px 4% 2px 4%;
 	border:1px solid black;
-	/*box-shadow:1px 1px 1px black;*/ 
+	box-shadow:1px 1px 1px black;
 }
 header{
 	z-index:10;
@@ -60,7 +61,7 @@ header{
 		color: black;
 		padding: 1px 3px 0px 3px;
 		margin: 0px 2px;
-		opacity:0.5;
+		/*opacity:0.5;*/
 		-webkit-transition: background .5s ease-in-out;
 		-webkit-transition: opacity .2s ease-in-out;
 		a{
@@ -69,7 +70,7 @@ header{
 		}
 		&:hover{
 			background-color:#DCDCDC;
-			opacity:1;
+			/*opacity:1;*/
 			box-shadow:1px 1px 1px black;
 		}
 	}
@@ -79,11 +80,10 @@ header{
 	li{
 		list-style:none;
 		float:right;
-		font-family: Futura;
 		font-size:1em;
 		color: black;
 		padding: 1px 3px 0px 3px;
-		opacity:0.7;
+		/*opacity:0.7;*/
 		-webkit-transition: opacity .2s ease-in-out;
 			a{
 				text-decoration:none;
@@ -94,11 +94,11 @@ header{
 				width:20px;
 				padding:5px;
 				background-color:#A9A9A9;
-				border-radius:5px;
+				border-radius:2px;
 				-webkit-transition: background .5s ease-in-out;
 				&:hover{
-					opacity:1;
-					background-color:#1E90FF;
+					/*opacity:1;*/
+					background-color:#778899;
 				}
 			}
 	}
@@ -107,14 +107,14 @@ header{
 .audios{
 	height:auto;
 	width:70%;
-	border:2px solid black;
+	border:1px solid black;
 	border-radius:2px;
-	background-color:rgba(245,245,245,.5);;
+	background-color:rgba(245,245,245,.9);;
 	margin-top:5px;
 	margin-left:5%;
 	padding:3%;
 	h1{
-		font-family:courier;
+	  font-family:verdana;
 	}
 	img{
 		height:350px;
@@ -122,12 +122,16 @@ header{
 		display:inline-block;
 		float:right;
 	}
-	h3{
-		font-family:courier;
+	h4, h3{
+	  font-family:helvetica;
 	}
 	ul{
 		li{
+		  p{
+		    font-size:0.7em;
+		  }
 			a{
+			  font-family:times;
 				font-weight:bold;
 				color:#1E90FF;
 			}

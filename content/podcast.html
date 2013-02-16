@@ -1,0 +1,19 @@
+---
+title: Podcast
+---
+
+<h2>Episodes</h2>
+
+<div>
+  {{#site}}
+    {{#collections}}
+      {{#episodes}}
+        {{#pages}}
+          <div class="audios">
+            {{{ content }}}
+          </div>
+        {{/pages}}
+      {{/episodes}}
+    {{/collections}}
+  {{/site}}
+</div>
