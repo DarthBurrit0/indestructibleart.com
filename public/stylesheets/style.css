@@ -95,6 +95,20 @@ header {
         /*opacity:1;*/
         background-color: #778899; }
 
+#mess {
+  z-index: 8;
+  width: 95%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: #EEE8AA; }
+  #mess p {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 4px; }
+
 /*-----Main Articles Body-----*/
 .audios {
   height: auto;
@@ -117,7 +131,7 @@ header {
   .audios ul li p {
     font-size: 0.7em; }
   .audios ul li a {
-    font-family: times;
+    font-size: 0.7em;
     font-weight: bold;
     color: #1E90FF; }
 

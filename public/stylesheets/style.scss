@@ -103,6 +103,22 @@ header{
 			}
 	}
 }
+#mess{
+  z-index:8;
+  width:95%;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right:auto;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color:#EEE8AA;
+  
+  p{
+    font-size: 1.1em;
+    text-align:center;
+    padding: 4px;
+  }
+}
 /*-----Main Articles Body-----*/
 .audios{
 	height:auto;
@@ -131,7 +147,7 @@ header{
 		    font-size:0.7em;
 		  }
 			a{
-			  font-family:times;
+			  font-size:0.7em;
 				font-weight:bold;
 				color:#1E90FF;
 			}
