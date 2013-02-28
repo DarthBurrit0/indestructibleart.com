@@ -129,12 +129,11 @@ header {
     float: right; }
   .audios h4, .audios h3 {
     font-family: helvetica; }
-  .audios ul li p {
-    font-size: 0.7em; }
-  .audios ul li a {
-    font-size: 0.7em;
-    font-weight: bold;
-    color: #1E90FF; }
+  .audios ul li {
+    font-size: 0.8em; }
+    .audios ul li a {
+      font-weight: bold;
+      color: #1E90FF; }
 
 .blog {
   height: auto;
