@@ -6,4 +6,5 @@ build
 .dropbox
 .sass-cache
 Icon
-
+*.sublime-project
+*.sublime-workspace

@@ -6,19 +6,15 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
   <title>{{ title }} | indestructibleart.com</title>
-
   <meta name="description" content="{{ description }} {{ summary }}" />
   <meta name="author" content="{{ author }}" />
   <meta name="keywords" content="{{ tags }}" />
-  
+  <meta name="viewport" content="width=device-width">
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,300' rel='stylesheet' type='text/css'>
   <link rel="author" href="humans.txt" />
-
   <link rel="canonical" href="" />
-
   <link rel="sitemap"
     type="application/xml"
     title="Sitemap"
@@ -40,25 +36,11 @@
   <script src="/javascripts/lib/modernizr.js"></script>
   <!--<script src="/javascript/audiojs/audio.js"></script>
   <script>
-      audiojs.events.ready(function() {
-        var as = audiojs.createAll();
-      });
-</script> -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39092592-2']);
-  _gaq.push(['_setDomainName', 'indestructibleart.com']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+    audiojs.events.ready(function() {
+      var as = audiojs.createAll();
+    });
+  </script>-->
+  
 </head>
 
 <body>
@@ -106,17 +88,17 @@
 
 <!-- <script defer src="/javascripts/application.js"></script> -->
 
-<script>
-  var protocol = 'https:' == location.protocol ? '//ssl' : '//www'
-      url = protocol + '.google-analytics.com/ga.js'
-  ;
-
-  window._gaq = [ ['_setAccount', 'UA-27302223-1']
-    ,['_trackPageview']
-    ,['_trackPageLoadTime']
-  ];
-
-  Modernizr.load({ load: url });
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39092592-2']);
+    _gaq.push(['_setDomainName', 'indestructibleart.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 </script>
 </body>
 </html>
