@@ -36,10 +36,16 @@ header {
     font-weight: bolder;
     color: black;
     padding: 1px 3px 0px 3px;
-    margin: 0px 2px;
+    margin: 0px 2px -2px 2px;
     /*opacity:0.5;*/
     -webkit-transition: background .5s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out; }
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out; }
     .page_links li a {
       text-decoration: none;
       color: black; }
@@ -54,7 +60,10 @@ header {
   color: black;
   padding: 1px 3px 0px 3px;
   /*opacity:0.7;*/
-  -webkit-transition: opacity .2s ease-in-out; }
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out; }
   .social_links li a {
     text-decoration: none;
     color: black; }
@@ -64,7 +73,10 @@ header {
     padding: 5px;
     background-color: #A9A9A9;
     border-radius: 2px;
-    -webkit-transition: background .5s ease-in-out; }
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out; }
     .social_links li img:hover {
       /*opacity:1;*/
       background-color: #778899; }
@@ -86,12 +98,12 @@ header {
 /*-----Main Articles Body-----*/
 .blog {
   height: auto;
-  width: 70%;
+  width: 90%;
   border: 2px solid black;
   border-radius: 2px;
   background-color: rgba(245, 245, 245, 0.5);
   margin-top: 5px;
-  margin-left: 5%;
+  margin: auto;
   padding: 3%; }
   .blog h1 {
     padding-top: 4%; }
@@ -104,13 +116,13 @@ header {
 
 .videos {
   height: auto;
-  width: 70%;
+  width: 90%;
   border: 2px solid black;
   border-radius: 2px;
   background-color: rgba(128, 128, 128, 0.9);
   color: #ffffff;
   margin-top: 5px;
-  margin-left: 5%;
+  margin: auto;
   padding: 3%; }
   .videos a {
     text-decoration: none;
@@ -208,7 +220,7 @@ header {
     z-index: 9;
     margin-top: -10px;
     margin-right: 4%;
-    width: 620px;
+    width: 640px;
     position: fixed;
     background-color: white;
     border-bottom: 1px solid black; }
@@ -224,7 +236,7 @@ header {
 
   .audios {
     height: auto;
-    width: 85%;
+    width: 90%;
     border: 1px solid black;
     border-radius: 2px;
     background-color: rgba(245, 245, 245, 0.9);
