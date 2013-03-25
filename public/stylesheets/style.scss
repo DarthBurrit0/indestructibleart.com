@@ -140,6 +140,27 @@ header{
 		height: 100%;
 	}
 }
+
+table{
+	background-color: #FFFAFA;
+	border:1px solid black;
+	text-align: center;
+	a{
+		color:blue;
+		text-decoration:none;
+	}
+	thead{
+		tr{
+				border-bottom:1px solid black;
+		}
+	}
+	td{
+		border:1px solid black;
+	}
+	.tableOdd{
+		background-color: white;
+	}
+}
 @media screen and (min-width: 320px){
 	body{
 		padding:5px;
@@ -339,6 +360,6 @@ header{
 					color:blue;
 				}
 			}
-		}
+		}	
 	}
 }

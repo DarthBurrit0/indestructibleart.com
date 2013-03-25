@@ -126,6 +126,20 @@ header {
     width: 100%;
     height: 100%; }
 
+table {
+  background-color: #FFFAFA;
+  border: 1px solid black;
+  text-align: center; }
+  table a {
+    color: blue;
+    text-decoration: none; }
+  table thead tr {
+    border-bottom: 1px solid black; }
+  table td {
+    border: 1px solid black; }
+  table .tableOdd {
+    background-color: white; }
+
 @media screen and (min-width: 320px) {
   body {
     padding: 5px; }
