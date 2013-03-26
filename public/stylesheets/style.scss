@@ -145,6 +145,7 @@ table{
 	background-color: #FFFAFA;
 	border:1px solid black;
 	text-align: center;
+	border-collapse: collapse;
 	a{
 		color:blue;
 		text-decoration:none;
@@ -158,7 +159,7 @@ table{
 		border:1px solid black;
 	}
 	.tableOdd{
-		background-color: white;
+		background-color: #FFF8DC;
 	}
 }
 @media screen and (min-width: 320px){
