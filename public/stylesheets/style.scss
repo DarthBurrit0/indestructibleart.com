@@ -19,13 +19,13 @@ body{
 	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
 	background-attachment: fixed;
 	background-color:white;
-	font-family:Inconsolata;
+	font-family: 'Fjalla One', sans-serif;
 	header{
 		position:relative;
 		background-color:white;
 		border:1px solid transparent;
 		#motto{
-			font-family: helvetica;
+			font-family: 'Fjalla One', sans-serif;
 			font-weight: bolder;
 			text-align: center;
 			-webkit-margin-before: 15px;
@@ -261,7 +261,7 @@ body{
 }
 
 
-/*---------------Full Width CSS---------------*/
+/*---------------iPad Width CSS---------------*/
 @media screen and (min-width: 768px){
 	body{
 		width:760px;
@@ -277,12 +277,58 @@ body{
 	 	  		float:left;
 	 	  	}
 	 	  	#motto{ 		
-					font-size:3.3em;
+					font-size:4.1em;
 				}
 	 	  }
 	 	  .header_nav{
  	  		margin-top: 0px;
  	  		width:760px;
+ 	  	 	.page_links{
+  				li{
+  					float:left;
+  					font-size: 1.5em;
+  				}
+  			}
+  			.social_links{
+    				display:inline;
+    			li{
+      			float:right;
+    			}
+  			}
+ 	  	}		
+ 	  }
+ 	  .audiojs{
+	    width:420px;
+	    height:36px;
+	    .scrubber{
+	      width:250px;
+	    }
+	  }
+	}
+}
+
+/*---------------Full Width CSS---------------*/
+@media screen and (min-width: 1000px){
+	body{
+		width:990px;
+		margin:auto;
+		header{
+ 	  	margin-top: 0px;
+ 	  	width:990px;
+ 	  	.logo{
+	 	  	.headerimg{
+	 	  		height:150px;
+	 	  		-webkit-margin-before: -15px;
+	 	  		display:block;
+	 	  		float:left;
+	 	  	}
+	 	  	#motto{ 		
+					font-size:4.6em;
+				}
+	 	  }
+	 	  .header_nav{
+ 	  		margin-top: 0px;
+ 	  		width:990px;
  	  	 	.page_links{
   				li{
   					float:left;
