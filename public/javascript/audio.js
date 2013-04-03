@@ -33,7 +33,7 @@
     settings: {
       autoplay: false,
       loop: false,
-      preload: false,
+      preload: true,
       imageLocation: path + 'player-graphics.gif',
       swfLocation: path + 'audiojs.swf',
       useFlash: (function() {

@@ -10,9 +10,11 @@
   z-index: 30; }
 
 .audiojs {
-  margin: 15px 0px 20px; }
+  margin: 10px 0px 0px 0px; }
 
 body {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+  background-attachment: fixed;
   background-color: white;
   font-family: Inconsolata; }
   body header {
@@ -31,6 +33,8 @@ body {
       background-color: white;
       border-bottom: 1px solid black; }
       body header .header_nav .page_links {
+        -webkit-padding-start: 0px;
+        -webkit-padding-end: 0px;
         display: inline; }
         body header .header_nav .page_links li {
           list-style: none;
@@ -70,9 +74,8 @@ body {
             background-color: #778899; }
   body #mess {
     width: 95%;
+    margin: auto;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid black;
     border-radius: 2px;
     background-color: #EEE8AA; }
@@ -133,8 +136,8 @@ body {
     border-radius: 2px;
     background-color: rgba(128, 128, 128, 0.9);
     color: #ffffff;
-    margin-top: 5px;
     margin: auto;
+    margin-top: 5px;
     padding: 3%; }
     body .videos a {
       text-decoration: none;
@@ -172,25 +175,28 @@ body {
 /*---------------Mobile Width CSS---------------*/
 @media screen and (min-width: 320px) {
   body {
-    width: 315px; }
-
-  header {
-    width: 315px; }
-    header .logo .headerimg {
+    width: 310px; }
+    body header {
+      width: 310px; }
+      body header .logo .headerimg {
+        display: none; }
+      body header .logo #motto {
+        font-size: 1.5em; }
+      body header .header_nav {
+        width: 310px;
+        text-align: center; }
+    body .page_links {
+      text-align: center; }
+      body .page_links li {
+        display: inline;
+        font-size: 1em; }
+    body .social_links {
       display: none; }
-    header .logo #motto {
-      font-size: 1.5em; }
-    header .header_nav {
-      width: 315px; }
-
-  .page_links {
-    text-align: center; }
-    .page_links li {
-      display: inline;
-      font-size: 1em; }
-
-  .social_links {
-    display: none; } }
+    body .audiojs {
+      width: 265px;
+      height: 36px; }
+      body .audiojs .scrubber {
+        width: 100px; } }
 /*---------------Full Width CSS---------------*/
 @media screen and (min-width: 768px) {
   body {
@@ -198,7 +204,7 @@ body {
     margin: auto; }
     body header {
       margin-top: 0px;
-      width: 750px; }
+      width: 760px; }
       body header .logo .headerimg {
         height: 150px;
         -webkit-margin-before: -15px;
@@ -215,4 +221,9 @@ body {
         body header .header_nav .social_links {
           display: inline; }
           body header .header_nav .social_links li {
-            float: right; } }
+            float: right; }
+    body .audiojs {
+      width: 420px;
+      height: 36px; }
+      body .audiojs .scrubber {
+        width: 250px; } }

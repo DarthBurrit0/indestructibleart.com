@@ -18,8 +18,7 @@ author: Evan Campbell, Ryan Adams, &amp; Omar de Armas
   
 {{ summary }}  
 
-<audio src={{ file }} preload="none" controls></audio>
+<audio src={{ file }} preload="none"></audio>
 
 - - -
-
-Blah blah blah...
+Indestructible Art
