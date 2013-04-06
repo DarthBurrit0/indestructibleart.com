@@ -7,13 +7,13 @@ published: 'Wed, 28 Mar 2012 00:00:00 GMT'
 duration: '00:45:45'
 length: 27669618
 tags: Sony, PlayStation, PS3, Video Games, Games, Indestructible Art, SEN, PSN, Journey, ThatGameCompany, Jenova Chen, CO OP, Flower, USC, Flow, Austin Wintory
-author: Evan Campbell, Ryan Adams, &amp; Omar de Armas
+author: Evan Campbell, Ryan Adams, Omar de Armas
 ---
 
-# {{ title }}
-
-#### {{ published }}
-
+<p class='postTitle'>{{ title }}</p>
+<p class='postPublished'>{{ published }}</p>
+<p class='postAuthor'>By: {{ author }}</p>
+<hr>
 {{ subtitle }}  
   
 {{ summary }}  

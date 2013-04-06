@@ -13,10 +13,10 @@ tags: Indiecade, Renga, WallFour
   <iframe src={{ source }} width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-# {{ title }}  
-  
-#### {{ author }}  
-
+<p class='postTitle'>{{ title }}</p>
+<p class='postPublished'>{{ published }}</p>
+<p class='postAuthor'>By: {{ author }}</p>
+<hr>
 {{ subtitle}}  
   
 {{ description }}  

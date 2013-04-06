@@ -22,7 +22,6 @@ body {
     background-color: white;
     border: 1px solid transparent; }
     body header #motto {
-      font-family: 'Fjalla One', sans-serif;
       font-weight: bolder;
       text-align: center;
       -webkit-margin-before: 15px;
@@ -83,6 +82,15 @@ body {
       font-size: 1em;
       text-align: center;
       padding: 2px; }
+  body .postTitle {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px; }
+  body .postPublished {
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 0px; }
+  body .postAuthor {
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 0px; }
   body .audios {
     height: auto;
     width: 85%;
@@ -192,11 +200,20 @@ body {
         font-size: 1em; }
     body .social_links {
       display: none; }
+    body .postTitle {
+      font-size: 22px;
+      font-weight: bolder; }
+    body .postPublished {
+      font-size: 10px;
+      font-weight: bolder; }
+    body .postAuthor {
+      font-size: 15px;
+      font-weight: bolder; }
     body .audiojs {
       width: 265px;
       height: 36px; }
       body .audiojs .scrubber {
-        width: 100px; } }
+        width: 90px; } }
 /*---------------iPad Width CSS---------------*/
 @media screen and (min-width: 768px) {
   body {
@@ -222,11 +239,20 @@ body {
           display: inline; }
           body header .header_nav .social_links li {
             float: right; }
+    body .postTitle {
+      font-size: 30px;
+      font-weight: bolder; }
+    body .postPublished {
+      font-size: 15px;
+      font-weight: bolder; }
+    body .postAuthor {
+      font-size: 20px;
+      font-weight: bolder; }
     body .audiojs {
       width: 420px;
       height: 36px; }
       body .audiojs .scrubber {
-        width: 250px; } }
+        width: 245px; } }
 /*---------------Full Width CSS---------------*/
 @media screen and (min-width: 1000px) {
   body {
@@ -252,8 +278,17 @@ body {
           display: inline; }
           body header .header_nav .social_links li {
             float: right; }
+    body .postTitle {
+      font-size: 35px;
+      font-weight: bolder; }
+    body .postPublished {
+      font-size: 15px;
+      font-weight: bolder; }
+    body .postAuthor {
+      font-size: 20px;
+      font-weight: bolder; }
     body .audiojs {
       width: 420px;
       height: 36px; }
       body .audiojs .scrubber {
-        width: 250px; } }
+        width: 245px; } }

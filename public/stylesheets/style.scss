@@ -25,7 +25,6 @@ body{
 		background-color:white;
 		border:1px solid transparent;
 		#motto{
-			font-family: 'Fjalla One', sans-serif;
 			font-weight: bolder;
 			text-align: center;
 			-webkit-margin-before: 15px;
@@ -102,6 +101,18 @@ body{
 	    padding:2px;
 	  }
 	}
+	.postTitle{
+ 	  	-webkit-margin-before:0px;
+ 	  	-webkit-margin-after:0px;
+ 	  }
+ 	  .postPublished{
+ 	  	-webkit-margin-before:5px;
+ 	  	-webkit-margin-after:0px;
+ 	  }
+ 	  .postAuthor{
+ 	  	-webkit-margin-before:5px;
+ 	  	-webkit-margin-after:0px;
+ 	  }
 	.audios{
 		height:auto;
 		width:85%;
@@ -250,11 +261,23 @@ body{
 	 	.social_links{
 	 	  display:none;
 	 	}
+	 	.postTitle{
+ 	  	font-size:22px;
+ 	  	font-weight: bolder;
+ 	  }
+ 	  .postPublished{
+ 	  	font-size:10px;
+ 	  	font-weight: bolder;
+ 	  }
+ 	  .postAuthor{
+ 	  	font-size:15px;
+ 	  	font-weight: bolder;
+ 	  }
 	 	.audiojs{
 	    width:265px;
 	    height:36px;
 	    .scrubber{
-	      width:100px;
+	      width:90px;
 	    }
 	  }
 	}
@@ -297,11 +320,23 @@ body{
   			}
  	  	}		
  	  }
+ 	  .postTitle{
+ 	  	font-size:30px;
+ 	  	font-weight: bolder;
+ 	  }
+ 	  .postPublished{
+ 	  	font-size:15px;
+ 	  	font-weight: bolder;
+ 	  }
+ 	  .postAuthor{
+ 	  	font-size:20px;
+ 	  	font-weight: bolder;
+ 	  }
  	  .audiojs{
 	    width:420px;
 	    height:36px;
 	    .scrubber{
-	      width:250px;
+	      width:245px;
 	    }
 	  }
 	}
@@ -343,11 +378,23 @@ body{
   			}
  	  	}		
  	  }
+ 	  .postTitle{
+ 	  	font-size:35px;
+ 	  	font-weight: bolder;
+ 	  }
+ 	  .postPublished{
+ 	  	font-size:15px;
+ 	  	font-weight: bolder;
+ 	  }
+ 	  .postAuthor{
+ 	  	font-size:20px;
+ 	  	font-weight: bolder;
+ 	  }
  	  .audiojs{
 	    width:420px;
 	    height:36px;
 	    .scrubber{
-	      width:250px;
+	      width:245px;
 	    }
 	  }
 	}

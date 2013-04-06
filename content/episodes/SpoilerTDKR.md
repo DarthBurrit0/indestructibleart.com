@@ -7,13 +7,13 @@ published: 'Tue, 24 Jul 2012 00:10:00 GMT'
 duration: '00:50:32'
 length: 24320731
 tags: Sony, PlayStation, Nintendo, Marvel, DC, 3DS, Xbox, 360, PS3, Wii, PSN, XBLA, Video Games, Comics, Games, Indestructible Art, Batman, The Dark Knight Rises, Spoilers, Nolan, Trilogy, Bane
-author: Evan Campbell, Ryan Adams, Spencer Carney, &amp; Omar de Armas
+author: Evan Campbell, Ryan Adams, Spencer Carney, Omar de Armas
 ---
 
-# {{ title }}
-
-#### {{ published }}
-
+<p class='postTitle'>{{ title }}</p>
+<p class='postPublished'>{{ published }}</p>
+<p class='postAuthor'>By: {{ author }}</p>
+<hr>
 {{ subtitle }}  
   
 {{ summary }}  
