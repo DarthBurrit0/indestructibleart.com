@@ -31,12 +31,12 @@
     title="Atom"
     href="http://feeds.feedburner.com/indestructibleart" />
 
-  <link type="text/css" rel="stylesheet" href="/stylesheets/style.css">
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/style.css">
+  <link rel="shortcut icon" href="../images/favicon.ico">
 
-  <script src="/javascripts/lib/modernizr.js"></script>
+  <script src="../javascript/lib/modernizr.js"></script>
   
-  <script src="/javascript/audio.js"></script>
+  <script src="../javascript/audio.js"></script>
   <script>
     audiojs.events.ready(function(){
       var as = audiojs.createAll();
@@ -45,62 +45,83 @@
   
 </head>
 
-<body>
-	<header>
-    <div class='logo group'>
-      <img src='../images/ia-icon.png' class='headerimg' />
-		  <p id="motto">INDESTRUCTIBLE <span>ART</span></p>
+  <body>
+  	<header>
+      <div class='logo group'>
+        <img src='../images/ia-icon.png' class='headerimg' />
+  		  <p id="motto">INDESTRUCTIBLE <span>ART</span></p>
 
+      </div>
+      <div class='stickyHolder_js'>
+    		<nav class="group header_nav sticky_js">
+    			<ul class="page_links">
+    				<li><a href="http://indestructibleart.com">Home</a></li>
+    				<li><a href="http://www.indestructibleart.com.s3.amazonaws.com/podcast.html">Podcast</a></li>
+    				<li><a href="http://www.indestructibleart.com.s3.amazonaws.com/videos.html">Videos</a></li>
+            <li><a href="http://www.indestructibleart.com.s3.amazonaws.com/posts.html">Blog</a></li>
+    			</ul>
+    			<ul class="social_links">
+    				<li><a href="http://indestructibleart.com/feeds/episodes.xml"><img src="../images/rss.png" /></a></li>
+    				<li><a href="http://www.twitch.tv/indestructibleart"><img src="../images/twitch.png" /></a></li>
+    				<li><a href="http://www.facebook.com/indestructibleart"><img src="../images/facebook.png" /></a></li>
+    				<li><a href="http://www.twitter.com/pixelstopanels"><img src="../images/twitter.png" /></a></li>
+    				<li><a href="http://www.vimeo.com/indestructibleart"><img src="../images/vimeo.png" /></a></li>
+    				<li><a href="http://bit.ly/iapodcast"><img src="../images/itunes.png" /></a></li>
+    				</ul>
+    		</nav>
+      </div>
+  	</header>
+    <div id="mess">
+      <p>Please excuse our mess as we sort through our lack of sorting.</p>
     </div>
-    <div class='stickyHolder_js'>
-  		<nav class="group header_nav sticky_js">
-  			<ul class="page_links">
-  				<li><a href="http://indestructibleart.com">Home</a></li>
-  				<li><a href="http://www.indestructibleart.com.s3.amazonaws.com/podcast.html">Podcast</a></li>
-  				<li><a href="http://www.indestructibleart.com.s3.amazonaws.com/videos.html">Videos</a></li>
-          <li><a href="http://www.indestructibleart.com.s3.amazonaws.com/posts.html">Blog</a></li>
-  			</ul>
-  			<ul class="social_links">
-  				<li><a href="http://indestructibleart.com/feeds/episodes.xml"><img src="images/rss.png" /></a></li>
-  				<li><a href="http://www.twitch.tv/indestructibleart"><img src="images/twitch.png" /></a></li>
-  				<li><a href="http://www.facebook.com/indestructibleart"><img src="images/facebook.png" /></a></li>
-  				<li><a href="http://www.twitter.com/pixelstopanels"><img src="images/twitter.png" /></a></li>
-  				<li><a href="http://www.vimeo.com/indestructibleart"><img src="images/vimeo.png" /></a></li>
-  				<li><a href="http://bit.ly/iapodcast"><img src="images/itunes.png" /></a></li>
-  				</ul>
-  		</nav>
+    <div id="content">
+      {{{ yield }}}
     </div>
-	</header>
-  <div id="mess">
-    <p>Please excuse our mess as we sort through our lack of sorting.</p>
-  </div>
-  <div id="content">
-    {{{ yield }}}
-  </div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'indestructibleart';
+      (function() {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
-</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
+    </script>
 
-<script>
-  var scriptTag = '<script src="javascripts/lib/jquery.js"><\/script>';
+    <script>
+      var scriptTag = '<script src="javascripts/lib/jquery.js"><\/script>';
+      window.jQuery || document.write(scriptTag);
+    </script>
 
-  window.jQuery || document.write(scriptTag);
-</script>
+    <script src="../javascript/main.js"></script>
+    <!-- <script defer src="../javascripts/application.js"></script> -->
 
-<script src="javascript/main.js"></script>
-<!-- <script defer src="/javascripts/application.js"></script> -->
+    <script type="text/javascript">
+      var disqus_shortname = 'indestructibleart';
+      (function(){
+          var s = document.createElement('script'); s.async = true;
+          s.type = 'text/javascript';
+          s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
 
-<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-39092592-2']);
-    _gaq.push(['_setDomainName', 'indestructibleart.com']);
-    _gaq.push(['_setAllowLinker', true]);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-</script>
-</body>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-39092592-2']);
+      _gaq.push(['_setDomainName', 'indestructibleart.com']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+      (function(){
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
 </html>

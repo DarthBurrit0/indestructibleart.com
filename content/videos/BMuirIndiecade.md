@@ -1,4 +1,5 @@
 ---
+number: BMuirIndiecade
 source: "http://player.vimeo.com/video/52447756?color=88a6b3"
 title: "Indiecade 2012: Brad Muir"
 published: 'Fri, 08 FEB 2013 00:00:00 GMT'
@@ -13,7 +14,7 @@ tags: Indiecade, Brad Muir, Doublefine
   <iframe src={{ source }} width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-<p class='postTitle'>{{ title }}</p>
+<a href="../videos/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
 <p class='postPublished'>{{ published }}</p>
 <p class='postAuthor'>By: {{ author }}</p>
 <hr>

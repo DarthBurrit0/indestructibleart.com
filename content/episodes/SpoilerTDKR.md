@@ -1,4 +1,5 @@
 ---
+number: SpoilerTDKR
 title: 'Spoilercast! The Dark Knight Rises'
 subtitle: "The IA Crew took a field trip to check out the new Batman movie, The Dark Knight Rises. Listen to them break down the movies and talk about what they liked or didn't like about Christopher Nolan's conclusion to the epic trilogy."
 summary: "The IA Crew took a field trip to check out the new Batman movie, The Dark Knight Rises. Listen to them break down the movies and talk about what they liked or didn't like about Christopher Nolan's conclusion to the epic trilogy."
@@ -10,7 +11,7 @@ tags: Sony, PlayStation, Nintendo, Marvel, DC, 3DS, Xbox, 360, PS3, Wii, PSN, XB
 author: Evan Campbell, Ryan Adams, Spencer Carney, Omar de Armas
 ---
 
-<p class='postTitle'>{{ title }}</p>
+<a href="../episodes/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
 <p class='postPublished'>{{ published }}</p>
 <p class='postAuthor'>By: {{ author }}</p>
 <hr>

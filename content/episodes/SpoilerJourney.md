@@ -1,4 +1,5 @@
 ---
+number: SpoilerJourney
 title: 'IA SPOILERCAST: Journey'
 subtitle: 'Special SPOILER filled edition of Indestructible Art for Journey on PS3'
 summary: 'Warning this episode contains SPOILERS!  In this special edition of the Indestructible Art we talk in depth about Journey from ThatGameCompany available on PSN.'
@@ -10,7 +11,7 @@ tags: Sony, PlayStation, PS3, Video Games, Games, Indestructible Art, SEN, PSN, 
 author: Evan Campbell, Ryan Adams, Omar de Armas
 ---
 
-<p class='postTitle'>{{ title }}</p>
+<a href="../episodes/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
 <p class='postPublished'>{{ published }}</p>
 <p class='postAuthor'>By: {{ author }}</p>
 <hr>
@@ -21,4 +22,5 @@ author: Evan Campbell, Ryan Adams, Omar de Armas
 <audio src={{ file }} preload="none"></audio>
 
 - - -
+
 Indestructible Art

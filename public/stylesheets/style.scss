@@ -113,6 +113,18 @@ body{
  	  	-webkit-margin-before:5px;
  	  	-webkit-margin-after:0px;
  	  }
+ 	  .postTitleLink{
+ 	  	text-decoration:none;
+ 	  	color:black;
+ 	  }
+ 	  #disqus_thread{
+ 	  	width:91%;
+ 	  	margin:auto;
+ 	  	margin-top:5px;
+ 	  	border:1px solid black;
+ 	  	border-radius:2px;
+ 	  	background-color: white;
+ 	  }
 	.audios{
 		height:auto;
 		width:85%;
@@ -139,7 +151,7 @@ body{
 				font-size:1em;
 				a{
 					font-weight:bold;
-					color:blue;
+					color:#1E90FF;
 				}
 			}
 		}
@@ -170,7 +182,7 @@ body{
 				font-size:1em;
 				a{
 					font-weight:bold;
-					color:blue;
+					color:#1E90FF;
 				}
 			}
 		}	
@@ -187,7 +199,7 @@ body{
 		padding:3%;
 		a{
 			text-decoration:none;
-			color:#1E90FF;
+			color:blue;
 		}
 		h1{
 			font-family:verdana;

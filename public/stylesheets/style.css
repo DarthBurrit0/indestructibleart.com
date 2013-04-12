@@ -91,6 +91,16 @@ body {
   body .postAuthor {
     -webkit-margin-before: 5px;
     -webkit-margin-after: 0px; }
+  body .postTitleLink {
+    text-decoration: none;
+    color: black; }
+  body #disqus_thread {
+    width: 91%;
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white; }
   body .audios {
     height: auto;
     width: 85%;
@@ -113,7 +123,7 @@ body {
       font-size: 1em; }
       body .audios ul li a {
         font-weight: bold;
-        color: blue; }
+        color: #1E90FF; }
   body .blog {
     height: auto;
     width: 85%;
@@ -136,7 +146,7 @@ body {
       font-size: 1em; }
       body .blog ul li a {
         font-weight: bold;
-        color: blue; }
+        color: #1E90FF; }
   body .videos {
     height: auto;
     width: 85%;
@@ -149,7 +159,7 @@ body {
     padding: 3%; }
     body .videos a {
       text-decoration: none;
-      color: #1E90FF; }
+      color: blue; }
     body .videos h1 {
       font-family: verdana; }
   body .vid_container {
