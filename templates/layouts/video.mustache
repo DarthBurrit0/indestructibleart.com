@@ -46,40 +46,46 @@
 </head>
 
   <body>
-  	<header>
+    <header>
       <div class='logo group'>
         <img src='../images/ia-icon.png' class='headerimg' />
-  		  <p id="motto">INDESTRUCTIBLE<span>ART</span></p>
+        <p id="motto">INDESTRUCTIBLE<span>ART</span></p>
 
       </div>
       <div class='stickyHolder_js'>
-    		<nav class="group header_nav sticky_js">
-    			<ul class="page_links">
-    				<li><a href="http://indestructibleart.com">Home</a></li>
-    				<li><a href="http://www.indestructibleart.com/podcast.html">Podcast</a></li>
-    				<li><a href="http://www.indestructibleart.com/videos.html">Videos</a></li>
+        <nav class="group header_nav sticky_js">
+          <ul class="page_links">
+            <li><a href="http://indestructibleart.com">Home</a></li>
+            <li><a href="http://www.indestructibleart.com/podcast.html">Podcast</a></li>
+            <li><a href="http://www.indestructibleart.com/videos.html">Videos</a></li>
             <li><a href="http://www.indestructibleart.com/posts.html">Blog</a></li>
-    			</ul>
-    			<ul class="social_links">
-    				<li><a href="http://indestructibleart.com/feeds/episodes.xml"><img src="../images/rss.png" /></a></li>
-    				<li><a href="http://www.twitch.tv/indestructibleart"><img src="../images/twitch.png" /></a></li>
-    				<li><a href="http://www.facebook.com/indestructibleart"><img src="../images/facebook.png" /></a></li>
-    				<li><a href="http://www.twitter.com/pixelstopanels"><img src="../images/twitter.png" /></a></li>
-    				<li><a href="http://www.vimeo.com/indestructibleart"><img src="../images/vimeo.png" /></a></li>
-    				<li><a href="http://bit.ly/iapodcast"><img src="../images/itunes.png" /></a></li>
-    				</ul>
-    		</nav>
+          </ul>
+          <ul class="social_links">
+            <li><a href="http://indestructibleart.com/feeds/episodes.xml"><img src="../images/rss.png" /></a></li>
+            <li><a href="http://www.twitch.tv/indestructibleart"><img src="../images/twitch.png" /></a></li>
+            <li><a href="http://www.facebook.com/indestructibleart"><img src="../images/facebook.png" /></a></li>
+            <li><a href="http://www.twitter.com/pixelstopanels"><img src="../images/twitter.png" /></a></li>
+            <li><a href="http://www.vimeo.com/indestructibleart"><img src="../images/vimeo.png" /></a></li>
+            <li><a href="http://bit.ly/iapodcast"><img src="../images/itunes.png" /></a></li>
+            </ul>
+        </nav>
       </div>
-  	</header>
-    <div id="mess">
-      <p>Please excuse our mess as we sort through our lack of sorting.</p>
-    </div>
-    <div id="content">
+    </header>
+    <div id="content" class='videos'>
       {{{ yield }}}
     </div>
-    <footer>
-      
-    </footer>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'indestructibleart';
+      (function() {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
     </script>
@@ -92,7 +98,15 @@
     <script src="../javascript/main.js"></script>
     <!-- <script defer src="../javascripts/application.js"></script> -->
 
-
+    <script type="text/javascript">
+      var disqus_shortname = 'indestructibleart';
+      (function(){
+          var s = document.createElement('script'); s.async = true;
+          s.type = 'text/javascript';
+          s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
 
     <script type="text/javascript">
       var _gaq = _gaq || [];

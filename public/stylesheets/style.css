@@ -84,20 +84,25 @@ body {
       padding: 2px; }
   body .postTitle {
     -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px; }
+    -webkit-margin-after: 0px;
+    font-weight: bolder; }
   body .postPublished {
     -webkit-margin-before: 5px;
-    -webkit-margin-after: 0px; }
+    -webkit-margin-after: 0px;
+    font-weight: bolder; }
   body .postAuthor {
     -webkit-margin-before: 5px;
-    -webkit-margin-after: 0px; }
+    -webkit-margin-after: 0px;
+    font-weight: bolder; }
   body .postTitleLink {
     text-decoration: none;
     color: black; }
   body #disqus_thread {
-    width: 91%;
+    width: 85%;
+    padding: 3%;
     margin: auto;
     margin-top: 5px;
+    margin-bottom: 15px;
     border: 1px solid black;
     border-radius: 2px;
     background-color: white; }
@@ -157,6 +162,8 @@ body {
     margin: auto;
     margin-top: 5px;
     padding: 3%; }
+    body .videos .postTitle {
+      color: white; }
     body .videos a {
       text-decoration: none;
       color: blue; }
@@ -189,6 +196,8 @@ body {
       border: 1px solid black; }
     body table .tableOdd {
       background-color: #FFF8DC; }
+  body footer {
+    height: 25px; }
 
 /*---------------Mobile Width CSS---------------*/
 @media screen and (min-width: 320px) {
@@ -211,14 +220,11 @@ body {
     body .social_links {
       display: none; }
     body .postTitle {
-      font-size: 22px;
-      font-weight: bolder; }
+      font-size: 22px; }
     body .postPublished {
-      font-size: 10px;
-      font-weight: bolder; }
+      font-size: 10px; }
     body .postAuthor {
-      font-size: 15px;
-      font-weight: bolder; }
+      font-size: 15px; }
     body .audiojs {
       width: 265px;
       height: 36px; }
@@ -235,10 +241,12 @@ body {
       body header .logo .headerimg {
         height: 150px;
         -webkit-margin-before: -15px;
+        -webkit-margin-start: 5px;
         display: block;
         float: left; }
       body header .logo #motto {
-        font-size: 4.1em; }
+        font-size: 4.1em;
+        padding-top: 15px; }
       body header .header_nav {
         margin-top: 0px;
         width: 760px; }
@@ -250,14 +258,11 @@ body {
           body header .header_nav .social_links li {
             float: right; }
     body .postTitle {
-      font-size: 30px;
-      font-weight: bolder; }
+      font-size: 30px; }
     body .postPublished {
-      font-size: 15px;
-      font-weight: bolder; }
+      font-size: 15px; }
     body .postAuthor {
-      font-size: 20px;
-      font-weight: bolder; }
+      font-size: 20px; }
     body .audiojs {
       width: 420px;
       height: 36px; }
@@ -274,10 +279,12 @@ body {
       body header .logo .headerimg {
         height: 150px;
         -webkit-margin-before: -15px;
+        -webkit-margin-start: 15px;
         display: block;
         float: left; }
       body header .logo #motto {
-        font-size: 4.6em; }
+        font-size: 4.6em;
+        padding-top: 15px; }
       body header .header_nav {
         margin-top: 0px;
         width: 990px; }
@@ -289,14 +296,11 @@ body {
           body header .header_nav .social_links li {
             float: right; }
     body .postTitle {
-      font-size: 35px;
-      font-weight: bolder; }
+      font-size: 35px; }
     body .postPublished {
-      font-size: 15px;
-      font-weight: bolder; }
+      font-size: 15px; }
     body .postAuthor {
-      font-size: 20px;
-      font-weight: bolder; }
+      font-size: 20px; }
     body .audiojs {
       width: 420px;
       height: 36px; }
