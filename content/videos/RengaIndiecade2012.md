@@ -19,11 +19,11 @@ layout: video
 <p class='postPublished'>{{ published }}</p>
 <p class='postAuthor'>By: {{ author }}</p>
 <hr>
-{{ subtitle}}  
-  
-{{ description }}  
-  
-{{ links }}  
-  
+{{ subtitle}}
+
+{{ description }}
+
+{{ links }}
+
 - - -
 [Vimeo](www.vimeo.com/indestructibleart)

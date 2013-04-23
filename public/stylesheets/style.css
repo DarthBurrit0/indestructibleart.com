@@ -139,16 +139,13 @@ body .audios {
   margin-top: 5px;
   padding: 3%;
 }
-body .audios h1 {
-  font-family: verdana;
-}
 body .audios img {
   height: 350px;
   width: 350px;
   display: inline-block;
   float: right;
 }
-body .audios h4, body .audios h3 {
+body .audios h4, body .audios h3, body .audios h1 {
   font-family: helvetica;
 }
 body .audios ul li {
@@ -171,16 +168,13 @@ body .blog {
   margin-top: 5px;
   padding: 3%;
 }
-body .blog h1 {
-  font-family: verdana;
-}
 body .blog .blog_img {
   height: 350px;
   width: 350px;
   display: inline-block;
   float: right;
 }
-body .blog h4, body .blog h3 {
+body .blog h4, body .blog h3, body .blog h1 {
   font-family: helvetica;
 }
 body .blog ul li {
@@ -208,8 +202,8 @@ body .videos a {
   text-decoration: none;
   color: blue;
 }
-body .videos h1 {
-  font-family: verdana;
+body .videos h4, body .videos h3, body .videos h1 {
+  font-family: helvetica;
 }
 body .vid_container {
   margin: auto;
@@ -252,10 +246,11 @@ body footer {
 /*---------------Mobile Width CSS---------------*/
 @media screen and (min-width: 320px) {
   body {
-    width: 310px;
+    margin: auto;
+    width: 320px;
   }
   body header {
-    width: 310px;
+    width: 320px;
   }
   body header .logo .headerimg {
     display: none;
@@ -264,7 +259,7 @@ body footer {
     font-size: 1.5em;
   }
   body header .header_nav {
-    width: 310px;
+    width: 320px;
     text-align: center;
   }
   body .page_links {
@@ -297,12 +292,12 @@ body footer {
 /*---------------iPad Width CSS---------------*/
 @media screen and (min-width: 768px) {
   body {
-    width: 760px;
+    width: 768px;
     margin: auto;
   }
   body header {
     margin-top: 0px;
-    width: 760px;
+    width: 768px;
   }
   body header .logo .headerimg {
     height: 150px;
@@ -317,7 +312,7 @@ body footer {
   }
   body header .header_nav {
     margin-top: 0px;
-    width: 760px;
+    width: 768px;
   }
   body header .header_nav .page_links li {
     float: left;
