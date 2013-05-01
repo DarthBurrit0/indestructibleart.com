@@ -1,5 +1,4 @@
 
-
 /*---------------Site Wide CSS---------------*/
 .group:after{
 	content: "";
@@ -15,9 +14,7 @@
   margin: 10px 0px 0px 0px;
 }
 body{
-	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
 	background-attachment: fixed;
-	background-color:white;
 	font-family: 'Fjalla One', sans-serif;
 	header{
 		position:relative;
@@ -67,11 +64,8 @@ body{
 					padding: 1px 3px 0px 3px;
 					a{
 						text-decoration:none;
-						color:black;
 					}
 					img{
-						height:15px;
-						width:15px;
 						padding:5px;
 						background-color:#A9A9A9;
 						border-radius:2px;
@@ -235,7 +229,7 @@ body{
 		}
 		thead{
 			tr{
-					border-bottom:1px solid black;
+				border-bottom:1px solid black;
 			}
 		}
 		td{
@@ -250,10 +244,10 @@ body{
 	}
 }
 
-
 /*---------------Mobile Width CSS---------------*/
 @media screen and (min-width: 320px){
 	body{
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
 		margin:auto;
 		width:320px;
 		header{
@@ -300,14 +294,42 @@ body{
 	}
 }
 
+/*---------------Mobile Landscape Width---------------*/
+@media screen and (min-width: 480px){
+	body{
+		width:480px;
+		header{
+			width:480px;
+			.header_nav{
+				width:480px;
+				.page_links{
+					li{
+						float:left;
+					}
+				}
+				.social_links{
+					display:inline;
+					li{
+						float:right;
+					}
+					img{
+						height:12px;
+						width:12px;
+					}
+				}
+			}
+		}
+	}
+}
 
 /*---------------iPad Width CSS---------------*/
 @media screen and (min-width: 768px){
 	body{
+		background-image: url('../images/background.png');
+		background-repeat: repeat;
 		width:768px;
 		margin:auto;
 		header{
- 	  	margin-top: 0px;
  	  	width:768px;
  	  	.logo{
 	 	  	.headerimg{
@@ -323,18 +345,16 @@ body{
 				}
 	 	  }
 	 	  .header_nav{
- 	  		margin-top: 0px;
  	  		width:768px;
  	  	 	.page_links{
   				li{
-  					float:left;
   					font-size: 1.5em;
   				}
   			}
   			.social_links{
-    				display:inline;
-    			li{
-      			float:right;
+    			img{
+    				height:15px;
+    				width:15px;
     			}
   			}
  	  	}
@@ -364,53 +384,21 @@ body{
 		width:990px;
 		margin:auto;
 		header{
- 	  	margin-top: 0px;
  	  	width:990px;
  	  	.logo{
 	 	  	.headerimg{
-	 	  		height:150px;
-	 	  		-webkit-margin-before: -15px;
 	 	  		-webkit-margin-start: 15px;
-	 	  		display:block;
-	 	  		float:left;
 	 	  	}
 	 	  	#motto{
 					font-size:4.6em;
-					padding-top:15px;
 				}
 	 	  }
 	 	  .header_nav{
- 	  		margin-top: 0px;
  	  		width:990px;
- 	  	 	.page_links{
-  				li{
-  					float:left;
-  					font-size: 1.5em;
-  				}
-  			}
-  			.social_links{
-    				display:inline;
-    			li{
-      			float:right;
-    			}
-  			}
  	  	}
  	  }
  	  .postTitle{
  	  	font-size:35px;
  	  }
- 	  .postPublished{
- 	  	font-size:15px;
- 	  }
- 	  .postAuthor{
- 	  	font-size:20px;
- 	  }
- 	  .audiojs{
-	    width:420px;
-	    height:36px;
-	    .scrubber{
-	      width:245px;
-	    }
-	  }
 	}
 }
