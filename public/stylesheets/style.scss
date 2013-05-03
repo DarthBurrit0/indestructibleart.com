@@ -163,12 +163,15 @@ body{
 		margin:auto;
 		margin-top:5px;
 		padding:3%;
-		.blog_img{
-			height:350px;
-			width:350px;
-			display:inline-block;
-			float:right;
+		.blogImg{
+			width:100%;
+			margin:auto;
+			position:relative;
 		}
+		// .stars{
+		// 	width: px;
+		// 	height: px;
+		// }
 		h4, h3, h1{
 		  font-family:helvetica;
 		}

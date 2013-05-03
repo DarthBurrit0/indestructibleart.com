@@ -163,11 +163,10 @@ body .blog {
   margin-top: 5px;
   padding: 3%;
 }
-body .blog .blog_img {
-  height: 350px;
-  width: 350px;
-  display: inline-block;
-  float: right;
+body .blog .blogImg {
+  width: 100%;
+  margin: auto;
+  position: relative;
 }
 body .blog h4, body .blog h3, body .blog h1 {
   font-family: helvetica;
