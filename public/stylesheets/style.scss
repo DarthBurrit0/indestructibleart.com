@@ -325,7 +325,7 @@ body{
 	}
 }
 
-/*---------------iPad Width CSS---------------*/
+/*---------------Tablet Portrait CSS---------------*/
 @media screen and (min-width: 768px){
 	body{
 		background-image: url('../images/background.png');
@@ -336,9 +336,9 @@ body{
  	  	width:768px;
  	  	.logo{
 	 	  	.headerimg{
-	 	  		height:150px;
+	 	  		height:120px;
 	 	  		-webkit-margin-before: -15px;
-	 	  		-webkit-margin-start: 5px;
+	 	  		-webkit-margin-start: 15px;
 	 	  		display:block;
 	 	  		float:left;
 	 	  	}
@@ -390,7 +390,7 @@ body{
  	  	width:990px;
  	  	.logo{
 	 	  	.headerimg{
-	 	  		-webkit-margin-start: 15px;
+	 	  		height:150px;
 	 	  	}
 	 	  	#motto{
 					font-size:4.6em;
