@@ -21,7 +21,6 @@ body {
 }
 body header {
   position: relative;
-  background-color: white;
   border: 1px solid transparent;
 }
 body header #motto {
@@ -34,7 +33,6 @@ body header #motto span {
   color: #969696;
 }
 body header .header_nav {
-  background-color: white;
   border-bottom: 1px solid black;
 }
 body header .header_nav .page_links {
@@ -153,7 +151,7 @@ body .audios ul li a {
 body .audios .subLinks {
   font-size: 0.8em;
 }
-body .blog {
+body .articles {
   height: auto;
   width: 85%;
   border: 1px solid black;
@@ -163,18 +161,30 @@ body .blog {
   margin-top: 5px;
   padding: 3%;
 }
-body .blog .blogImg {
+body .articles .articlesImgCenter {
   width: 100%;
   margin: auto;
   position: relative;
 }
-body .blog h4, body .blog h3, body .blog h1 {
+body .articles .articlesImgLeft {
+  width: 50%;
+  float: left;
+  margin: auto;
+  position: relative;
+}
+body .articles .articlesImgRight {
+  width: 50%;
+  float: right;
+  margin: auto;
+  position: relative;
+}
+body .articles h4, body .articles h3, body .articles h1 {
   font-family: helvetica;
 }
-body .blog ul li {
+body .articles ul li {
   font-size: 1em;
 }
-body .blog ul li a {
+body .articles ul li a {
   font-weight: bold;
   color: #1E90FF;
 }
@@ -200,12 +210,11 @@ body .videos h4, body .videos h3, body .videos h1 {
   font-family: helvetica;
 }
 body .vid_container {
-  margin: auto;
   position: relative;
   width: 100%;
-  padding-bottom: 56%;
   height: 0;
   overflow: hidden;
+  padding-top: 56%;
 }
 body .vid_container iframe {
   position: absolute;
@@ -246,6 +255,7 @@ body footer {
   }
   body header {
     width: 320px;
+    background-color: white;
   }
   body header .logo .headerimg {
     display: none;
@@ -319,11 +329,13 @@ body footer {
   }
   body header {
     width: 768px;
+    background-color: transparent;
   }
   body header .logo .headerimg {
     height: 120px;
     -webkit-margin-before: -15px;
     -webkit-margin-start: 15px;
+    padding-top: 10px;
     display: block;
     float: left;
   }

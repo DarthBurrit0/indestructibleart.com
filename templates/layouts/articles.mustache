@@ -34,15 +34,12 @@
   <link type="text/css" rel="stylesheet" href="../stylesheets/style.css">
   <link rel="shortcut icon" href="../images/favicon.ico">
 
-  <script src="../javascript/lib/modernizr.js"></script>
-
   <script src="../javascript/lib/audio.js"></script>
   <script>
     audiojs.events.ready(function(){
       var as = audiojs.createAll();
     });
   </script>
-
 </head>
 
   <body>
@@ -50,7 +47,6 @@
       <div class='logo group'>
         <img src='../images/ia-icon.png' class='headerimg' />
         <p id="motto">INDESTRUCTIBLE<span>ART</span></p>
-
       </div>
       <div class='stickyHolder_js'>
         <nav class="group header_nav sticky_js">
@@ -71,7 +67,7 @@
         </nav>
       </div>
     </header>
-    <div id="content" class='blog'>
+    <div id="content" class='articles'>
       {{{ yield }}}
     </div>
     <div id="disqus_thread"></div>
@@ -87,17 +83,14 @@
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
-    </script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="../javascript/lib/modernizr.js"></script>
     <script>
       var scriptTag = '<script src="javascripts/lib/jquery.js"><\/script>';
       window.jQuery || document.write(scriptTag);
     </script>
-
     <script src="../javascript/main.js"></script>
     <!-- <script defer src="../javascripts/application.js"></script> -->
-
     <script type="text/javascript">
       var disqus_shortname = 'indestructibleart';
       (function(){
@@ -107,7 +100,6 @@
           (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
       }());
     </script>
-
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-39092592-2']);

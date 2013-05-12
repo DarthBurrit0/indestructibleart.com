@@ -34,15 +34,12 @@
   <link type="text/css" rel="stylesheet" href="../stylesheets/style.css">
   <link rel="shortcut icon" href="../images/favicon.ico">
 
-  <script src="../javascript/lib/modernizr.js"></script>
-
   <script src="../javascript/lib/audio.js"></script>
   <script>
     audiojs.events.ready(function(){
       var as = audiojs.createAll();
     });
   </script>
-
 </head>
 
   <body>
@@ -50,7 +47,6 @@
       <div class='logo group'>
         <img src='../images/ia-icon.png' class='headerimg' />
   		  <p id="motto">INDESTRUCTIBLE<span>ART</span></p>
-
       </div>
       <div class='stickyHolder_js'>
     		<nav class="group header_nav sticky_js">
@@ -78,17 +74,15 @@
       {{{ yield }}}
     </div>
     <footer>
-      
+
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
-    </script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="../javascript/lib/modernizr.js"></script>
     <script>
       var scriptTag = '<script src="javascripts/lib/jquery.js"><\/script>';
       window.jQuery || document.write(scriptTag);
     </script>
-
     <script src="../javascript/main.js"></script>
     <!-- <script defer src="../javascripts/application.js"></script> -->
 
