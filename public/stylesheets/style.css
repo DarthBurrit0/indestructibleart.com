@@ -23,11 +23,15 @@ body header {
   position: relative;
   border: 1px solid transparent;
 }
+body header .logo a {
+  text-decoration: none;
+}
 body header #motto {
   font-weight: bolder;
   text-align: center;
   -webkit-margin-before: 15px;
   -webkit-margin-after: 15px;
+  color: black;
 }
 body header #motto span {
   color: #969696;

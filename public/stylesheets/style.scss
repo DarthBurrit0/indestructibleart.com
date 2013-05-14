@@ -19,11 +19,17 @@ body{
 	header{
 		position:relative;
 		border:1px solid transparent;
+		.logo{
+			a{
+				text-decoration: none;
+			}
+		}
 		#motto{
 			font-weight: bolder;
 			text-align: center;
 			-webkit-margin-before: 15px;
 	  	-webkit-margin-after: 15px;
+	  	color:black;
 			span{
 				color: #969696;
 			}
