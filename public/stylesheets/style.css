@@ -165,22 +165,29 @@ body .articles {
   margin-top: 5px;
   padding: 3%;
 }
+body .articles .articleSection {
+  border: 1px solid transparent;
+}
 body .articles .articlesImgCenter {
   width: 100%;
   margin: auto;
   position: relative;
 }
-body .articles .articlesImgLeft {
-  width: 50%;
-  float: left;
-  margin: auto;
-  position: relative;
+body .articles .slugline {
+  font-weight: bolder;
+  font-size: 1.2em;
 }
-body .articles .articlesImgRight {
-  width: 50%;
-  float: right;
+body .articles .sluglineCenter {
   margin: auto;
-  position: relative;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+body .articles .sluglineLeft {
+  font-weight: bolder;
+  font-size: 1.5em;
+  float: left;
+  clear: both;
 }
 body .articles h4, body .articles h3, body .articles h1 {
   font-family: helvetica;
@@ -290,6 +297,16 @@ body footer {
   body .postAuthor {
     font-size: 15px;
   }
+  body .articles .articlesImgLeft {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  body .articles .articlesImgRight {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
   body .audiojs {
     width: 265px;
     height: 36px;
@@ -356,6 +373,19 @@ body footer {
   body header .header_nav .social_links img {
     height: 15px;
     width: 15px;
+  }
+  body .articles .articlesImgLeft {
+    display: inline-block;
+    width: 40%;
+    float: left;
+    position: relative;
+    clear: left;
+  }
+  body .articles .articlesImgRight {
+    width: 40%;
+    float: right;
+    position: relative;
+    clear: right;
   }
   body .postTitle {
     font-size: 30px;

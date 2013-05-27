@@ -167,27 +167,30 @@ body{
 		margin:auto;
 		margin-top:5px;
 		padding:3%;
+		.articleSection{
+			border: 1px solid transparent;
+		}
 		.articlesImgCenter{
 			width:100%;
 			margin:auto;
 			position:relative;
 		}
-		.articlesImgLeft{
-			width:50%;
-			float:left;
-			margin:auto;
-			position:relative;
+		.slugline{
+			font-weight: bolder;
+			font-size: 1.2em;
 		}
-		.articlesImgRight{
-			width:50%;
-			float:right;
-			margin:auto;
-			position:relative;
+		.sluglineCenter{
+			margin: auto;
+			text-align: center;
+			font-weight: bolder;
+			font-size: 1.5em;
 		}
-		// .stars{
-		// 	width: px;
-		// 	height: px;
-		// }
+		.sluglineLeft{
+			font-weight: bolder;
+			font-size: 1.5em;
+			float: left;
+			clear: both;
+		}
 		h4, h3, h1{
 		  font-family:helvetica;
 		}
@@ -303,6 +306,18 @@ body{
  	  .postAuthor{
  	  	font-size:15px;
  	  }
+ 	  .articles{
+ 	  	.articlesImgLeft{
+ 	  		width:100%;
+ 	  		margin:auto;
+ 	  		position:relative;
+ 	  	}
+ 	  	.articlesImgRight{
+ 	  		width:100%;
+ 	  		margin:auto;
+ 	  		position:relative;
+ 	  	}
+ 	  }
 	 	.audiojs{
 	    width:265px;
 	    height:36px;
@@ -378,6 +393,21 @@ body{
     				width:15px;
     			}
   			}
+ 	  	}
+ 	  }
+ 	  .articles{
+ 	  	.articlesImgLeft{
+ 	  		display: inline-block;
+ 	  		width:40%;
+ 	  		float:left;
+ 	  		position:relative;
+ 	  		clear:left;
+ 	  	}
+ 	  	.articlesImgRight{
+ 	  		width:40%;
+ 	  		float:right;
+ 	  		position:relative;
+ 	  		clear:right;
  	  	}
  	  }
  	  .postTitle{
