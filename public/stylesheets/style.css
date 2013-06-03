@@ -17,7 +17,7 @@
 
 body {
   background-attachment: fixed;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: Georgia, sans-serif;
 }
 body header {
   position: relative;
@@ -27,6 +27,7 @@ body header .logo a {
   text-decoration: none;
 }
 body header #motto {
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bolder;
   text-align: center;
   -webkit-margin-before: 15px;
@@ -45,6 +46,7 @@ body header .header_nav .page_links {
   display: inline;
 }
 body header .header_nav .page_links li {
+  font-family: 'Fjalla One', sans-serif;
   list-style: none;
   border-radius: 2px;
   font-size: 1.1em;
@@ -85,6 +87,7 @@ body header .header_nav .social_links li img:hover {
   background-color: #778899;
 }
 body #mess {
+  font-family: 'Fjalla One', sans-serif;
   width: 95%;
   margin: auto;
   margin-top: 10px;
@@ -98,21 +101,25 @@ body #mess p {
   padding: 2px;
 }
 body .postTitle {
+  font-family: 'Fjalla One', sans-serif;
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
   font-weight: bolder;
 }
 body .postPublished {
+  font-family: 'Fjalla One', sans-serif;
   -webkit-margin-before: 5px;
   -webkit-margin-after: 0px;
   font-weight: bolder;
 }
 body .postAuthor {
+  font-family: 'Fjalla One', sans-serif;
   -webkit-margin-before: 5px;
   -webkit-margin-after: 0px;
   font-weight: bolder;
 }
 body .postTitleLink {
+  font-family: 'Fjalla One', sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -150,7 +157,7 @@ body .audios ul li {
 }
 body .audios ul li a {
   font-weight: bold;
-  color: #1E90FF;
+  color: blue;
 }
 body .audios .subLinks {
   font-size: 0.8em;
@@ -174,16 +181,19 @@ body .articles .articlesImgCenter {
   position: relative;
 }
 body .articles .slugline {
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bolder;
   font-size: 1.2em;
 }
 body .articles .sluglineCenter {
+  font-family: 'Fjalla One', sans-serif;
   margin: auto;
   text-align: center;
   font-weight: bolder;
   font-size: 1.5em;
 }
 body .articles .sluglineLeft {
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bolder;
   font-size: 1.5em;
   float: left;
@@ -197,7 +207,7 @@ body .articles ul li {
 }
 body .articles ul li a {
   font-weight: bold;
-  color: #1E90FF;
+  color: blue;
 }
 body .videos {
   height: auto;

@@ -15,7 +15,7 @@
 }
 body{
 	background-attachment: fixed;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: Georgia, sans-serif;
 	header{
 		position:relative;
 		border:1px solid transparent;
@@ -25,6 +25,7 @@ body{
 			}
 		}
 		#motto{
+			font-family: 'Fjalla One', sans-serif;
 			font-weight: bolder;
 			text-align: center;
 			-webkit-margin-before: 15px;
@@ -41,6 +42,7 @@ body{
 				-webkit-padding-end: 0px;
 				display:inline;
 				li{
+					font-family: 'Fjalla One', sans-serif;
 					list-style:none;
 					border-radius:2px;
 					font-size:1.1em;
@@ -86,6 +88,7 @@ body{
 		}
 	}
 	#mess{
+		font-family: 'Fjalla One', sans-serif;
 	  width:95%;
 	  margin:auto;
 	  margin-top:10px;
@@ -99,21 +102,25 @@ body{
 	  }
 	}
 	.postTitle{
+		font-family: 'Fjalla One', sans-serif;
   	-webkit-margin-before:0px;
   	-webkit-margin-after:0px;
   	font-weight: bolder;
   }
   .postPublished{
+  	font-family: 'Fjalla One', sans-serif;
   	-webkit-margin-before:5px;
   	-webkit-margin-after:0px;
   	font-weight: bolder;
   }
   .postAuthor{
+  	font-family: 'Fjalla One', sans-serif;
   	-webkit-margin-before:5px;
   	-webkit-margin-after:0px;
   	font-weight: bolder;
   }
   .postTitleLink{
+  	font-family: 'Fjalla One', sans-serif;
   	text-decoration:none;
   	color:black;
   }
@@ -150,7 +157,7 @@ body{
 				font-size:1em;
 				a{
 					font-weight:bold;
-					color:#1E90FF;
+					color:blue;
 				}
 			}
 		}
@@ -176,16 +183,19 @@ body{
 			position:relative;
 		}
 		.slugline{
+			font-family: 'Fjalla One', sans-serif;
 			font-weight: bolder;
 			font-size: 1.2em;
 		}
 		.sluglineCenter{
+			font-family: 'Fjalla One', sans-serif;
 			margin: auto;
 			text-align: center;
 			font-weight: bolder;
 			font-size: 1.5em;
 		}
 		.sluglineLeft{
+			font-family: 'Fjalla One', sans-serif;
 			font-weight: bolder;
 			font-size: 1.5em;
 			float: left;
@@ -199,7 +209,7 @@ body{
 				font-size:1em;
 				a{
 					font-weight:bold;
-					color:#1E90FF;
+					color:blue;
 				}
 			}
 		}
