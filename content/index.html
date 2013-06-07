@@ -1,39 +1,6 @@
 ---
 title: Hi
 ---
-
-<div>
-  {{#site}}
-    {{#collections}}
-      {{#episodes}}
-        {{#pages}}
-          <div class='audios'>
-            {{{ content }}}
-          </div>
-        {{/pages}}
-      {{/episodes}}
-    {{/collections}}
-  {{/site}}
-</div>
-
-<hr>
-
-<div>
-  {{#site}}
-    {{#collections}}
-      {{#videos}}
-        {{#pages}}
-          <div class="videos">
-            {{{ content }}}
-          </div>
-        {{/pages}}
-      {{/videos}}
-    {{/collections}}
-  {{/site}}
-</div>
-
-<hr>
-
 <div>
   {{#site}}
     {{#collections}}
@@ -44,6 +11,20 @@ title: Hi
           </div>
         {{/pages}}
       {{/posts}}
+      {{#episodes}}
+        {{#pages}}
+          <div class='audios'>
+            {{{ content }}}
+          </div>
+        {{/pages}}
+      {{/episodes}}
+      {{#videos}}
+        {{#pages}}
+          <div class="videos">
+            {{{ content }}}
+          </div>
+        {{/pages}}
+      {{/videos}}
     {{/collections}}
   {{/site}}
 </div>
