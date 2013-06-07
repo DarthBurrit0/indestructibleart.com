@@ -199,6 +199,14 @@ body .articles .sluglineLeft {
   float: left;
   clear: both;
 }
+body .articles blockquote {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  border: 1px solid black;
+  font-family: Times;
+  background-color: white;
+}
 body .articles h4, body .articles h3, body .articles h1 {
   font-family: helvetica;
 }

@@ -201,6 +201,14 @@ body{
 			float: left;
 			clear: both;
 		}
+		blockquote{
+			position: relative;
+			width: 100%;
+			margin: auto;
+			border: 1px solid black;
+			font-family: Times;
+			background-color: white;
+		}
 		h4, h3, h1{
 		  font-family:helvetica;
 		}
