@@ -203,11 +203,12 @@ body{
 		}
 		blockquote{
 			position: relative;
-			width: 100%;
-			margin: auto;
+			width: 96%;
+			margin: 5px auto;
 			border: 1px solid black;
 			font-family: Times;
 			background-color: white;
+			padding: 15px;
 		}
 		h4, h3, h1{
 		  font-family:helvetica;
@@ -419,13 +420,13 @@ body{
  	  		width:40%;
  	  		float:left;
  	  		position:relative;
- 	  		clear:left;
+ 	  		//clear:left;
  	  	}
  	  	.articlesImgRight{
  	  		width:40%;
  	  		float:right;
  	  		position:relative;
- 	  		clear:right;
+ 	  		//clear:right;
  	  	}
  	  }
  	  .postTitle{

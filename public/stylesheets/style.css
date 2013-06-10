@@ -201,11 +201,12 @@ body .articles .sluglineLeft {
 }
 body .articles blockquote {
   position: relative;
-  width: 100%;
-  margin: auto;
+  width: 96%;
+  margin: 5px auto;
   border: 1px solid black;
   font-family: Times;
   background-color: white;
+  padding: 15px;
 }
 body .articles h4, body .articles h3, body .articles h1 {
   font-family: helvetica;
@@ -397,13 +398,11 @@ body footer {
     width: 40%;
     float: left;
     position: relative;
-    clear: left;
   }
   body .articles .articlesImgRight {
     width: 40%;
     float: right;
     position: relative;
-    clear: right;
   }
   body .postTitle {
     font-size: 30px;
