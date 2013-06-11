@@ -2,7 +2,7 @@
 number: "2013-06-10-MSPressTrailers-Awesome"
 title: "The Awesome Trailers at the Microsoft E3 Press Event"
 author: "Omar de Armas"
-published: 'Thu, 10 JUNE 2013 13:30:00 PDT'
+published: 'Mon, 10 JUNE 2013 13:30:00 PDT'
 layout: articles
 ---
 
