@@ -208,6 +208,15 @@ body .articles blockquote {
   background-color: white;
   padding: 15px;
 }
+body .articles .flash_container {
+  margin: auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+body .articles .flash_container object {
+  margin: auto;
+  text-align: center;
+}
 body .articles h4, body .articles h3, body .articles h1 {
   font-family: helvetica;
 }
