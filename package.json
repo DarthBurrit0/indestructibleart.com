@@ -22,9 +22,5 @@
   "author": "",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "77b65ea062ecb04b3ebeb85c27b9ea20822a5a40",
-  "dependencies": {
-    "haiku": "~0.1.0-1",
-    "beamer": "0.0.1"
-  }
+  "gitHead": "77b65ea062ecb04b3ebeb85c27b9ea20822a5a40"
 }
