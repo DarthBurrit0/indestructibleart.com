@@ -25,5 +25,8 @@
   "gitHead": "77b65ea062ecb04b3ebeb85c27b9ea20822a5a40",
   "devDependencies": {
     "mocha": "~1.11.0"
+  },
+  "dependencies": {
+    "bunyan": "~0.21.3"
   }
 }
