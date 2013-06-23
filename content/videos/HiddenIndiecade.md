@@ -1,7 +1,7 @@
 = yaml =
 source: "52222054"
 title: "Indiecade 2012: Hidden In Plain Sight"
-date: 'Tue, 14 MAY 2013 00:00:00 GMT'
+date: 2013-06-14
 author: "Omar de Armas"
 subtitle: "This video is part of a series of interviews we shot at IndieCade 2012."
 description: "Adam Spragg is the one man team behind the exciting couch co-op Xbox Live Indie game Hidden in Plain Sight. Adam explains his inspirations for the game and the reasoning behind his deliberate decision to exclude online multiplayer. Further into the interview Adam describes his experiences and strategies for publishing on the XBLIG store."

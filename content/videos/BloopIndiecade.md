@@ -1,7 +1,7 @@
 = yaml =
 source: "51552503"
 title: "Indiecade 2012: Bloop"
-date: 'Tue, 14 MAY 2013 00:00:00 GMT'
+date: 2013-06-14
 author: "Omar de Armas"
 subtitle: "This video is part of a series of interviews we shot at IndieCade 2012."
 description: "Rusty Moyher is a solo developer who made a competitive multiplayer game for iOS called Bloop. Rusty tells us about his inspirations for the game and the importance of implementing good sound design. Stick around to hear some details on a new title Rusty is collaborating on called Super Clew Land."

@@ -1,7 +1,8 @@
 = yaml =
 title: "Updated XboxOne News"
 author: "Omar de Armas"
-date: 'Thu, 06 JUNE 2013 23:30:00 PDT'
+date: 2013-06-06 13:00:00
+subtitle: "Microsoft has updated us on some of the ins and outs of the Xbox One."
 layout: articles
 = yaml =
 

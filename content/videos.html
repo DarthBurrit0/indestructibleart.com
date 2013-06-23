@@ -3,15 +3,14 @@ title: Videos
 ---
 
 <div>
-  {{#site}}
-    {{#collections}}
-      {{#videos}}
-        {{#pages}}
-          <div class="videos">
-            {{{ content }}}
-          </div>
-        {{/pages}}
-      {{/videos}}
-    {{/collections}}
-  {{/site}}
+  {{#content.videos}}
+    <div class="videos">
+      <a href="{{ url }}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
+      <p class='postPublished'>{{ date }}</p>
+      <p class='postAuthor'>By: {{ author }}</p>
+      <hr>
+      <p class='podcastSummary'>{{ subtitle }}</p>
+      <a href="{{ url }}" class='postTitleLink'><p class='postread'>Read More...</p></a>
+    </div>
+  {{/content.videos}}
 </div>
