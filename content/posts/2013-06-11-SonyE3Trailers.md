@@ -2,6 +2,7 @@
 title: "A Few Interesting Things From Sony's Press Event"
 author: "Omar de Armas"
 date: 2013-06-11 15:00:00
+subtitle: "A small recap of what we saw at the Sony E3 Press Event"
 layout: articles
 = yaml =
 

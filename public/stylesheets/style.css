@@ -123,6 +123,11 @@ body .postTitleLink {
   text-decoration: none;
   color: black;
 }
+body .postread {
+  font-weight: bold;
+  color: black;
+  text-align: right;
+}
 body #disqus_thread {
   width: 85%;
   padding: 3%;

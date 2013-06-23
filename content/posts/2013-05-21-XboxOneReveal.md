@@ -2,6 +2,7 @@
 title: "Xbox One Reveal"
 author: "Omar de Armas"
 date: 2013-05-21
+subtitle: "Omar recaps Microsoft's announcement of the Xbox One"
 layout: articles
 = yaml =
 

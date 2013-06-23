@@ -3,15 +3,13 @@ title: Articles
 ---
 
 <div>
-  {{#site}}
-    {{#collections}}
-      {{#posts}}
-        {{#pages}}
-          <div class="articles">
-            {{{ content }}}
-          </div>
-        {{/pages}}
-      {{/posts}}
-    {{/collections}}
-  {{/site}}
+  {{#content.posts}}
+    <div class="articles">
+      <a href="{{url}}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
+      <p class='postPublished'>{{ date }}</p>
+      <p class='postAuthor'>By: {{ author }}</p>
+      <hr>
+      <a href="{{url}}" class='postTitleLink'><p class='postread'>Read More...</p></a>
+    </div>
+  {{/content.posts}}
 </div>

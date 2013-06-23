@@ -2,6 +2,7 @@
 title: "Review: Jupiter's Legacy 1"
 author: "Spencer Carney"
 date: 2013-05-02
+subtitle: "Spencer reviews Mark Millar's Jupiter's Legacy 1"
 layout: articles
 = yaml =
 
