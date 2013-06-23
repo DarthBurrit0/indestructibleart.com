@@ -5,7 +5,8 @@
   "description": "haiku source code for indestructibleart.com",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/test-*.js"
+    "test": "mocha test/test-*.js",
+    "start": "./node_modules/haiku/bin/haiku server"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,6 @@
     "mocha": "~1.11.0"
   },
   "dependencies": {
-    "bunyan": "~0.21.3"
+    "haiku": "0.2.0"
   }
 }
