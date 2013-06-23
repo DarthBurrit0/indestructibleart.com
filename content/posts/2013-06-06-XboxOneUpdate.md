@@ -1,14 +1,13 @@
----
-number: "2013-06-06-XboxOneUpdate"
+= yaml =
 title: "Updated XboxOne News"
 author: "Omar de Armas"
-published: 'Thu, 06 JUNE 2013 23:30:00 PDT'
+date: 'Thu, 06 JUNE 2013 23:30:00 PDT'
 layout: articles
----
+= yaml =
 
-<a href="../posts/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 
 <a class="image-popup-vertical-fit" href="http://www.indestructibleart.com/images/forPosts/XboxOnePressKit/XboxOneLogo.png" title="Xbox One">

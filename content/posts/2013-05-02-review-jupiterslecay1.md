@@ -1,14 +1,13 @@
----
-number: "2013-05-02"
+= yaml =
 title: "Review: Jupiter's Legacy 1"
 author: "Spencer Carney"
-published: 'Thu, 02 May 2013 00:00:00 GMT'
+date: 'Thu, 02 May 2013 00:00:00 GMT'
 layout: articles
----
+= yaml =
 
-<a href="../posts/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 
 It has been a week since I first read *Jupiter's Legacy #1*. In total, I have read this issue three times. In the weekly grind of collecting comics, that is a lot. Three reads and seven days later, I can safely say that this a mediocre debut at best.  
