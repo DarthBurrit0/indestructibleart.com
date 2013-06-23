@@ -28,6 +28,7 @@
     "mocha": "~1.11.0"
   },
   "dependencies": {
-    "haiku": "0.2.0"
+    "haiku": "0.2.0",
+    "beamer": "0.1.0"
   }
 }
