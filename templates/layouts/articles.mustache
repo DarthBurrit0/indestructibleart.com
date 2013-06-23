@@ -6,10 +6,10 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>{{ title }} | indestructibleart.com</title>
-  <meta name="description" content="{{ description }} {{ summary }}" />
-  <meta name="author" content="{{ author }}" />
-  <meta name="keywords" content="{{ tags }}" />
+  <title>{{ page.title }} | indestructibleart.com</title>
+  <meta name="description" content="{{ page.description }} {{ page.summary }}" />
+  <meta name="author" content="{{ page.author }}" />
+  <meta name="keywords" content="{{ page.tags }}" />
   <meta name="viewport" content="width=device-width">
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,300' rel='stylesheet' type='text/css'>
@@ -31,13 +31,13 @@
     title="Atom"
     href="http://feeds.feedburner.com/indestructibleart" />
 
-  <link type="text/css" rel="stylesheet" href="../stylesheets/style.css">
-  <link rel="shortcut icon" href="../images/favicon.ico">
+  <link type="text/css" rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="shortcut icon" href="/images/favicon.ico">
 
   <!-- Magnific Popup core CSS file -->
-  <link type="text/css" rel="stylesheet" href="../stylesheets/magnific.css">
+  <link type="text/css" rel="stylesheet" href="/stylesheets/magnific.css">
 
-  <script src="../javascript/lib/audio.js"></script>
+  <script src="/javascript/lib/audio.js"></script>
   <script>
     audiojs.events.ready(function(){
       var as = audiojs.createAll();
@@ -48,26 +48,26 @@
   <body>
     <header>
       <div class='logo group'>
-        <a href='http://indestructibleart.com'>
-          <img src='../images/ia-icon.png' class='headerimg' />
+        <a href='/'>
+          <img src='/images/ia-icon.png' class='headerimg' />
           <p id="motto">INDESTRUCTIBLE<span>ART</span></p>
         </a>
       </div>
       <div class='stickyHolder_js'>
         <nav class="group header_nav sticky_js">
           <ul class="page_links">
-            <li><a href="http://indestructibleart.com">Home</a></li>
-            <li><a href="http://www.indestructibleart.com/podcast.html">Podcast</a></li>
-            <li><a href="http://www.indestructibleart.com/videos.html">Videos</a></li>
-            <li><a href="http://www.indestructibleart.com/posts.html">Articles</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/podcast.html">Podcast</a></li>
+            <li><a href="/videos.html">Videos</a></li>
+            <li><a href="/posts.html">Articles</a></li>
           </ul>
           <ul class="social_links">
-            <li><a href="http://indestructibleart.com/feeds/episodes.xml"><img src="../images/rss.png" /></a></li>
-            <li><a href="http://www.twitch.tv/indestructibleart"><img src="../images/twitch.png" /></a></li>
-            <li><a href="http://www.facebook.com/indestructibleart"><img src="../images/facebook.png" /></a></li>
-            <li><a href="http://www.twitter.com/pixelstopanels"><img src="../images/twitter.png" /></a></li>
-            <li><a href="http://www.vimeo.com/indestructibleart"><img src="../images/vimeo.png" /></a></li>
-            <li><a href="http://bit.ly/iapodcast"><img src="../images/itunes.png" /></a></li>
+            <li><a href="/feeds/episodes.xml"><img src="/images/rss.png" /></a></li>
+            <li><a href="http://www.twitch.tv/indestructibleart"><img src="/images/twitch.png" /></a></li>
+            <li><a href="http://www.facebook.com/indestructibleart"><img src="/images/facebook.png" /></a></li>
+            <li><a href="http://www.twitter.com/pixelstopanels"><img src="/images/twitter.png" /></a></li>
+            <li><a href="http://www.vimeo.com/indestructibleart"><img src="/images/vimeo.png" /></a></li>
+            <li><a href="http://bit.ly/iapodcast"><img src="/images/itunes.png" /></a></li>
             </ul>
         </nav>
       </div>
@@ -89,15 +89,15 @@
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script src="../javascript/lib/modernizr.js"></script>
+    <script src="/javascript/lib/modernizr.js"></script>
     <script>
       var scriptTag = '<script src="javascript/lib/jquery.js"><\/script>';
       window.jQuery || document.write(scriptTag);
     </script>
-    <script src="../javascript/main.js"></script>
+    <script src="/javascript/main.js"></script>
 
     <!-- Magnific Popup core JS file -->
-    <script src="../javascript/lib/magnific.js"></script>
+    <script src="/javascript/lib/magnific.js"></script>
 
     <!-- <script defer src="../javascripts/application.js"></script> -->
     <script type="text/javascript">
