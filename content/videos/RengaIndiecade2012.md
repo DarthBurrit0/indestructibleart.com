@@ -1,26 +1,25 @@
----
-number: RengaIndiecade2012
+= yaml =
 source: "http://player.vimeo.com/video/51567428?color=88a6b3"
 title: "Indiecade 2012: Renga"
-published: 'Fri, 08 FEB 2013 00:00:00 GMT'
+date: 'Fri, 08 FEB 2013 00:00:00 GMT'
 author: "Omar de Armas"
 subtitle: "This video is part of a series of interviews we shot at IndieCade 2012."
 description: "Adam Russell and John Sear are the creators behind a game called Renga. The game is played on a very large screen that can be played by hundreds of people simultaneously. John and Adam break down how Renga works, explain the reasoning behind some big design decisions, and share the importance of incorporating the right amount of balance and chaos in game that is played by a large crowd of people."
 tags: Indiecade, Renga, WallFour
 layout: video
----
+= yaml =
 
 <div class="vid_container">
   <iframe src={{ source }} width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-<a href="../videos/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
-<p class='podcastSummary'>{{ subtitle }}</p>
+<p class='podcastSummary'>{{ page.subtitle }}</p>
 
-<p class='podcastSummary'>{{ description }}</p>
+<p class='podcastSummary'>{{ page.description }}</p>
 
 Game Site: [Renga](wallfour.co.uk/projects/)  
 Developer: [Wallfour](wallfour.co.uk)  

@@ -1,9 +1,9 @@
----
+= yaml =
 title:
-published:
+date:
 rating:
 author:
 description:
 tags:
 link:
----
+= yaml =
