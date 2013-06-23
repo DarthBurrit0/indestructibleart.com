@@ -1,7 +1,7 @@
 = yaml =
 source: "51562851"
 title: "Indiecade 2012: Hawken"
-date: 'Tue, 14 MAY 2013 00:00:00 GMT'
+date: 2013-06-14
 author: "Omar de Armas"
 subtitle: "This video is part of a series of interviews we shot at IndieCade 2012."
 description: "Cameron Kerby is a 3D Artist at Adhesive Games, who is currently developing Hawken. An upcoming Free-to-Play mech FPS. We talk to Cameron about what it's like to build synergy from the ground up, the trials and benefits of a Free-to-Play business model, and what Hawken does differently to improve on the traditional mech game formula."

@@ -1,7 +1,7 @@
 = yaml =
 title: "Beyond: Two Souls"
 author: "Omar de Armas"
-date: 'Tue, 11 JUNE 2013 15:30:00 PDT'
+date: 2013-06-11 01:00:00
 layout: articles
 = yaml =
 

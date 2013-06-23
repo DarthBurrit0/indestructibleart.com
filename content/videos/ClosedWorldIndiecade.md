@@ -1,7 +1,7 @@
 = yaml =
 source: "51582290"
 title: "Indiecade 2012: A Closed World"
-date: 'Tue, 14 MAY 2013 00:00:00 GMT'
+date: 2013-06-14
 author: "Omar de Armas"
 subtitle: "This video is part of a series of interviews we shot at IndieCade 2012."
 description: "Todd Harper, a Professor of Media Studies at MIT, tells us about collaborating on a game inspired by EarthBound to help further his research. Instead of fighting with attacks and Magic spells, A Closed World is a game where you use traditional RPG mechanics to argue."

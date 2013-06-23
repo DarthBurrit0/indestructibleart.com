@@ -1,7 +1,7 @@
 = yaml =
 title: "New Saint's Row 4 Trailer"
 author: "Omar de Armas"
-date: 'Thu, 06 JUNE 2013 23:30:00 PDT'
+date: 2013-06-06
 layout: articles
 = yaml =
 

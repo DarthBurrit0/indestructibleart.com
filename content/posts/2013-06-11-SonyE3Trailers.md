@@ -1,7 +1,7 @@
 = yaml =
 title: "A Few Interesting Things From Sony's Press Event"
 author: "Omar de Armas"
-date: 'Tue, 11 JUNE 2013 15:50:00 PDT'
+date: 2013-06-11 15:00:00
 layout: articles
 = yaml =
 

@@ -1,7 +1,7 @@
 = yaml =
 source: "http://player.vimeo.com/video/51567428?color=88a6b3"
 title: "Indiecade 2012: Renga"
-date: 'Fri, 08 FEB 2013 00:00:00 GMT'
+date: 2013-02-08
 author: "Omar de Armas"
 subtitle: "This video is part of a series of interviews we shot at IndieCade 2012."
 description: "Adam Russell and John Sear are the creators behind a game called Renga. The game is played on a very large screen that can be played by hundreds of people simultaneously. John and Adam break down how Renga works, explain the reasoning behind some big design decisions, and share the importance of incorporating the right amount of balance and chaos in game that is played by a large crowd of people."

@@ -1,7 +1,7 @@
 = yaml =
 title: "The Rest of the Trailers at the Microsoft E3 Press Event"
 author: "Omar de Armas"
-date: 'Mon, 10 JUNE 2013 13:30:00 PDT'
+date: 2013-06-10 02:00:00
 layout: articles
 = yaml =
 

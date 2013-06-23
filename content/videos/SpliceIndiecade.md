@@ -1,7 +1,7 @@
 = yaml =
 source: "51586308"
 title: "Indiecade 2012: Splice"
-published: 'Tue, 14 MAY 2013 00:00:00 GMT'
+published: 2013-06-14
 author: "Omar de Armas"
 subtitle: "This video is part of a series of interviews we shot at IndieCade 2012."
 description: "Dain Saint is a Co-founder and an Audio Designer at Cipher Prime Studios. Cipher Prime is the developer behind Auditorium, Fractal, Pulse: Volume 1, and Splice. Dain describes all the hard work that goes into creating the impressive sound track for Splice, enlightens us about the KickStarter process, and elaborates on the pitfalls of play testing your own puzzle game."

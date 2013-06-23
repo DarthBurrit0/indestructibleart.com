@@ -1,7 +1,7 @@
 = yaml =
 source: "51571228"
 title: "Indiecade 2012: Guacamelee"
-date: 'Tue, 14 MAY 2013 00:00:00 GMT'
+date: 2013-06-14
 author: "Omar de Armas"
 subtitle: "This video is part of a series of interviews we shot at IndieCade 2012."
 description: "We corner Graham Smith, one of the Co-Founders of DrinkBox Studios, to have a friendly chat about Guacamelee. Graham educates us about Sony's Pub Fund initiative, the origins of Guacamelee's theme, and goes into detail about how Drink Box polishes their games."

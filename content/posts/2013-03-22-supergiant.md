@@ -1,7 +1,7 @@
 = yaml =
 title: "SuperGiant Games announces Transistor"
 author: "Evan Campbell" 
-date: 'Fri, 22 Mar 2013 00:00:00 GMT'
+date: 2013-03-22
 layout: articles
 = yaml =
 

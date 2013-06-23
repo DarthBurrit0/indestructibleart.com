@@ -1,7 +1,7 @@
 = yaml =
 title: "PAX East Day 1 Round Up"
 author: "Omar de Armas" 
-date: 'Fri, 22 Mar 2013 00:00:00 GMT'
+date: 2013-04-22
 layout: articles
 = yaml =
 

@@ -1,7 +1,7 @@
 = yaml =
 source: "51660456"
 title: "Indiecade 2012: Tengami"
-date: 'Tue, 14 MAY 2013 00:00:00 GMT'
+date: 2013-06-14
 author: "Omar de Armas"
 subtitle: "A small group of Ex-Rare developers put together an indie team and have begun working on a game called Tengami. Phillip Tossel is one of the games creators and he tells us all about the design process behind Tengami, using development experience with Kinect to make a better iOS game, and the reasons a developer might want to leave a studio like Rare to become part of their own indie dream team."
 tags: Indiecade, Tengami, Nyamyam

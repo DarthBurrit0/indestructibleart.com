@@ -1,12 +1,12 @@
 = yaml =
 title: "Xbox One Reveal"
 author: "Omar de Armas"
-date: 'Thu, 21 May 2013 18:00:00 PDT'
+date: 2013-05-21
 layout: articles
 = yaml =
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
-<p class='postPublished'>{{ page.published }}</p>
+<p class='postPublished'>{{ page.date }}</p>
 <p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 
