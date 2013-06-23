@@ -1,14 +1,13 @@
----
-number: 2013-03-22_evan-01
+= yaml =
 title: "SuperGiant Games announces Transistor"
 author: "Evan Campbell" 
-published: 'Fri, 22 Mar 2013 00:00:00 GMT'
+date: 'Fri, 22 Mar 2013 00:00:00 GMT'
 layout: articles
----
+= yaml =
 
-<a href="../posts/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 Two super cool trailers came out today.  
 The first trailer comes out of SuperGiant Games for their new title Transistor. Super Giant Games made Bastion and some of those mechanics seem to be expanding into Transistor's sci-fi futuristic setting. It looks incredible. Go check it out!  

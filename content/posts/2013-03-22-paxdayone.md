@@ -1,14 +1,13 @@
----
-number: 2013-03-22_omar-01
+= yaml =
 title: "PAX East Day 1 Round Up"
 author: "Omar de Armas" 
-published: 'Fri, 22 Mar 2013 00:00:00 GMT'
+date: 'Fri, 22 Mar 2013 00:00:00 GMT'
 layout: articles
----
+= yaml =
 
-<a href="../posts/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 Here is a recap of some of the rad stuff that happened today at PAX East:  
 
