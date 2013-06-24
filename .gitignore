@@ -1,6 +1,6 @@
-.gitignore
+.node_modules
+.beamconfig
 .DS_Store
-config
 *.tmproj
 public/audio
 build
