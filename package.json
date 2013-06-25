@@ -28,7 +28,7 @@
     "mocha": "~1.11.0"
   },
   "dependencies": {
-    "haiku": "0.2.1",
+    "haiku": "0.2.2",
     "beamer": "0.1.0"
   }
 }
