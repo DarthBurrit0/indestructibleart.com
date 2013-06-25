@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  version="2.0" >
+  version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 
   <channel>
     <title>Indestructible Art</title>
@@ -51,7 +51,7 @@
             type="audio/mpeg" />
 
           <guid>http://indestructibleart.com{{ file }}</guid>
-          <pubDate>{{ date.toISOString() }}</pubDate>
+          <pubDate>{{ date.toUTCString }}</pubDate>
           <itunes:duration>{{ duration }}</itunes:duration>
           <itunes:keywords>{{ tags }}</itunes:keywords>
       </item>
