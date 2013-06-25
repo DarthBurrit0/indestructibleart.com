@@ -1,5 +1,5 @@
 node_modules
-.beamconfig
+.beam
 .DS_Store
 *.tmproj
 public/audio
