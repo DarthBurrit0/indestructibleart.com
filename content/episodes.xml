@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  version="2.0" >
+
+  <channel>
+    <title>Indestructible Art</title>
+    <link>http://indestructibleart.com/</link>
+    <atom:link href="http://www.indestructibleart.com/episodes.xml"
+      rel="self"
+      type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>℗ &amp; © 2011 indestructibleart.com</copyright>
+    <media:copyright>℗ &amp; © 2011 indestructibleart.com</media:copyright>
+    <itunes:subtitle>From Pixels to Panels.</itunes:subtitle>
+    <itunes:author>Evan Campbell, Ryan Adams, Omar de Armas, &amp; Spencer Carney</itunes:author>
+    <itunes:summary>Indestructible Art is a podcast about video games and comic books. Every week Ryan, Evan, Omar, and Spencer discuss news, reviews, and current trends surrounding two of earths greatest mediums.</itunes:summary>
+    <description>Indestructible Art is a podcast about video games and comic books. Every week Ryan, Evan, Omar, and Spencer discuss news, reviews, and current trends surrounding two of earths greatest mediums.</description>
+    <itunes:owner>
+        <itunes:name>Indestructible Art</itunes:name>
+        <itunes:email>evan@indestructibleart.com</itunes:email>
+    </itunes:owner>
+    <itunes:image
+      href="http://indestructibleart.com/images/podcast-icon.png" />
+    <media:thumbnail url="http://indestructibleart.com/images/podcast-icon.png"></media:thumbnail>
+    <itunes:explicit>no</itunes:explicit>
+
+    <itunes:category text="Games &amp; Hobbies">
+      <itunes:category text="Video Games" />
+    </itunes:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Games &amp; Hobbies/Video Games</media:category>
+
+    <itunes:category text="Arts">
+      <itunes:category text="Visual Arts" />
+    </itunes:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Arts/Visual Arts</media:category>
+
+    <itunes:keywords>Indestructible Art, IA, Evan Campbell, Omar de Armas, Ryan Adams, Spencer Carney, Video Games, Comic Books, Awesome, DC, Marvel, Image, Xbox, Playstation, Nintendo</itunes:keywords>
+    <media:keywords>Indestructible Art, IA, Evan Campbell, Omar de Armas, Ryan Adams, Spencer Carney, Video Games, Comic Books, Awesome, DC, Marvel, Image, Xbox, Playstation, Nintendo</media:keywords>
+
+    {{#content.episodes}}
+      <item>
+          <title>{{ title }}</title>
+          <itunes:author>{{ author }}</itunes:author>
+          <itunes:subtitle>{{ subtitle }}</itunes:subtitle>
+          <description>{{ subtitle }}</description>
+          <itunes:summary>{{ summary }}</itunes:summary>
+
+          <enclosure url="http://indestructibleart.com{{ file }}"
+            length="{{ length }}"
+            type="audio/mpeg" />
+
+          <guid>http://indestructibleart.com{{ file }}</guid>
+          <pubDate>{{ date.toISOString() }}</pubDate>
+          <itunes:duration>{{ duration }}</itunes:duration>
+          <itunes:keywords>{{ tags }}</itunes:keywords>
+      </item>
+    {{/content.episodes}}
+  </channel>
+</rss>
+=========================
+
+
+
+<media:copyright>2013 tested.com</media:copyright>
+
+<item>
+  <title>Episode 173 - Press Conference Apocalpyse - 6/13/2013</title>
+  <link>http://www.tested.com/tech/456467-episode-173-press-conference-apocalpyse-6132013/</link>
+  <description>This week, Will, Norm, and Loyd discuss PRISM, the next-gen console wars, the Playstation 4's price, wearing Google Glass, and the largest four-sided dice ever. Oh, also WWDC stuff, including new Mac Pros, new MacBook Airs, iOS 7, and OSX Sea Lion (Mavericks is a dumb name).</description>
+  <pubDate>Thu, 13 Jun 2013 21:57:00 +0000</pubDate>
+  <guid>http://www.tested.com/tech/456467-episode-173-press-conference-apocalpyse-6132013/</guid>
+  <enclosure url="http://files.tested.com/podcast/thisisonlyatest-173-20130613.mp3" length="108876969" type="audio/mpeg"></enclosure>
+  <itunes:summary>This week, Will, Norm, and Loyd discuss PRISM, the next-gen console wars, the Playstation 4's price, wearing Google Glass, and the largest four-sided dice ever. Oh, also WWDC stuff, including new Mac Pros, new MacBook Airs, iOS 7, and OSX Sea Lion (Mavericks is a dumb name).</itunes:summary>
+  <itunes:duration>01:53:22</itunes:duration>
+</item>

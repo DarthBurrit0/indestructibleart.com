@@ -5,17 +5,18 @@ title: Hi
   {{#content.posts}}
     <div class="articles">
       <a href="{{url}}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-      <p class='postPublished'>{{ date }}</p>
+      <p class='postPublished'>{{ date.toDateString }}</p>
       <p class='postAuthor'>By: {{ author }}</p>
       <hr>
       <p class='podcastSummary'>{{ subtitle }}</p>
       <a href="{{url}}" class='postTitleLink'><p class='postread'>Read More...</p></a>
     </div>
   {{/content.posts}}
+
   {{#content.episodes}}
     <div class='audios'>
       <a href="{{url}}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-      <p class='postPublished'>{{ date }}</p>
+      <p class='postPublished'>{{ date.toDateString }}</p>
       <p class='postAuthor'>By: {{ author }}</p>
       <hr>
       <p class='podcastSummary'>{{ subtitle }}</p>
@@ -25,7 +26,7 @@ title: Hi
   {{#content.videos}}
     <div class="videos">
       <a href="{{ url }}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-      <p class='postPublished'>{{ date }}</p>
+      <p class='postPublished'>{{ date.toDateString }}</p>
       <p class='postAuthor'>By: {{ author }}</p>
       <hr>
       <p class='podcastSummary'>{{ subtitle }}</p>
