@@ -1,5 +1,5 @@
 = yaml =
-source: "http://player.vimeo.com/video/51567428?color=88a6b3"
+source: "51567428"
 title: "Indiecade 2012: Renga"
 date: 2013-02-08
 author: "Omar de Armas"
@@ -10,7 +10,7 @@ layout: video
 = yaml =
 
 <div class="vid_container">
-  <iframe src={{ source }} width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <iframe src="http://player.vimeo.com/video/{{ page.source }}" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>

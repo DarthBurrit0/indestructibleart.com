@@ -10,7 +10,7 @@ layout: video
 = yaml =
 
 <div class="vid_container">
-  <iframe src="http://player.vimeo.com/video/{{ source }}" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <iframe src="http://player.vimeo.com/video/{{ page.source }}" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
