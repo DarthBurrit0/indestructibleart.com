@@ -1,4 +1,4 @@
-# INDESCTRUCTIBLEART.COM
+# INDESTRUCTIBLEART.COM
 
 This is the [haiku](https://npmjs.org/package/haiku) source code for [indestructibleart.com](http://www.indestructibleart.com).
 
