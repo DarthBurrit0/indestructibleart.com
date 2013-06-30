@@ -8,6 +8,7 @@
   Site: {{ site }}
   Twitter: {{ twitter }}
   Location: {{ location }}
+  
 {{/content.nerds}}
 
 /* THANKS */

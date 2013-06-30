@@ -1,0 +1,136 @@
+
+//@import "compass/css3";
+//@import "compass/reset";
+
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px){
+  body{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+    margin:auto;
+    width:320px;
+    .group:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .stuck_js{
+      position: fixed;
+      top: 0px;
+      z-index:30;
+    }
+    .audiojs{
+      margin: 10px 0px 0px 0px;
+    }
+    background-attachment: fixed;
+    font-family: Georgia, sans-serif;
+    .postTitle{
+      font-family: 'Fjalla One', sans-serif;
+      font-size:22px;
+      -webkit-margin-before:0px;
+      -webkit-margin-after:0px;
+      font-weight: bolder;
+    }
+    .postPublished{
+      font-family: 'Fjalla One', sans-serif;
+      font-size:10px;
+      -webkit-margin-before:5px;
+      -webkit-margin-after:0px;
+      font-weight: bolder;
+    }
+    .postAuthor{
+      font-family: 'Fjalla One', sans-serif;
+      font-size:15px;
+      -webkit-margin-before:5px;
+      -webkit-margin-after:0px;
+      font-weight: bolder;
+    }
+    .postTitleLink{
+      font-family: 'Fjalla One', sans-serif;
+      text-decoration:none;
+      color:black;
+    }
+    .postread{
+      font-weight: bold;
+      color: black;
+      text-align: right;
+    }
+    #disqus_thread{
+      width:85%;
+      padding:3%;
+      margin:auto;
+      margin-top:5px;
+      margin-bottom:15px;
+      border:1px solid black;
+      border-radius:2px;
+      background-color: white;
+    }
+    .vid_container{
+      position:relative;
+      width:100%;
+      height: 0;
+      overflow: hidden;
+      padding-top: 56%;
+      iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .audiojs{
+     width:265px;
+     height:36px;
+     .scrubber{
+       width:90px;
+      }
+    }
+  }
+}
+
+/*---------------Mobile Landscape Width: 480px---------------*/
+@media screen and (min-width: 480px){
+  body{
+    width: 480px;
+  }
+}
+
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px){
+  body{
+    background-image: url('/images/background.png');
+    background-repeat: repeat;
+    width:768px;
+    .postTitle{
+      font-size:30px;
+    }
+    .postPublished{
+      font-size:15px;
+    }
+    .postAuthor{
+      font-size:20px;
+    }
+    .audiojs{
+      width:420px;
+      height:36px;
+      .scrubber{
+        width:245px;
+      }
+    }
+  }
+}
+
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px){
+  body{
+    width:990px;
+    .postTitle{
+      font-size:35px;
+    }
+  }
+}
+
+/*---------------Desktop Width: 1200px---------------*/
+@media screen and (min-width: 1200px){
+
+}

@@ -3,5 +3,5 @@ role: Host
 name: Spencer Carney
 site: http://indestructibleart.com
 twitter: SpencerCarnage
-location: Silver Lake
+location: Echo Park
 = yaml =

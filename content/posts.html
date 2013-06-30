@@ -5,11 +5,11 @@ title: Articles
 <div>
   {{#content.posts}}
     <div class="articles">
-      <a href="{{url}}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-      <p class='postPublished'>{{ date }}</p>
+      <a href="{{ url }}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
+      <p class='postPublished'>{{ date.toDateString }}</p>
       <p class='postAuthor'>By: {{ author }}</p>
       <hr>
-      <a href="{{url}}" class='postTitleLink'><p class='postread'>Read More...</p></a>
+      <a href="{{ url }}" class='postTitleLink'><p class='postread'>Read More...</p></a>
     </div>
   {{/content.posts}}
 </div>

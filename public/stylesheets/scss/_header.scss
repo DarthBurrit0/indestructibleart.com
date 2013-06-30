@@ -1,0 +1,176 @@
+
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px){
+  body{
+    header{
+      margin: auto;
+      position:relative;
+      border:1px solid transparent;
+      width:320px;
+      background-color: white;
+      .logo{
+        .headerimg{
+          display:none;
+        }
+        a{
+          text-decoration: none;
+        }
+      }
+      #motto{
+        font-family: 'Fjalla One', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        -webkit-margin-before: 15px;
+        -webkit-margin-after: 15px;
+        color:black;
+        font-size:1.5em;
+        span{
+          color: #969696;
+        }
+      }
+      .header_nav{
+        width:320px;
+        text-align: center;
+        border-bottom: 1px solid black;
+        .page_links{
+          -webkit-padding-start: 0px;
+          -webkit-padding-end: 0px;
+          text-align: center;
+          li{
+            display:inline;
+            font-family: 'Fjalla One', sans-serif;
+            list-style:none;
+            border-radius:2px;
+            font-size: 1em;
+            color: black;
+            padding: 1px 3px 0px 3px;
+            margin: 0px 2px -2px 2px;
+            -webkit-transition: background .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out;
+            -o-transition: background .5s ease-in-out;
+            transition: background .5s ease-in-out;
+            a{
+              display:inline;
+              text-decoration:none;
+              color:black;
+            }
+            &:hover{
+              background-color:#DCDCDC;
+            }
+          }
+        }
+        .social_links{
+          display:none;
+        }
+      }
+    }
+  }
+}
+
+/*---------------Mobile Landscape Width: 480px---------------*/
+@media screen and (min-width: 480px){
+  body{
+    header{
+      width:480px;
+      .header_nav{
+        width:480px;
+        .page_links{
+          li{
+            float:left;
+          }
+        }
+        .social_links{
+          display:inline;
+          li{
+            float:right;
+            list-style:none;
+            font-size:1em;
+            color: black;
+            padding: 1px 3px 0px 3px;
+            a{
+              text-decoration:none;
+            }
+            img{
+              height:12px;
+              width:12px;
+              padding:5px;
+              background-color:#A9A9A9;
+              border-radius:2px;
+              -webkit-transition: background .5s ease-in-out;
+              -moz-transition: background .5s ease-in-out;
+              -o-transition: background .5s ease-in-out;
+              transition: background .5s ease-in-out;
+              &:hover{
+                background-color:#778899;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px){
+  body{
+    header{
+      width:768px;
+      background-color:transparent;
+      .logo{
+        .headerimg{
+          height:120px;
+          -webkit-margin-before: -15px;
+          -webkit-margin-start: 15px;
+          padding-top: 10px;
+          display:block;
+          float:left;
+        }
+        #motto{
+          font-size:4.1em;
+          padding-top:15px;
+        }
+      }
+      .header_nav{
+        width:768px;
+        .page_links{
+          li{
+            font-size: 1.5em;
+          }
+        }
+        .social_links{
+          img{
+            height:15px;
+            width:15px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px){
+  body{
+    header{
+      width:990px;
+      .logo{
+        .headerimg{
+          height:150px;
+        }
+        #motto{
+          font-size:4.6em;
+        }
+      }
+      .header_nav{
+        width:990px;
+      }
+    }
+  }
+}
+
+/*---------------Desktop Width: 1200px---------------*/
+@media screen and (min-width: 1200px){
+
+}
