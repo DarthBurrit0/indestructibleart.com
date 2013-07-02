@@ -14,7 +14,7 @@ layout: video
 </div>
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
-<p class='postPublished'>{{ page.date }}</p>
+<p class='postPublished'>{{ page.date.toDateString }}</p>
 <p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 <p class='podcastSummary'>{{ page.subtitle }}</p>

@@ -7,7 +7,7 @@ layout: articles
 = yaml =
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
-<p class='postPublished'>{{ page.date }}</p>
+<p class='postPublished'>{{ page.date.toDateString }}</p>
 <p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 <h2>Here are the trailers I am most excited for from Microsoft's E3 Press Event:</h2>
