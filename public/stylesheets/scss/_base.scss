@@ -56,12 +56,13 @@
     }
     #disqus_thread{
       width:85%;
+      max-width: 990px;
       padding:3%;
       margin:auto;
       margin-top:5px;
       margin-bottom:15px;
-      border:1px solid black;
-      border-radius:2px;
+      border:1px solid transparent;
+      box-shadow: 2px 2px 2px;
       background-color: white;
     }
     .vid_container{
