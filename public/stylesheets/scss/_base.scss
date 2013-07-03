@@ -1,13 +1,13 @@
 
 //@import "compass/css3";
-//@import "compass/reset";
+//@import "reset";
 
 /*---------------Mobile Portrait Width: 320px---------------*/
 @media screen and (min-width: 320px){
   body{
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+    background-color: hsla(180, 25%, 38%, 1);
     margin:auto;
-    width:320px;
+    width:100%px;
     .group:after{
       content: "";
       display: table;
@@ -90,17 +90,12 @@
 
 /*---------------Mobile Landscape Width: 480px---------------*/
 @media screen and (min-width: 480px){
-  body{
-    width: 480px;
-  }
+
 }
 
 /*---------------Tablet Portrait Width: 768px---------------*/
 @media screen and (min-width: 768px){
   body{
-    background-image: url('/images/background.png');
-    background-repeat: repeat;
-    width:768px;
     .postTitle{
       font-size:30px;
     }
@@ -123,7 +118,6 @@
 /*---------------Tablet Landscape Width: 1024px---------------*/
 @media screen and (min-width: 1024px){
   body{
-    width:990px;
     .postTitle{
       font-size:35px;
     }

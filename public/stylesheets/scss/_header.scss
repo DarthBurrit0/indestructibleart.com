@@ -1,50 +1,43 @@
+@import "reset";
 
 /*---------------Mobile Portrait Width: 320px---------------*/
 @media screen and (min-width: 320px){
   body{
     header{
-      margin: auto;
+      margin-top: -50px;
       position:relative;
-      border:1px solid transparent;
-      width:320px;
-      background-color: white;
+      width:100%;
+      background-color: hsla(180, 25%, 50%, 1);
       .logo{
-        .headerimg{
-          display:none;
-        }
         a{
           text-decoration: none;
         }
       }
       #motto{
+        padding-top: 15px;
         font-family: 'Fjalla One', sans-serif;
         font-weight: bolder;
         text-align: center;
-        -webkit-margin-before: 15px;
-        -webkit-margin-after: 15px;
         color:black;
-        font-size:1.5em;
+        font-size:2.3em;
         span{
-          color: #969696;
+          color: #696969;
         }
       }
       .header_nav{
+        margin: -40px auto 0;
         width:320px;
         text-align: center;
-        border-bottom: 1px solid black;
         .page_links{
-          -webkit-padding-start: 0px;
-          -webkit-padding-end: 0px;
           text-align: center;
           li{
             display:inline;
             font-family: 'Fjalla One', sans-serif;
             list-style:none;
             border-radius:2px;
-            font-size: 1em;
+            font-size: 1.5em;
             color: black;
             padding: 1px 3px 0px 3px;
-            margin: 0px 2px -2px 2px;
             -webkit-transition: background .5s ease-in-out;
             -moz-transition: background .5s ease-in-out;
             -o-transition: background .5s ease-in-out;
@@ -71,7 +64,9 @@
 @media screen and (min-width: 480px){
   body{
     header{
-      width:480px;
+      #motto{
+        font-size:3em;
+      }
       .header_nav{
         width:480px;
         .page_links{
@@ -84,15 +79,13 @@
           li{
             float:right;
             list-style:none;
-            font-size:1em;
-            color: black;
             padding: 1px 3px 0px 3px;
             a{
               text-decoration:none;
             }
             img{
-              height:12px;
-              width:12px;
+              height:15px;
+              width:15px;
               padding:5px;
               background-color:#A9A9A9;
               border-radius:2px;
@@ -115,33 +108,30 @@
 @media screen and (min-width: 768px){
   body{
     header{
-      width:768px;
-      background-color:transparent;
+      margin-top: -65px;
       .logo{
         .headerimg{
-          height:120px;
-          -webkit-margin-before: -15px;
-          -webkit-margin-start: 15px;
-          padding-top: 10px;
+          height:75px;
           display:block;
           float:left;
         }
         #motto{
           font-size:4.1em;
-          padding-top:15px;
         }
       }
       .header_nav{
+        margin: -60px auto 0;
         width:768px;
         .page_links{
           li{
-            font-size: 1.5em;
+            font-size: 1.8em;
           }
         }
         .social_links{
           img{
-            height:15px;
-            width:15px;
+            margin-bottom: -15px;
+            height:30px;
+            width:30px;
           }
         }
       }
@@ -154,13 +144,12 @@
 @media screen and (min-width: 1024px){
   body{
     header{
-      width:990px;
       .logo{
         .headerimg{
-          height:150px;
+          height:75px;
         }
         #motto{
-          font-size:4.6em;
+          padding-top: 10px;
         }
       }
       .header_nav{
