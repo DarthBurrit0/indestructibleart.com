@@ -1,0 +1,56 @@
+
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px){
+
+}
+
+/*---------------Mobile Landscape Width: 480px---------------*/
+@media screen and (min-width: 480px){
+
+}
+
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px){
+
+}
+
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px){
+  body{
+    .latest-container{
+      border: 1px solid magenta;
+      margin: auto;
+      width: 900px;
+      padding: 20px;
+      .latest{
+        margin: 0 20px 0 20px;
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+        border: 1px solid transparent;
+        box-shadow: 2px 2px 2px black;
+        background-image: url("/images/ia-latest.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+        .postTitle{
+          font-weight: normal;
+          font-size: 1.5em;
+          color: red;
+          text-align: center;
+        }
+        .postPublished{
+          font-weight: normal;
+          font-size: 1.2em;
+          color: red;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+/*---------------Desktop Width: 1200px---------------*/
+@media screen and (min-width: 1200px){
+
+}

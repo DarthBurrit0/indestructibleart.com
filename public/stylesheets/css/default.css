@@ -1,4 +1,4 @@
-body ul {
+body nav ul {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
@@ -249,6 +249,43 @@ body ul {
 @media screen and (min-width: 1024px) {
   body .postTitle {
     font-size: 35px;
+  }
+}
+/*---------------Desktop Width: 1200px---------------*/
+/*---------------Mobile Portrait Width: 320px---------------*/
+/*---------------Mobile Landscape Width: 480px---------------*/
+/*---------------Tablet Portrait Width: 768px---------------*/
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px) {
+  body .latest-container {
+    border: 1px solid magenta;
+    margin: auto;
+    width: 900px;
+    padding: 20px;
+  }
+  body .latest-container .latest {
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px black;
+    background-image: url("/images/ia-latest.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+  }
+  body .latest-container .latest .postTitle {
+    font-weight: normal;
+    font-size: 1.5em;
+    color: red;
+    text-align: center;
+  }
+  body .latest-container .latest .postPublished {
+    font-weight: normal;
+    font-size: 1.2em;
+    color: red;
+    text-align: center;
   }
 }
 /*---------------Desktop Width: 1200px---------------*/
