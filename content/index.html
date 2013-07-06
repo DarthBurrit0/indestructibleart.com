@@ -2,6 +2,19 @@
 title: Hi
 = yaml =
 
+<div class='latest-container'>
+  <div class='latest-header'>
+    <p>Latest Podcasts:</p>
+  </div>
+  {{#content.latest}}
+    <a href="{{ url }}" target="_blank">
+      <div class='latest'>
+        <p class='postTitle'>{{ title }}</p>
+        <p class='postPublished'>{{ date.toDateString }}</p>
+      </div>
+    </a>
+  {{/content.latest}}
+</div>
 <div>
   {{#content.posts}}
     <div class="articles">
@@ -13,24 +26,4 @@ title: Hi
       <a href="{{ url }}" class='postTitleLink'><p class='postread'>Read More...</p></a>
     </div>
   {{/content.posts}}
-  {{#content.episodes}}
-    <div class='audios'>
-      <a href="{{ url }}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-      <p class='postPublished'>{{ date.toDateString }}</p>
-      <p class='postAuthor'>By: {{ author }}</p>
-      <hr>
-      <p class='podcastSummary'>{{ subtitle }}</p>
-      <a href="{{ url }}" class='postTitleLink'><p class='postread'>Read More...</p></a>
-    </div>
-  {{/content.episodes}}
-  {{#content.videos}}
-    <div class="videos">
-      <a href="{{ url }}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-      <p class='postPublished'>{{ date.toDateString }}</p>
-      <p class='postAuthor'>By: {{ author }}</p>
-      <hr>
-      <p class='podcastSummary'>{{ subtitle }}</p>
-      <a href="{{ url }}" class='postTitleLink'><p class='postread'>Read More...</p></a>
-    </div>
-  {{/content.videos}}
 </div>

@@ -253,18 +253,32 @@ body nav ul {
 }
 /*---------------Desktop Width: 1200px---------------*/
 /*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body .latest-container {
+    display: none;
+  }
+}
 /*---------------Mobile Landscape Width: 480px---------------*/
 /*---------------Tablet Portrait Width: 768px---------------*/
-/*---------------Tablet Landscape Width: 1024px---------------*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+  body .latest-header {
+    background-color: snow;
+    width: 155px;
+    box-shadow: 2px 2px 2px black;
+  }
+  body .latest-header p {
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 2px;
+  }
   body .latest-container {
-    border: 1px solid magenta;
+    display: inherit;
     margin: auto;
-    width: 900px;
+    width: 700px;
     padding: 20px;
   }
   body .latest-container .latest {
-    margin: 0 20px 0 20px;
+    text-decoration: none;
     padding: 10px;
     width: 150px;
     height: 150px;
@@ -278,14 +292,26 @@ body nav ul {
   body .latest-container .latest .postTitle {
     font-weight: normal;
     font-size: 1.5em;
-    color: red;
+    color: #191970;
     text-align: center;
+    padding-top: 15px;
   }
   body .latest-container .latest .postPublished {
     font-weight: normal;
     font-size: 1.2em;
-    color: red;
+    color: #191970;
     text-align: center;
+  }
+}
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px) {
+  body .latest-container {
+    width: 990px;
+  }
+  body .latest-container .latest {
+    margin: 0 33px 0 33px;
+    width: 155px;
+    height: 155px;
   }
 }
 /*---------------Desktop Width: 1200px---------------*/
