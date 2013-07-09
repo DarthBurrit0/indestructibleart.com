@@ -14,11 +14,7 @@
       padding:3%;
       .articleSection{
         border: 1px solid transparent;
-      }
-      .articlesImgCenter{
-        width:100%;
-        margin:auto;
-        position:relative;
+        margin: 1px;
       }
       .slugline{
         font-family: 'Fjalla One', sans-serif;
@@ -47,6 +43,12 @@
         font-family: Times;
         background-color: white;
         padding: 15px;
+      }
+      .articlesImgCenter{
+        width:100%;
+        margin:auto;
+        position:relative;
+        padding: 10px 0px;
       }
       .articlesImgLeft{
         width:100%;
@@ -119,13 +121,13 @@
           width:40%;
           float:left;
           position:relative;
-          //clear:left;
+          padding:5px 10px 5px 0px;
         }
         .articlesImgRight{
           width:40%;
           float:right;
           position:relative;
-          //clear:right;
+          padding: 5px 0px 5px 10px;
         }
       }
     }

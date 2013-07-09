@@ -266,11 +266,7 @@ body nav ul {
   }
   body .articles .articleSection {
     border: 1px solid transparent;
-  }
-  body .articles .articlesImgCenter {
-    width: 100%;
-    margin: auto;
-    position: relative;
+    margin: 1px;
   }
   body .articles .slugline {
     font-family: 'Fjalla One', sans-serif;
@@ -299,6 +295,12 @@ body nav ul {
     font-family: Times;
     background-color: white;
     padding: 15px;
+  }
+  body .articles .articlesImgCenter {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding: 10px 0px;
   }
   body .articles .articlesImgLeft {
     width: 100%;
@@ -360,11 +362,13 @@ body nav ul {
     width: 40%;
     float: left;
     position: relative;
+    padding: 5px 10px 5px 0px;
   }
   body .articles .articlesImgRight {
     width: 40%;
     float: right;
     position: relative;
+    padding: 5px 0px 5px 10px;
   }
 }
 /*---------------Tablet Landscape Width: 1024px---------------*/
