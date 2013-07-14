@@ -16,23 +16,15 @@
 /*---------------Tablet Portrait Width: 768px---------------*/
 @media screen and (min-width: 768px){
   body{
-    .latest-header{
-      background-color:rgba(255,250,250,1);
-      width: 155px;
-      box-shadow: 2px 2px 2px black;
-      p{
-        font-weight: bolder;
-        font-size: 1.2em;
-        padding: 2px
-      }
-    }
     .latest-container{
+      a{
+        text-decoration: none;
+      }
       display: inherit;
       margin: auto;
       width: 700px;
       padding: 20px;
       .latest{
-        text-decoration: none;
         padding: 10px;
         width: 150px;
         height: 150px;
@@ -42,18 +34,25 @@
         background-repeat: no-repeat;
         background-size: contain;
         display: inline-block;
-        .postTitle{
-          font-weight: normal;
-          font-size: 1.5em;
-          color: #191970;
-          text-align: center;
-          padding-top: 15px;
-        }
-        .postPublished{
-          font-weight: normal;
-          font-size: 1.2em;
-          color: #191970;
-          text-align: center;
+        .lowerthird{
+          position: relative;
+          top: 75px;
+          height: 50%;
+          width: 100%;
+          background-color: hsla(0, 0%, 0%, .6);
+          .postTitle{
+            font-weight: normal;
+            font-size: 1em;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+          }
+          .postPublished{
+            font-weight: normal;
+            font-size: .8em;
+            color: white;
+            text-align: center;
+          }
         }
       }
     }

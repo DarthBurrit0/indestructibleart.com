@@ -261,24 +261,16 @@ body nav ul {
 /*---------------Mobile Landscape Width: 480px---------------*/
 /*---------------Tablet Portrait Width: 768px---------------*/
 @media screen and (min-width: 768px) {
-  body .latest-header {
-    background-color: snow;
-    width: 155px;
-    box-shadow: 2px 2px 2px black;
-  }
-  body .latest-header p {
-    font-weight: bolder;
-    font-size: 1.2em;
-    padding: 2px;
-  }
   body .latest-container {
     display: inherit;
     margin: auto;
     width: 700px;
     padding: 20px;
   }
-  body .latest-container .latest {
+  body .latest-container a {
     text-decoration: none;
+  }
+  body .latest-container .latest {
     padding: 10px;
     width: 150px;
     height: 150px;
@@ -289,17 +281,24 @@ body nav ul {
     background-size: contain;
     display: inline-block;
   }
-  body .latest-container .latest .postTitle {
+  body .latest-container .latest .lowerthird {
+    position: relative;
+    top: 75px;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  body .latest-container .latest .lowerthird .postTitle {
     font-weight: normal;
-    font-size: 1.5em;
-    color: #191970;
+    font-size: 1em;
+    color: white;
     text-align: center;
     padding-top: 15px;
   }
-  body .latest-container .latest .postPublished {
+  body .latest-container .latest .lowerthird .postPublished {
     font-weight: normal;
-    font-size: 1.2em;
-    color: #191970;
+    font-size: .8em;
+    color: white;
     text-align: center;
   }
 }

@@ -6,8 +6,10 @@ title: Hi
   {{#content.latest}}
     <a href="{{ url }}" target="_blank">
       <div class='latest'>
-        <p class='postTitle'>{{ title }}</p>
-        <p class='postPublished'>{{ date.toDateString }}</p>
+        <div class='lowerthird'>
+          <p class='postTitle'>{{ title }}</p>
+          <p class='postPublished'>{{ date.toDateString }}</p>
+        </div>
       </div>
     </a>
   {{/content.latest}}
