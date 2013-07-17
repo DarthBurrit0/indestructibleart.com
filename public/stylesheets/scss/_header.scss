@@ -9,11 +9,14 @@
       width:100%;
       background-color: hsla(180, 25%, 50%, 1);
       .logo{
+        z-index: 1;
         a{
           text-decoration: none;
+          z-index: 1;
         }
       }
       #motto{
+        z-index: 1;
         padding-top: 15px;
         font-family: 'Fjalla One', sans-serif;
         font-weight: bolder;
@@ -24,18 +27,23 @@
           color: #696969;
         }
       }
+      .stickyHolder_js{
+        z-index: 5;
+      }
       .header_nav{
+        z-index: 5;
         margin: -40px auto 0;
         width:320px;
         text-align: center;
         .page_links{
           text-align: center;
           li{
+            z-index: 5;
             display:inline;
             font-family: 'Fjalla One', sans-serif;
             list-style:none;
             border-radius:2px;
-            font-size: 1.5em;
+            font-size: 1.2em;
             color: black;
             padding: 1px 3px 0px 3px;
             -webkit-transition: background .5s ease-in-out;
@@ -82,7 +90,7 @@
           li{
             float:right;
             list-style:none;
-            padding: 1px 3px 0px 3px;
+            padding: 1px 2px 0px 2px;
             a{
               text-decoration:none;
             }

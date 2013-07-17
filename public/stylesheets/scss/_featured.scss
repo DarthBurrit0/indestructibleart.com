@@ -2,9 +2,16 @@
 /*---------------Mobile Portrait Width: 320px---------------*/
 @media screen and (min-width: 320px){
   body{
-    .latest-container{
-      display: none;
-      width: 48%;
+    #features{
+      background-color: rgba(255,250,250,1);
+      border:1px solid transparent;
+      box-shadow: 2px 2px 2px;
+      margin: auto;
+      width:85%;
+      padding:0 3% 3% 3%;
+      margin-top:5px;
+    }
+    .featured-container{
       a{
         text-decoration: none;
       }
@@ -17,7 +24,7 @@
           text-align: center;
         }
       }
-      .latest{
+      .featured{
         list-style: none;
         min-height: 70px;
         background-color: hsla(0, 0%, 0%, .4);
@@ -46,16 +53,19 @@
 /*---------------Tablet Portrait Width: 768px---------------*/
 @media screen and (min-width: 768px){
   body{
-    .latest-container{
-      float: left;
-      display: inherit;
+    #features{
+      max-width: 990px;
+    }
+    .featured-container{
+      float: right;
+      width: 48%;
     }
   }
 }
 
 /*---------------Tablet Landscape Width: 1024px---------------*/
 @media screen and (min-width: 1024px){
-
+  
 }
 
 /*---------------Desktop Width: 1200px---------------*/
