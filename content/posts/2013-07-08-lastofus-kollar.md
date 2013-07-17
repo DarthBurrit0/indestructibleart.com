@@ -1,4 +1,5 @@
 = yaml =
+number: /posts/2013-07-08-lastofus-kollar
 title: "Some Thoughts on The Last of Us and Philip Kollar's 7.5 Polygon Review (Updated)"
 author: "Evan Campbell"
 date: 2013-07-08
