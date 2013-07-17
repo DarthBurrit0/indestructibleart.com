@@ -2,19 +2,38 @@
 title: Hi
 = yaml =
 
-<div class='latest-container'>
-  {{#content.latest}}
-    <a href="/episodes/{{ page.number }}.html" target="_blank">
-      <div class='latest'>
-        <div class='lowerthird'>
-          <p class='postTitle'>{{ title }}</p>
-          <p class='postPublished'>{{ date.toDateString }}</p>
-        </div>
-      </div>
-    </a>
-  {{/content.latest}}
+<div id='features' class='group'>
+  <div class='latest-container group'>
+    <ul>
+      <li class='listheader'><p>Latest Podcasts</p></li>
+      {{#content.latest}}
+        <a href="{{ number }}">
+          <li class='latest'>
+            <p class='postTitle'>{{ title }}</p>
+            <p class='postPublished'>{{ date.toDateString }}</p>
+          </li>
+        </a>
+      {{/content.latest}}
+    </ul>
+  </div>
+  <div class='featured-container group'>
+    <ul>
+      <li class='listheader'><p>Featured Posts</p></li>
+      {{#content.featured}}
+        <a href="{{ number }}">
+          <li class='featured'>
+            <style type="text/css">
+              li{ background-image:url("{{featuredimg}}"); }
+            </style>
+            <p class='postTitle'>{{ title }}</p>
+            <p class='postPublished'>{{ date.toDateString }}</p>
+          </li>
+        </a>
+      {{/content.featured}}
+    </ul>
+  </div>
 </div>
-<div>
+<div class='group'>
   {{#content.posts}}
     <div class="articles">
       <a href="{{ url }}" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
