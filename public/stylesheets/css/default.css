@@ -1,0 +1,572 @@
+body nav ul, body #features ul {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body header {
+    margin-top: -50px;
+    position: relative;
+    width: 100%;
+    background-color: #609f9f;
+  }
+  body header .logo {
+    z-index: 1;
+  }
+  body header .logo a {
+    text-decoration: none;
+    z-index: 1;
+  }
+  body header #motto {
+    z-index: 1;
+    padding-top: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    font-size: 2.3em;
+  }
+  body header #motto span {
+    color: #696969;
+  }
+  body header .stickyHolder_js {
+    z-index: 5;
+  }
+  body header .header_nav {
+    z-index: 5;
+    margin: -40px auto 0;
+    width: 320px;
+    text-align: center;
+  }
+  body header .header_nav .page_links {
+    text-align: center;
+  }
+  body header .header_nav .page_links li {
+    z-index: 5;
+    display: inline;
+    font-family: 'Fjalla One', sans-serif;
+    list-style: none;
+    border-radius: 2px;
+    font-size: 1.2em;
+    color: black;
+    padding: 1px 3px 0px 3px;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+  }
+  body header .header_nav .page_links li a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+  }
+  body header .header_nav .page_links li:hover {
+    background-color: #DCDCDC;
+  }
+  body header .header_nav .social_links {
+    display: none;
+  }
+}
+/*---------------Mobile Landscape Width: 480px---------------*/
+@media screen and (min-width: 480px) {
+  body header {
+    margin-top: -60px;
+  }
+  body header #motto {
+    padding-top: 10px;
+    font-size: 3.2em;
+  }
+  body header .header_nav {
+    margin: -60px auto 0;
+    width: 480px;
+  }
+  body header .header_nav .page_links li {
+    float: left;
+  }
+  body header .header_nav .social_links {
+    display: inline;
+  }
+  body header .header_nav .social_links li {
+    float: right;
+    list-style: none;
+    padding: 1px 2px 0px 2px;
+  }
+  body header .header_nav .social_links li a {
+    text-decoration: none;
+  }
+  body header .header_nav .social_links li img {
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+    background-color: #A9A9A9;
+    border-radius: 2px;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+  }
+  body header .header_nav .social_links li img:hover {
+    background-color: #778899;
+  }
+}
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px) {
+  body header {
+    margin-top: -95px;
+  }
+  body header .logo #motto {
+    font-size: 5.3em;
+  }
+  body header .header_nav {
+    margin: -100px auto 0;
+    width: 685px;
+  }
+  body header .header_nav .page_links li {
+    font-size: 1.8em;
+    padding-right: 10px;
+  }
+  body header .header_nav .social_links img {
+    margin-bottom: -15px;
+    height: 30px;
+    width: 30px;
+  }
+}
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px) {
+  body header {
+    margin-top: -120px;
+  }
+  body header .logo #motto {
+    font-size: 7.5em;
+  }
+  body header .header_nav {
+    margin: -130px auto 0;
+    width: 990px;
+  }
+}
+/*---------------Desktop Width: 1200px---------------*/
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body {
+    background-color: #497979;
+    margin: auto;
+    width: 100%px;
+    background-attachment: fixed;
+    font-family: Georgia, sans-serif;
+  }
+  body .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  body .stuck_js {
+    position: fixed;
+    top: 0px;
+    z-index: 30;
+  }
+  body .audiojs {
+    margin: 10px 0px 0px 0px;
+  }
+  body .content {
+    z-index: 10;
+  }
+  body .postTitle {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    font-weight: bolder;
+  }
+  body .postPublished {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 10px;
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 0px;
+    font-weight: bolder;
+  }
+  body .postAuthor {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 0px;
+    font-weight: bolder;
+  }
+  body .postTitleLink {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+  body .postread {
+    font-weight: bold;
+    color: black;
+    text-align: right;
+  }
+  body #disqus_thread {
+    width: 85%;
+    max-width: 990px;
+    padding: 3%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px;
+    background-color: white;
+  }
+  body .vid_container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 56%;
+  }
+  body .vid_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  body .audiojs {
+    width: 265px;
+    height: 36px;
+  }
+  body .audiojs .scrubber {
+    width: 90px;
+  }
+}
+/*---------------Mobile Landscape Width: 480px---------------*/
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px) {
+  body .postTitle {
+    font-size: 30px;
+  }
+  body .postPublished {
+    font-size: 15px;
+  }
+  body .postAuthor {
+    font-size: 20px;
+  }
+  body .audiojs {
+    width: 420px;
+    height: 36px;
+  }
+  body .audiojs .scrubber {
+    width: 245px;
+  }
+}
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px) {
+  body .postTitle {
+    font-size: 35px;
+  }
+}
+/*---------------Desktop Width: 1200px---------------*/
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body .latest-container {
+    display: none;
+    width: 48%;
+  }
+  body .latest-container a {
+    text-decoration: none;
+  }
+  body .latest-container .listheader {
+    list-style: none;
+  }
+  body .latest-container .listheader p {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  body .latest-container .latest {
+    list-style: none;
+    min-height: 70px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    border: 1px solid black;
+  }
+  body .latest-container .latest .postTitle {
+    font-weight: normal;
+    font-size: 1.2em;
+    color: white;
+  }
+  body .latest-container .latest .postPublished {
+    font-weight: normal;
+    font-size: 1em;
+    color: white;
+  }
+}
+/*---------------Mobile Landscape Width: 480px---------------*/
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px) {
+  body .latest-container {
+    float: left;
+    display: inherit;
+  }
+}
+/*---------------Tablet Landscape Width: 1024px---------------*/
+/*---------------Desktop Width: 1200px---------------*/
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body #features {
+    background-color: snow;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px;
+    margin: auto;
+    width: 85%;
+    padding: 0 3% 3% 3%;
+    margin-top: 5px;
+  }
+  body .featured-container a {
+    text-decoration: none;
+  }
+  body .featured-container .listheader {
+    list-style: none;
+  }
+  body .featured-container .listheader p {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  body .featured-container .featured {
+    list-style: none;
+    min-height: 70px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    border: 1px solid black;
+  }
+  body .featured-container .featured .postTitle {
+    font-weight: normal;
+    font-size: 1.2em;
+    color: white;
+  }
+  body .featured-container .featured .postPublished {
+    font-weight: normal;
+    font-size: 1em;
+    color: white;
+  }
+}
+/*---------------Mobile Landscape Width: 480px---------------*/
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px) {
+  body #features {
+    max-width: 990px;
+  }
+  body .featured-container {
+    float: right;
+    width: 48%;
+  }
+}
+/*---------------Tablet Landscape Width: 1024px---------------*/
+/*---------------Desktop Width: 1200px---------------*/
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body .articles {
+    height: auto;
+    width: 85%;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px;
+    background-color: snow;
+    margin: auto;
+    margin-top: 5px;
+    padding: 3%;
+  }
+  body .articles .articleSection {
+    border: 1px solid transparent;
+    margin: 1px;
+  }
+  body .articles .slugline {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+  }
+  body .articles .sluglineCenter {
+    font-family: 'Fjalla One', sans-serif;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  body .articles .sluglineLeft {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    float: left;
+    clear: both;
+  }
+  body .articles blockquote {
+    position: relative;
+    width: 96%;
+    margin: 5px auto;
+    border: 1px solid black;
+    font-family: Times;
+    background-color: white;
+    padding: 15px;
+  }
+  body .articles .articlesImgCenter {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding: 10px 0px;
+  }
+  body .articles .articlesImgLeft {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  body .articles .articlesImgRight {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  body .articles .flash_container {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  body .articles .flash_container object {
+    margin: auto;
+    text-align: center;
+  }
+  body .articles h4, body .articles h3, body .articles h1 {
+    font-family: helvetica;
+  }
+  body .articles ul li {
+    font-size: 1em;
+  }
+  body .articles ul li a {
+    font-weight: bold;
+    color: blue;
+  }
+  body .articles table {
+    background-color: #FFFAFA;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  body .articles table a {
+    color: blue;
+    text-decoration: none;
+  }
+  body .articles table thead tr {
+    border-bottom: 1px solid black;
+  }
+  body .articles table td {
+    border: 1px solid black;
+  }
+  body .articles table .tableOdd {
+    background-color: #FFF8DC;
+  }
+}
+/*---------------Mobile Landscape Width: 480px---------------*/
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px) {
+  body .articles {
+    max-width: 990px;
+  }
+  body .articles .articlesImgLeft {
+    display: inline-block;
+    width: 40%;
+    float: left;
+    position: relative;
+    padding: 5px 10px 5px 0px;
+  }
+  body .articles .articlesImgRight {
+    width: 40%;
+    float: right;
+    position: relative;
+    padding: 5px 0px 5px 10px;
+  }
+}
+/*---------------Tablet Landscape Width: 1024px---------------*/
+/*---------------Desktop Width: 1200px---------------*/
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body .audios {
+    height: auto;
+    width: 85%;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px;
+    background-color: snow;
+    margin: auto;
+    margin-top: 5px;
+    padding: 3%;
+  }
+  body .audios img {
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    float: right;
+  }
+  body .audios h4, body .audios h3, body .audios h1 {
+    font-family: helvetica;
+  }
+  body .audios ul li {
+    font-size: 1em;
+  }
+  body .audios ul li a {
+    font-weight: bold;
+    color: blue;
+  }
+  body .audios .subLinks {
+    font-size: 0.8em;
+  }
+}
+/*---------------Mobile Landscape Width: 480px---------------*/
+/*---------------Tablet Portrait Width: 768px---------------*/
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px) {
+  body .audios {
+    max-width: 990px;
+  }
+}
+/*---------------Desktop Width: 1200px---------------*/
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body .videos {
+    height: auto;
+    width: 85%;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px;
+    background-color: snow;
+    color: black;
+    margin: auto;
+    margin-top: 5px;
+    padding: 3%;
+  }
+  body .videos .postTitle {
+    color: black;
+  }
+  body .videos a {
+    text-decoration: none;
+    color: blue;
+  }
+  body .videos h4, body .videos h3, body .videos h1 {
+    font-family: helvetica;
+  }
+}
+/*---------------Mobile Landscape Width: 480px---------------*/
+/*---------------Tablet Portrait Width: 768px---------------*/
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px) {
+  body .videos {
+    max-width: 990px;
+  }
+}
+/*---------------Desktop Width: 1200px---------------*/
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px) {
+  body footer {
+    height: 25px;
+  }
+}
+/*---------------Mobile Landscape Width: 480px---------------*/
+/*---------------Tablet Portrait Width: 768px---------------*/
+/*---------------Tablet Landscape Width: 1024px---------------*/
+/*---------------Desktop Width: 1200px---------------*/

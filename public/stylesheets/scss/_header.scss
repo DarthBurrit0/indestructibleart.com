@@ -1,0 +1,171 @@
+@import "reset";
+
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px){
+  body{
+    header{
+      margin-top: -50px;
+      position:relative;
+      width:100%;
+      background-color: hsla(180, 25%, 50%, 1);
+      .logo{
+        z-index: 1;
+        a{
+          text-decoration: none;
+          z-index: 1;
+        }
+      }
+      #motto{
+        z-index: 1;
+        padding-top: 15px;
+        font-family: 'Fjalla One', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        color:black;
+        font-size:2.3em;
+        span{
+          color: #696969;
+        }
+      }
+      .stickyHolder_js{
+        z-index: 5;
+      }
+      .header_nav{
+        z-index: 5;
+        margin: -40px auto 0;
+        width:320px;
+        text-align: center;
+        .page_links{
+          text-align: center;
+          li{
+            z-index: 5;
+            display:inline;
+            font-family: 'Fjalla One', sans-serif;
+            list-style:none;
+            border-radius:2px;
+            font-size: 1.2em;
+            color: black;
+            padding: 1px 3px 0px 3px;
+            -webkit-transition: background .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out;
+            -o-transition: background .5s ease-in-out;
+            transition: background .5s ease-in-out;
+            a{
+              display:inline;
+              text-decoration:none;
+              color:black;
+            }
+            &:hover{
+              background-color:#DCDCDC;
+            }
+          }
+        }
+        .social_links{
+          display:none;
+        }
+      }
+    }
+  }
+}
+
+/*---------------Mobile Landscape Width: 480px---------------*/
+@media screen and (min-width: 480px){
+  body{
+    header{
+      margin-top: -60px;
+      #motto{
+        padding-top: 10px;
+        font-size:3.2em;
+      }
+      .header_nav{
+        margin: -60px auto 0;
+        width:480px;
+        .page_links{
+          li{
+            float:left;
+          }
+        }
+        .social_links{
+          display:inline;
+          li{
+            float:right;
+            list-style:none;
+            padding: 1px 2px 0px 2px;
+            a{
+              text-decoration:none;
+            }
+            img{
+              height:15px;
+              width:15px;
+              padding:5px;
+              background-color:#A9A9A9;
+              border-radius:2px;
+              -webkit-transition: background .5s ease-in-out;
+              -moz-transition: background .5s ease-in-out;
+              -o-transition: background .5s ease-in-out;
+              transition: background .5s ease-in-out;
+              &:hover{
+                background-color:#778899;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px){
+  body{
+    header{
+      margin-top: -95px;
+      .logo{
+        #motto{
+          font-size:5.3em;
+        }
+      }
+      .header_nav{
+        margin: -100px auto 0;
+        width:685px;
+        .page_links{
+          li{
+            font-size: 1.8em;
+            padding-right: 10px;
+          }
+        }
+        .social_links{
+          img{
+            margin-bottom: -15px;
+            height:30px;
+            width:30px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px){
+  body{
+    header{
+      margin-top: -120px;
+      .logo{
+        #motto{
+          font-size: 7.5em;
+        }
+      }
+      .header_nav{
+        margin: -130px auto 0;
+        width:990px;
+      }
+    }
+  }
+}
+
+/*---------------Desktop Width: 1200px---------------*/
+@media screen and (min-width: 1200px){
+
+}

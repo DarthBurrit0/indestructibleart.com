@@ -1,14 +1,14 @@
----
-number: "2013-06-11-Beyond2Souls"
+= yaml =
 title: "Beyond: Two Souls"
 author: "Omar de Armas"
-published: 'Tue, 11 JUNE 2013 15:30:00 PDT'
+date: 2013-06-11 17:00:00
+subtitle: "Omar is very confused about what Beyond Two Souls has become."
 layout: articles
----
+= yaml =
 
-<a href="../posts/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date.toDateString }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 <div class="vid_container">
   <iframe frameborder="0" height="315" src="http://www.youtube.com/embed/4NEup8y0g-Q"></iframe>

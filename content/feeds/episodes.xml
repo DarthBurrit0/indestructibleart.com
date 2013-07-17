@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  version="2.0" >
+  version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 
   <channel>
     <title>Indestructible Art</title>
@@ -11,6 +11,7 @@
       type="application/rss+xml" />
     <language>en-us</language>
     <copyright>℗ &amp; © 2011 indestructibleart.com</copyright>
+    <media:copyright>℗ &amp; © 2011 indestructibleart.com</media:copyright>
     <itunes:subtitle>From Pixels to Panels.</itunes:subtitle>
     <itunes:author>Evan Campbell, Ryan Adams, Omar de Armas, &amp; Spencer Carney</itunes:author>
     <itunes:summary>Indestructible Art is a podcast about video games and comic books. Every week Ryan, Evan, Omar, and Spencer discuss news, reviews, and current trends surrounding two of earths greatest mediums.</itunes:summary>
@@ -21,38 +22,39 @@
     </itunes:owner>
     <itunes:image
       href="http://indestructibleart.com/images/podcast-icon.png" />
+    <media:thumbnail url="http://indestructibleart.com/images/podcast-icon.png"></media:thumbnail>
     <itunes:explicit>no</itunes:explicit>
 
     <itunes:category text="Games &amp; Hobbies">
       <itunes:category text="Video Games" />
     </itunes:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Games &amp; Hobbies/Video Games</media:category>
 
     <itunes:category text="Arts">
       <itunes:category text="Visual Arts" />
     </itunes:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Arts/Visual Arts</media:category>
 
-    {{#site}}
-      {{#collections}}
-        {{#episodes}}
-          {{#pages}}
-            <item>
-                <title>{{ title }}</title>
-                <itunes:author>{{ author }}</itunes:author>
-                <itunes:subtitle>{{ subtitle }}</itunes:subtitle>
-                <itunes:summary>{{ summary }}</itunes:summary>
+    <itunes:keywords>Indestructible Art, IA, Evan Campbell, Omar de Armas, Ryan Adams, Spencer Carney, Video Games, Comic Books, Awesome, DC, Marvel, Image, Xbox, Playstation, Nintendo</itunes:keywords>
+    <media:keywords>Indestructible Art, IA, Evan Campbell, Omar de Armas, Ryan Adams, Spencer Carney, Video Games, Comic Books, Awesome, DC, Marvel, Image, Xbox, Playstation, Nintendo</media:keywords>
 
-                <enclosure url="http://indestructibleart.com{{ file }}"
-                  length="{{ length }}"
-                  type="audio/mpeg" />
+    {{#content.episodes}}
+      <item>
+          <title>{{ title }}</title>
+          <itunes:author>{{ author }}</itunes:author>
+          <itunes:subtitle>{{ subtitle }}</itunes:subtitle>
+          <description>{{ subtitle }}</description>
+          <itunes:summary>{{ summary }}</itunes:summary>
 
-                <guid>http://indestructibleart.com{{ file }}</guid>
-                <pubDate>{{ published }}</pubDate>
-                <itunes:duration>{{ duration }}</itunes:duration>
-                <itunes:keywords>{{ tags }}</itunes:keywords>
-            </item>
-          {{/pages}}
-        {{/episodes}}
-      {{/collections}}
-    {{/site}}
+          <enclosure url="http://indestructibleart.com{{ file }}"
+            length="{{ length }}"
+            type="audio/mpeg" />
+
+          <guid>http://indestructibleart.com{{ file }}</guid>
+          <pubDate>{{ date.toUTCString }}</pubDate>
+          <itunes:duration>{{ duration }}</itunes:duration>
+          <itunes:keywords>{{ tags }}</itunes:keywords>
+      </item>
+    {{/content.episodes}}
   </channel>
 </rss>

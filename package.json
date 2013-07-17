@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "indestructibleart.com",
+  "version": "0.0.0",
+  "description": "haiku source code for indestructibleart.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test-*.js",
+    "start": "./node_modules/haiku/bin/haiku server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DarthBurrit0/indestructibleart.com.git"
+  },
+  "keywords": [
+    "nerds",
+    "video",
+    "games",
+    "comics",
+    "more",
+    "nerds"
+  ],
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "77b65ea062ecb04b3ebeb85c27b9ea20822a5a40",
+  "devDependencies": {
+    "mocha": "~1.11.0"
+  },
+  "dependencies": {
+    "haiku": "0.2.2",
+    "beamer": "0.1.0"
+  }
+}

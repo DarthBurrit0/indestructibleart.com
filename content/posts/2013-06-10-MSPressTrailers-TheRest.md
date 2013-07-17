@@ -1,14 +1,14 @@
----
-number: "2013-06-10-MSPressTrailers-TheRest"
+= yaml =
 title: "The Rest of the Trailers at the Microsoft E3 Press Event"
 author: "Omar de Armas"
-published: 'Mon, 10 JUNE 2013 13:30:00 PDT'
+date: 2013-06-10 11:00:00
+subtitle: "Part 2 of a recap of the MS E3 Press Event."
 layout: articles
----
+= yaml =
 
-<a href="../posts/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date.toDateString }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 <h2>Here are the rest of the trailers  from Microsoft's E3 Press Event:</h2>
 

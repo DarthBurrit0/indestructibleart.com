@@ -1,0 +1,64 @@
+
+/*---------------Mobile Portrait Width: 320px---------------*/
+@media screen and (min-width: 320px){
+  body{
+    .latest-container{
+      display: none;
+      width: 48%;
+      a{
+        text-decoration: none;
+      }
+      .listheader{
+        list-style: none;
+        p{
+          font-family: 'Fjalla One', sans-serif;
+          font-weight: bolder;
+          font-size: 1.3em;
+          text-align: center;
+        }
+      }
+      .latest{
+        list-style: none;
+        min-height: 70px;
+        background-color: hsla(0, 0%, 0%, .4);
+        padding: 5px;
+        border: 1px solid black;
+        .postTitle{
+          font-weight: normal;
+          font-size: 1.2em;
+          color: white;
+        }
+        .postPublished{
+          font-weight: normal;
+          font-size: 1em;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+/*---------------Mobile Landscape Width: 480px---------------*/
+@media screen and (min-width: 480px){
+
+}
+
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px){
+  body{
+    .latest-container{
+      float: left;
+      display: inherit;
+    }
+  }
+}
+
+/*---------------Tablet Landscape Width: 1024px---------------*/
+@media screen and (min-width: 1024px){
+
+}
+
+/*---------------Desktop Width: 1200px---------------*/
+@media screen and (min-width: 1200px){
+
+}

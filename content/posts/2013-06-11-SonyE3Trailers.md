@@ -1,14 +1,14 @@
----
-number: "2013-06-11-SonyE3Trailers"
+= yaml =
 title: "A Few Interesting Things From Sony's Press Event"
 author: "Omar de Armas"
-published: 'Tue, 11 JUNE 2013 15:50:00 PDT'
+date: 2013-06-11 15:00:00
+subtitle: "A small recap of what we saw at the Sony E3 Press Event"
 layout: articles
----
+= yaml =
 
-<a href="../posts/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date.toDateString }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 
 <h4>Here's a few of the trailers I found interesting from Sony's Press Event.</h4>

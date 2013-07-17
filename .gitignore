@@ -1,5 +1,6 @@
+node_modules
+.beam
 .DS_Store
-config
 *.tmproj
 public/audio
 build
@@ -8,3 +9,4 @@ build
 Icon
 *.sublime-project
 *.sublime-workspace
+npm-debug.log

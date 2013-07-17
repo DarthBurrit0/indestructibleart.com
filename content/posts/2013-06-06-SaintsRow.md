@@ -1,14 +1,14 @@
----
-number: "2013-06-06-SaintsRow"
+= yaml =
 title: "New Saint's Row 4 Trailer"
 author: "Omar de Armas"
-published: 'Thu, 06 JUNE 2013 23:30:00 PDT'
+date: 2013-06-06 12:00:00
+subtitle: "This new Saints Row 4 trailer is freaking amazing"
 layout: articles
----
+= yaml =
 
-<a href="../posts/{{ number }}.html" class='postTitleLink'><p class='postTitle'>{{ title }}</p></a>
-<p class='postPublished'>{{ published }}</p>
-<p class='postAuthor'>By: {{ author }}</p>
+<a href="{{ page.url}}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
+<p class='postPublished'>{{ page.date.toDateString }}</p>
+<p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
 
 <div class="vid_container">

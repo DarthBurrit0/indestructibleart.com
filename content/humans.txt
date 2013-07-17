@@ -3,12 +3,13 @@
 
 
 /* TEAM */
-{{#nerds}}
+{{#content.nerds}}
   {{ role }}: {{ name }}
   Site: {{ site }}
   Twitter: {{ twitter }}
   Location: {{ location }}
-{{/nerds}}
+  
+{{/content.nerds}}
 
 /* THANKS */
   Names (& URL):
