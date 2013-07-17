@@ -1,4 +1,5 @@
 = yaml =
+number: /interviews/BMuirIndiecade
 source: "52447756"
 title: "Indiecade 2012: Brad Muir"
 date: 2013-02-08
