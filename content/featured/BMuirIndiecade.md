@@ -8,6 +8,7 @@ subtitle: "This video is part of a series of interviews we shot at IndieCade 201
 description: "We caught up with Brad Muir from Double Fine Productions after he moderated the FTL panel to talk about Kinect Party, Kleenex testing, leadership roles, and polar bears that ride giant armor plated tigers? The first part of this action packed interview is about how heart ache and sense of progression make FTL such an awesome game. Then, Brad enlightens us about what's currently happening at Double Fine as well as the studio's transition from being a traditional developer with one large working title to having a series of smaller teams that all work on different titles."
 tags: Indiecade, Brad Muir, Doublefine
 layout: video
+featuredimg: featbmuir.png
 = yaml =
 
 <div class="vid_container">

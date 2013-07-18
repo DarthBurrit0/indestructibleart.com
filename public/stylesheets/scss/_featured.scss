@@ -28,17 +28,21 @@
         list-style: none;
         min-height: 70px;
         background-color: hsla(0, 0%, 0%, .4);
+        background-position: right;
+        background-size: cover;        
         padding: 5px;
         border: 1px solid black;
         .postTitle{
           font-weight: normal;
           font-size: 1.2em;
           color: white;
+          text-shadow: black 2px 2px 2px;
         }
         .postPublished{
           font-weight: normal;
           font-size: 1em;
           color: white;
+          text-shadow: black 2px 2px 2px;
         }
       }
     }

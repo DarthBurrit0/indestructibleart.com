@@ -7,6 +7,7 @@ author: Evan Campbell, Omar de Armas
 subtitle: "Evan, Omar, and Duke play Monaco from PocketWatchGames."
 description: "In this episode of VIDEOGAMES! we play Monaco on Xbox360. This game is super fun and there is sure to be more episodes of Monaco to come."
 layout: video
+featuredimg: featmonaco.png
 = yaml =
 
 <div class="vid_container">
