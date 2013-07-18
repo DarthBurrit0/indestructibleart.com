@@ -5,6 +5,7 @@ author: "Evan Campbell"
 date: 2013-07-08
 subtitle: "I admit, The Last of Us carries a heavy arsenal of cliches that are more than enough to make you cringe, but it doesn't take long for all of the other merits of the game to start shining through. When they do, they shine brightly enough to make you forget you're playing a game. You actually begin to start experiencing something that is slightly terrifying...but by then it's too late..."
 layout: articles
+featuredimg: feattlou.png
 = yaml =
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>

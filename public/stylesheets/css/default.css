@@ -288,11 +288,13 @@ body nav ul, body #features ul {
     font-weight: normal;
     font-size: 1.2em;
     color: white;
+    text-shadow: black 2px 2px 2px;
   }
   body .latest-container .latest .postPublished {
     font-weight: normal;
     font-size: 1em;
     color: white;
+    text-shadow: black 2px 2px 2px;
   }
 }
 /*---------------Mobile Landscape Width: 480px---------------*/
@@ -332,6 +334,8 @@ body nav ul, body #features ul {
     list-style: none;
     min-height: 70px;
     background-color: rgba(0, 0, 0, 0.4);
+    background-position: right;
+    background-size: cover;
     padding: 5px;
     border: 1px solid black;
   }
@@ -339,11 +343,13 @@ body nav ul, body #features ul {
     font-weight: normal;
     font-size: 1.2em;
     color: white;
+    text-shadow: black 2px 2px 2px;
   }
   body .featured-container .featured .postPublished {
     font-weight: normal;
     font-size: 1em;
     color: white;
+    text-shadow: black 2px 2px 2px;
   }
 }
 /*---------------Mobile Landscape Width: 480px---------------*/

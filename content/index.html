@@ -21,7 +21,7 @@ title: Hi
       <li class='listheader'><p>Featured Posts</p></li>
       {{#content.featured}}
         <a href="{{ number }}">
-          <li class='featured' style="{{ featuredimg }}">
+          <li class='featured' style="background-image:url(/images/featured/{{ featuredimg }});">
             <p class='postTitle'>{{ title }}</p>
             <p class='postPublished'>{{ date.toDateString }}</p>
           </li>
