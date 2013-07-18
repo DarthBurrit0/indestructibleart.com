@@ -7,7 +7,7 @@ author: Evan Campbell, Omar de Armas
 subtitle: "Evan, Omar, and Duke play Spelunky from Mossmouth."
 description: "Welcome to our first episode of VIDEOGAMES! Where we play some games and record it. For fun. In this episode we attempt to play Spelunky on Xbox360. Spoiler: It doesn't go well...."
 layout: video
-featuredimg: /images/featspelunky.png
+featuredimg: "background-image:url(/images/featured/featspelunky.png);"
 = yaml =
 
 <div class="vid_container">

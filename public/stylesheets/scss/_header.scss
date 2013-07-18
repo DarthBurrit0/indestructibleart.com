@@ -27,18 +27,16 @@
           color: #696969;
         }
       }
-      .stickyHolder_js{
-        z-index: 5;
-      }
+
       .header_nav{
         z-index: 5;
         margin: -40px auto 0;
         width:320px;
         text-align: center;
         .page_links{
+          z-index: 5;
           text-align: center;
           li{
-            z-index: 5;
             display:inline;
             font-family: 'Fjalla One', sans-serif;
             list-style:none;
@@ -46,17 +44,19 @@
             font-size: 1.2em;
             color: black;
             padding: 1px 3px 0px 3px;
-            -webkit-transition: background .5s ease-in-out;
-            -moz-transition: background .5s ease-in-out;
-            -o-transition: background .5s ease-in-out;
-            transition: background .5s ease-in-out;
+            //-webkit-transition: background .5s ease-in-out;
+            //-moz-transition: background .5s ease-in-out;
+            //-o-transition: background .5s ease-in-out;
+            //transition: background .5s ease-in-out;
             a{
+              z-index: 5;
               display:inline;
               text-decoration:none;
               color:black;
             }
             &:hover{
-              background-color:#DCDCDC;
+              //background-color:#DCDCDC;
+              text-decoration:underline;
             }
           }
         }
@@ -100,10 +100,10 @@
               padding:5px;
               background-color:#A9A9A9;
               border-radius:2px;
-              -webkit-transition: background .5s ease-in-out;
-              -moz-transition: background .5s ease-in-out;
-              -o-transition: background .5s ease-in-out;
-              transition: background .5s ease-in-out;
+              -webkit-transition: background .3s ease-in-out;
+              -moz-transition: background .3s ease-in-out;
+              -o-transition: background .3s ease-in-out;
+              transition: background .3s ease-in-out;
               &:hover{
                 background-color:#778899;
               }
