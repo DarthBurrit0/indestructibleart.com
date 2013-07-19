@@ -4,6 +4,21 @@
   body{
     .latest-container{
       display: none;
+    }
+  }
+}
+
+/*---------------Mobile Landscape Width: 480px---------------*/
+@media screen and (min-width: 480px){
+
+}
+
+/*---------------Tablet Portrait Width: 768px---------------*/
+@media screen and (min-width: 768px){
+  body{
+    .latest-container{
+      float: left;
+      display: inherit;
       width: 48%;
       a{
         text-decoration: none;
@@ -21,6 +36,8 @@
         list-style: none;
         min-height: 70px;
         background-color: hsla(0, 0%, 0%, .4);
+        background-position: right;
+        background-size: cover;
         padding: 5px;
         border: 1px solid black;
         .postTitle{
@@ -36,21 +53,6 @@
           text-shadow: black 2px 2px 2px;
         }
       }
-    }
-  }
-}
-
-/*---------------Mobile Landscape Width: 480px---------------*/
-@media screen and (min-width: 480px){
-
-}
-
-/*---------------Tablet Portrait Width: 768px---------------*/
-@media screen and (min-width: 768px){
-  body{
-    .latest-container{
-      float: left;
-      display: inherit;
     }
   }
 }

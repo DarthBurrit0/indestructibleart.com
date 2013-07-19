@@ -12,7 +12,8 @@ body nav ul, body #features ul {
     margin-top: -50px;
     position: relative;
     width: 100%;
-    background-color: #609f9f;
+    background-color: #086CA2;
+    box-shadow: 1px 1px 2px;
   }
   body header .logo {
     z-index: 1;
@@ -31,7 +32,7 @@ body nav ul, body #features ul {
     font-size: 2.3em;
   }
   body header #motto span {
-    color: #696969;
+    color: #C0C0C0;
   }
   body header .header_nav {
     z-index: 5;
@@ -146,7 +147,7 @@ body nav ul, body #features ul {
 /*---------------Mobile Portrait Width: 320px---------------*/
 @media screen and (min-width: 320px) {
   body {
-    background-color: #497979;
+    background-color: #235B79;
     margin: auto;
     width: 100%px;
     background-attachment: fixed;
@@ -200,7 +201,7 @@ body nav ul, body #features ul {
     text-align: right;
   }
   body #disqus_thread {
-    width: 85%;
+    width: 90%;
     max-width: 990px;
     padding: 3%;
     margin: auto;
@@ -263,7 +264,7 @@ body nav ul, body #features ul {
 @media screen and (min-width: 320px) {
   body .videos {
     height: auto;
-    width: 85%;
+    width: 90%;
     border: 1px solid transparent;
     box-shadow: 2px 2px 2px;
     background-color: snow;
@@ -277,7 +278,7 @@ body nav ul, body #features ul {
   }
   body .videos a {
     text-decoration: none;
-    color: blue;
+    color: black;
   }
   body .videos h4, body .videos h3, body .videos h1 {
     font-family: helvetica;

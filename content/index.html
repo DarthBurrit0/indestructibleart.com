@@ -8,7 +8,7 @@ title: Hi
       <li class='listheader'><p>Latest Podcasts</p></li>
       {{#content.latest}}
         <a href="{{ number }}" target="_blank">
-          <li class='latest'>
+          <li class='latest' style="background-image:url(/images/featured/{{ featuredimg }});">
             <p class='postTitle'>{{ title }}</p>
             <p class='postPublished'>{{ date.toDateString }}</p>
           </li>
