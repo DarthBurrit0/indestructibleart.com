@@ -1,11 +1,3 @@
-body nav ul, body #features ul {
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 0px;
-}
-
 /*---------------Mobile Portrait Width: 320px---------------*/
 @media screen and (min-width: 320px) {
   body header {
@@ -144,6 +136,14 @@ body nav ul, body #features ul {
   }
 }
 /*---------------Desktop Width: 1200px---------------*/
+body nav ul, body #features ul {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
 /*---------------Mobile Portrait Width: 320px---------------*/
 @media screen and (min-width: 320px) {
   body {
