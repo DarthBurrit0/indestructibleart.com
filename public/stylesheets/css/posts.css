@@ -320,6 +320,11 @@ body nav ul, body #features ul {
     margin: auto;
     position: relative;
   }
+  body .articles .articlesCover {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
   body .articles .flash_container {
     margin: auto;
     padding: 10px;
@@ -377,6 +382,13 @@ body nav ul, body #features ul {
     float: right;
     position: relative;
     padding: 5px 0px 5px 10px;
+  }
+  body .articles .articlesCover {
+    display: inline-block;
+    width: 15%;
+    float: left;
+    position: relative;
+    padding: 5px 10px 5px 0px;
   }
 }
 /*---------------Tablet Landscape Width: 1024px---------------*/

@@ -59,6 +59,11 @@
         margin:auto;
         position:relative;
       }
+      .articlesCover{
+        width:100%;
+        margin:auto;
+        position:relative;
+      }
       .flash_container{
         object{
           margin:auto;
@@ -127,6 +132,13 @@
           float:right;
           position:relative;
           padding: 5px 0px 5px 10px;
+        }
+        .articlesCover{
+          display: inline-block;
+          width:15%;
+          float:left;
+          position:relative;
+          padding:5px 10px 5px 0px;
         }
       }
     }
