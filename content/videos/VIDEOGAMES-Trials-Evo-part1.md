@@ -1,5 +1,5 @@
 = yaml =
-number: /videos/VIDEOGAMES-Trials-Evo-part1
+number: /videos/VIDEOGAMES-Trials-Evo-part1.html
 source: szS5AhTRIf0
 title: "VIDEOGAMES! Trials Evolution Part 1"
 date: 2013-08-05
