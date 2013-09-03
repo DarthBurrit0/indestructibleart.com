@@ -1,5 +1,5 @@
 = yaml =
-number: /videos/VIDEOGAMES-Monaco-part1
+number: /videos/VIDEOGAMES-Monaco-part1.html
 source: OUTvsikMGk
 title: "VIDEOGAMES! Monaco Part 1"
 date: 2013-07-15 13:00:00 PST

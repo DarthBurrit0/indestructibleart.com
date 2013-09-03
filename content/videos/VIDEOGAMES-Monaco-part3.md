@@ -1,7 +1,7 @@
 = yaml =
-number: /videos/VIDEOGAMES-Monaco-part2.html
-source: 0idYAqHSG18
-title: "VIDEOGAMES! Monaco Part 2"
+number: /videos/VIDEOGAMES-Monaco-part3.html
+source: bpk0dtdWpT8
+title: "VIDEOGAMES! Monaco Part 3"
 date: 2013-07-28 PST
 author: Evan Campbell, Omar de Armas
 subtitle: "Evan, Omar, and Duke play Monaco from PocketWatchGames."

@@ -1,5 +1,5 @@
 = yaml =
-number: /videos/VIDEOGAMES-Spelunky-part1
+number: /videos/VIDEOGAMES-Spelunky-part1.html
 source: rWwBPHpHxns
 title: "VIDEOGAMES! Spelunky Part 1"
 date: 2013-07-15 12:00:00 PST
