@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "haiku": "0.2.2",
-    "beamer": "0.1.0"
+    "beamer": "~0.1.1"
   }
 }
