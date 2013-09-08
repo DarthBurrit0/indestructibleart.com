@@ -9,5 +9,6 @@ deploy: build
 	./node_modules/beamer/bin/beam build
 
 push:
+	git push
 	git push evan master
 	git push ryan master
