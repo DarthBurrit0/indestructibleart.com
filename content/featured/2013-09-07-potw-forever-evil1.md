@@ -4,7 +4,7 @@ author: "Ryan Adams"
 date: 2013-09-08
 subtitle: "It's a bad time to be a hero in the DC Universe"
 layout: articles
-featuredimg: forever-evil1.png
+featuredimg: potw-evil1.png
 number: /posts/2013-09-07-potw-forever-evil1.html
 = yaml =
 
