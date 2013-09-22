@@ -2,10 +2,10 @@
 title: "Valve has 3 Announcements for Steam and Your Living Room"
 author: "Evan Campbell"
 date: 2013-09-20
-subtitle: "The Steam Universe is expanding and big things are about to happen in the living room. Valve has launched a teaser page with a countdown timer and a simple statement, "The Steam Universe is Expanding in 2013." We all knew it was only a matter of time before Steam left the confines of our computer monitors and attempted world domination. It looks like that assault is about to officially begin in the living room. All the details and some thoughts in the full story..."
+subtitle: "The Steam Universe is expanding and big things are about to happen in the living room. Valve has launched a teaser page with a countdown timer and a simple statement, 'The Steam Universe is Expanding in 2013.' We all knew it was only a matter of time before Steam left the confines of our computer monitors and attempted world domination. It looks like that assault is about to officially begin in the living room. All the details and some thoughts in the full story..."
 layout: articles
-featuredimg: feat.png
-number: /posts/2013-09-20-valve-has-3-anouncements.html
+featuredimg: featsteamcat.png
+number: /posts/2013-09-20-valve-has-3-announcements.html
 = yaml =
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
@@ -16,14 +16,14 @@ number: /posts/2013-09-20-valve-has-3-anouncements.html
 <img src='/images/forPosts/steam-countdown-tv.png' class='articlesImgCenter'>
 <p>Valve has launched a <a href="http://store.steampowered.com/livingroom/">teaser site</a> with a count down timer and a simple statement, "The Steam Universe is Expanding in 2014." We all knew it was only a matter of time before Steam left the confines of our PC monitors and attempted world domination. It looks like that assault is about to officially begin in the living room.
 
-<p>Although Steam has already launched <a href="http://store.steampowered.com/bigpicture/">Big Picture</a>, "a user-interface tailored for televisions and gamepads," it's not quite enough to get those of us huddled in our corner of the universe clutching onto our consoles to jump ship. Below the countdown is another statement that reads:</p>
+<p>Although Steam has already launched <a href="http://store.steampowered.com/bigpicture/">Big Picture</a>, "a user-interface tailored for televisions and gamepads", it's not quite enough to get those of us huddled in our corner of the universe clutching onto our consoles to jump ship. Below the countdown is another statement that reads:</p>
 
-&nbsp;<p>"This year we’ve been working on even more ways to connect the dots for customers who want Steam in the living-room.
-&nbsp;Soon, we’ll be adding you to our design process, so that you can help us shape the future of Steam."</p>
+<p>"This year we've been working on even more ways to connect the dots for customers who want Steam in the living-room.
+Soon, we'll be adding you to our design process, so that you can help us shape the future of Steam."</p>
 
 <p>We have been hearing rumors about a Steam box for a while now, and eventually those rumors were cleared up by <a href="http://www.theverge.com/2013/1/8/3852144/gabe-newell-interview-steam-box-future-of-gaming">official statements</a> explaining what Steam Box would actually be. All of that talk is finally coming to a head and it appears we are going to know a lot more about all of this by the end of next week.</p>
 
-<p>According to some <a href="https://twitter.com/geoffkeighley/status/381097222307192832">members of the press</a> Valve will be making three announcements over the next week. The First announcement is to come Monday around 10am PST, and the rest are alleged to follow shortly after.</p>
+<p>According to some <a href="https://twitter.com/geoffkeighley/status/381097222307192832">members of the press</a> Valve will be making three announcements over the next week. The first announcement is to come Monday around 10am PST, and the rest are alleged to follow shortly after.</p>
 
 <img src='/images/forPosts/steam-countdown-cat' class='articlesImgCenter'>
 <p>Of course with an emphasis on the number three you don't have to go as far as NeoGAF to see that the Half Life 3 hype train is back on track. I am of the firm belief that we would see a Team Fortress 3, a Left 4 Dead 3, or even a Portal 3 before that fateful day Valve finally calms the masses. Then again...that Cat in the picture has two whiskers on one side and 3 on the other...perhaps HL2 Episode 3 isn't totally out of the question? Look at the image of that moon...doesn't that ring look like a blue portal? How about the craters...don't they look suspiciously like one of the robot companions from Portal 2. The little circles also kind of resemble personality cores...</p>
