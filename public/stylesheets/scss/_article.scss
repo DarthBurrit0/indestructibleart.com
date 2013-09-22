@@ -25,12 +25,12 @@
         margin: auto;
         text-align: center;
         font-weight: bolder;
-        font-size: 1.5em;
+        font-size: 1.2em;
       }
       .sluglineLeft{
         font-family: 'Fjalla One', sans-serif;
         font-weight: bolder;
-        font-size: 1.5em;
+        font-size: 1.2em;
         float: left;
         clear: both;
       }
@@ -59,10 +59,18 @@
         margin:auto;
         position:relative;
       }
+      .articlesImgFoot{
+        margin:auto;
+        width:65%;
+        display:block;
+      }
       .articlesCover{
         width:100%;
         margin:auto;
         position:relative;
+      }
+      .hideSmall{
+        display:none;
       }
       .flash_container{
         object{
@@ -139,6 +147,9 @@
           float:left;
           position:relative;
           padding:5px 10px 5px 0px;
+        }
+        .hideSmall{
+          display:inline-block;
         }
       }
     }
