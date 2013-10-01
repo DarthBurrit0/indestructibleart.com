@@ -29,5 +29,5 @@ number: /posts/2013-09-30-potw-eastofwest6.html
     <p>East of West is one of the more thoughtful and compelling series out there, and it's easily one of the first titles I fish out from my pull on a regular basis. The world of East of West has truly come to life over these past six issues. New readers can jump in easily by picking up the fist trade paperback which contains the fist five issues. Get it [online](http://www.amazon.com/East-West-Volume-The-Promise/dp/1607067706/ref=sr_1_1?ie=UTF8&qid=1380599580&sr=8-1&keywords=East+of+West) or at your [local comic book shop](http://www.hypnocomics.com). Make it so! </p>
     </div>
     **Other Notable Titles Out This Week**  
-    [The Wake 4](http://www.vertigocomics.com/comics/the-wake-2013/the-wake-4), [Saga 14](https://www.imagecomics.com/comics/releases/saga-14), and [Batman And Robin 23.4: Killer Croc 1]http://www.dccomics.com/comics/batman-and-2011/batman-and-robin-234-killer-croc).
+    [The Wake 4](http://www.vertigocomics.com/comics/the-wake-2013/the-wake-4), [Saga 14](https://www.imagecomics.com/comics/releases/saga-14), and [Batman And Robin 23.4: Killer Croc 1](http://www.dccomics.com/comics/batman-and-2011/batman-and-robin-234-killer-croc).
 </div>
