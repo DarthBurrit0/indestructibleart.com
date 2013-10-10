@@ -2,7 +2,7 @@
 title: "Comic Pick Of The Week: East of West 6 - Spoiler Free!"
 author: "Ryan Adams"
 date: 2013-09-30
-subtitle: "This is the world. It's not the one we were suppose to have, but it's he one we made."
+subtitle: "This is the world. It's not the one we were suppose to have, but it's the one we made."
 layout: articles
 featuredimg: potw-eastofwest6.png
 number: /posts/2013-09-30-potw-eastofwest6.html
