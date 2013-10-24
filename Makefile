@@ -12,3 +12,6 @@ push:
 	git push
 	git push evan master
 	git push ryan master
+
+serve:
+	beam ~/Dropbox/ia-episode-drop/ --watch --clean --bucket="indestructibleart.com"
