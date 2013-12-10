@@ -299,10 +299,7 @@ body nav ul, body #features ul {
     position: relative;
     width: 96%;
     margin: 5px auto;
-    border: 1px solid black;
     font-family: Times;
-    background-color: white;
-    padding: 15px;
   }
   body .articles .articlesImgCenter {
     width: 100%;
