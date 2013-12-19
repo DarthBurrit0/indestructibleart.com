@@ -61,10 +61,10 @@ Welcome to our second ever Weekly Recap. Sorry it's a little bit late this week 
 
 
 ###Comics:###
-* **DC Comics announced ‘Futures End’** - [Newsarama]9http://www.newsarama.com/19777-batman-beyond-joins-new-52-continuity-in-dc-weekly-series-futures-end.html)
+* **DC Comics announced ‘Futures End’** - [Newsarama]http://www.newsarama.com/19777-batman-beyond-joins-new-52-continuity-in-dc-weekly-series-futures-end.html)
 > A new weekly comic set five years in the future of the DC universe.
 
-* **Scott Snyder takes a break from ‘Zero Year’ to give us a special issue of Batman** - [Newsarama]http://www.newsarama.com/19772-scott-snyder-announces-special-future-spoiler-batman-issue.html)
+* **Scott Snyder takes a break from ‘Zero Year’ to give us a special issue of Batman** - [Newsarama](http://www.newsarama.com/19772-scott-snyder-announces-special-future-spoiler-batman-issue.html)
 
 * **’Venom’ and ‘Sinister Six’ movies announced** - [Comic Vine](http://www.comicvine.com/articles/venom-and-sinister-six-movies-announced/1100-147735/)
 
