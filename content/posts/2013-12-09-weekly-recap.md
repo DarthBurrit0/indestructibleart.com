@@ -2,15 +2,9 @@
 title: "Weekly Recap: Dec 1st - Dec 7th"
 author: "Ryan Adams and Evan Campbell"
 date: 2013-12-09
-<<<<<<< HEAD
 subtitle: "Hi, and welcome to the first post of IA’s weekly news recap. Sometimes trying to keep your thumb on the pulse of all things comics and games can be a bit daunting and it’s easy to feel like you missed something. That's why we are putting together this weekly recap. Every week we will try to post a list of all our favorite stories. Think of it as a curated RSS feed with optional commentary. Hopefully it’s a good way to quickly check and see if you missed anything cool from the past week. So without further delay, hit the 'read more' button and check out our recap for the week of Dec 1st - Dec 7th."
 layout: articles
-featuredimg: wr-dec1-2013.png
-=======
-subtitle: "Hi, and welcome to the first post of IA’s weekly news round up. Sometimes trying to keep your thumb on the pulse of all things comics and games can be a bit daunting and it’s easy to feel like you missed something. That's why we are putting together this weekly recap. It’s a list of all our favorite stories over the past week. Think of the round up as a curated RSS feed with optional commentary. Hopefully it’s a good way to quickly check and see if you missed any cool stories from the past week."
-layout: articles
 featuredimg: weekly-recap.png
->>>>>>> e91be7c71509bbb2656364474e0fc485e53de509
 number: /posts/2013-12-09-weekly-recap.html
 = yaml =
 
