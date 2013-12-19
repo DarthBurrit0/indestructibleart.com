@@ -2,11 +2,7 @@
 title: "Weekly Recap: Dec 1st - Dec 7th"
 author: "Ryan Adams and Evan Campbell"
 date: 2013-12-09
-<<<<<<< HEAD
 subtitle: "Hi, and welcome to the first post of IA’s weekly news recap. Sometimes trying to keep your thumb on the pulse of all things comics and games can be a bit daunting and it’s easy to feel like you missed something. That's why we are putting together this weekly recap. Every week we will try to post a list of all our favorite stories. Think of it as a curated RSS feed with optional commentary. Hopefully it’s a good way to quickly check and see if you missed anything cool from the past week. So without further delay, hit the 'read more' button and check out our recap for the week of Dec 1st - Dec 7th."
-=======
-subtitle: "Hi, and welcome to the first post of IA’s weekly news round up. Sometimes trying to keep your thumb on the pulse of all things comics and games can be a bit daunting and it’s easy to feel like you missed something. That's why we are putting together this weekly recap. It’s a list of all our favorite stories over the past week. Think of the round up as a curated RSS feed with optional commentary. Hopefully it’s a good way to quickly check and see if you missed any cool stories from the past week."
->>>>>>> 55bac4ef07b00b54ba1a6739351098923323f284
 layout: articles
 featuredimg: weekly-recap.png
 number: /posts/2013-12-09-weekly-recap.html
@@ -16,6 +12,14 @@ number: /posts/2013-12-09-weekly-recap.html
 <p class='postPublished'>{{ page.date.toDateString }}</p>
 <p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
+
+Hi, and welcome to the first post of IA’s weekly news recap. Sometimes trying to keep your thumb on the pulse of all things comics and games can be a bit daunting and it’s easy to feel like you missed something. That's why we are putting together this weekly recap. Every week we will try to post a list of all our favorite stories. Think of it as a curated RSS feed with optional commentary. Hopefully it’s a good way to quickly check and see if you missed anything cool from the past week.
+
+So without further delay, here is our recap for the week of Dec 1st - Dec 7th.
+
+###Video Games:###
+* **Every VGX trailer** -  [Venture Beat](http://venturebeat.com/2013/12/07/watch-every-trailer-from-spikes-vgx-award-show-right-here/)
+> What is a VGX? I don’t think anyone really knows the answer to that question but the short answer is: the thing that was once called the Spike TV Video Game Awards or VGAs is now called the Spike TV Video Game...Xperience...neXt generation….Xcite… err, thing that is usually a train wreck but we show you a ton of cool trailers for games coming out neXt year?....um  you know, VGX.
 
 Hi, and welcome to the first post of IA’s weekly news round up. Sometimes trying to keep your thumb on the pulse of all things comics and games can be a bit daunting and it’s easy to feel like you missed something. That's why we are putting together this weekly recap. It’s a list of all our favorite stories over the past week. Think of the round up as a curated RSS feed with optional commentary. Hopefully it’s a good way to quickly check and see if you missed any cool stories from the past week.
 
