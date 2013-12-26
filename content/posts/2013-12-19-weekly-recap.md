@@ -17,47 +17,47 @@ Welcome to our second ever Weekly Recap. Sorry it's a little bit late this week 
 
 ###Video Games:###
 * **YouTube Content ID Crisis** - [Indestructible Art](http://indestructibleart.com/episodes/113.html)
->We actually talked a lot about this on episode 113 of the IA podcast. That’s where this link will send you. There are a lot of detailed notes and links over there that you can check out as well as our own personal commentary on the podcast. Enjoy.
+> We actually talked a lot about this on episode 113 of the IA podcast. That’s where this link will send you. There are a lot of detailed notes and links over there that you can check out as well as our own personal commentary on the podcast. Enjoy.
 
 * **Steam OS Available for download** - [Polygon](http://www.polygon.com/2013/12/13/5208956/steamos-now-available-for-download)
 >With the new console war in full swing it’s easy to forget Valve has been hard at work on their plans for world domination. In all seriousness Valve’s Steam Box could really be a game changer and Steam OS is at the heart of those changes.
 
 * **MGSV Ground Zeroes Launch Details** - [JoyStiq](http://www.joystiq.com/2013/12/10/konami-outlines-metal-gear-solid-ground-zeroes-pricing-scheme/)
->Last week after a quote from Hideo Kojima implied that Ground Zeroes would be significantly shorter, I had hoped Konami wouldn’t be charging full price for the title. Looks like digital versions for Xbox 360 and PS3 are only $20, while the physical copies are set at $30. PS4 and Xbox One downloads will cost $30 while next gen physical copies of Ground Zeroes will be a whopping $40.
+> Last week after a quote from Hideo Kojima implied that Ground Zeroes would be significantly shorter, I had hoped Konami wouldn’t be charging full price for the title. Looks like digital versions for Xbox 360 and PS3 are only $20, while the physical copies are set at $30. PS4 and Xbox One downloads will cost $30 while next gen physical copies of Ground Zeroes will be a whopping $40.
 
 * **Samurai Gun has been released** - [Maxistentialism](http://maxistentialism.com/samuraigunn/)
 >Samurai Gunn is a Licence to Kill style brawler akin to Super Smash Brothers. It has been making the rounds on the indie circuit and is highly praised. If you have a PC you should give it a shot.
 
 * **Double Fine says Hack n Slash is coming out early 2014** - [Double Fine](http://www.doublefine.com/news/comments/announcing_hack_n_slash_its_real_and_it_has_algorithms/)
->Double Fine is in a weird place where they have a lot on their shoulders. With the first extremely successful Kickstarter game still under development, Double Fine has yet prove to the world that really large crowd funded games are going to work. On top of that they have three other slightly smaller crowd funded projects. Last week they announced a tentative release date for the first one of those to be released. The game is called Hack ‘n’ Slash.
+> Double Fine is in a weird place where they have a lot on their shoulders. With the first extremely successful Kickstarter game still under development, Double Fine has yet prove to the world that really large crowd funded games are going to work. On top of that they have three other slightly smaller crowd funded projects. Last week they announced a tentative release date for the first one of those to be released. The game is called Hack ‘n’ Slash.
 
 * **Awesomenauts expansion coming out** - [Steam](http://store.steampowered.com/app/256500/)
->Awesomenauts is a rad 2D side scrolling MOBA game that almost didn’t exist. It’s been awesome to see it grow and gain support over the last year. The expansion is bringing five new characters and a new map.
+> Awesomenauts is a rad 2D side scrolling MOBA game that almost didn’t exist. It’s been awesome to see it grow and gain support over the last year. The expansion is bringing five new characters and a new map.
 
 * **Xbox One Sells 2 million units** - [Xbox.com](http://news.xbox.com/2013/12/xbox-one-december-announcement)
->Last week I mentioned that both the PS4 and the Xbox One are breaking records in terms of hardware sales in the gaming industry. Two weeks ago Sony announced PS4 had sold 2 million units. It appears Xbox One isn’t that far behind.
+> Last week I mentioned that both the PS4 and the Xbox One are breaking records in terms of hardware sales in the gaming industry. Two weeks ago Sony announced PS4 had sold 2 million units. It appears Xbox One isn’t that far behind.
 
 * **November NPDS** - [Joystiq](http://www.joystiq.com/2013/12/12/november-npd-ps4-is-top-selling-console-xbox-one-is-fastest/)
->Who doesn’t love NPDS? They used to give us actual numbers...now they don’t. I am of the opinion that they have started adding in digital sales over time and no one wants to talk about how much money companies are making from them.
+> Who doesn’t love NPDS? They used to give us actual numbers...now they don’t. I am of the opinion that they have started adding in digital sales over time and no one wants to talk about how much money companies are making from them.
 
 
 * **MineCraft integrates Twitch Streaming** - [Mojang](https://mojang.com/2013/12/minecraft-1-7-3-pre-release/)
->You know what’s a big deal? Streaming video games on the internet. You know what’s a bigger deal? MineCraft. Finally the two have collided and now anyone can stream MineCraft with a simple click of the mouse.
+> You know what’s a big deal? Streaming video games on the internet. You know what’s a bigger deal? MineCraft. Finally the two have collided and now anyone can stream MineCraft with a simple click of the mouse.
 
 * **PS Plus Members get free Borderlands 2** - [Playstaion Blog](http://blog.us.playstation.com/2013/12/09/playstation-plus-borderlands-2-free-for-members/)
->PlayStation Plus has been one of my favorite services all year. I like it more than Netflix, more than Amazon Prime, more than Dropbox and suitably more than Xbox Live. That wasn’t always the case but receiving free games every month is rad. Especially when those games are titles like Borderlands 2.
+> PlayStation Plus has been one of my favorite services all year. I like it more than Netflix, more than Amazon Prime, more than Dropbox and suitably more than Xbox Live. That wasn’t always the case but receiving free games every month is rad. Especially when those games are titles like Borderlands 2.
 
 * **Free Super Crate Box for Vita owners** - [PS Blog](http://blog.us.playstation.com/2013/12/11/playstation-mobile-update-more-free-games-this-week-and-two-new-releases/)
->If you haven’t experienced the pure joy that is wrapped carefully in every Vlambeer game you should go check out Super Crate Box.
+> If you haven’t experienced the pure joy that is wrapped carefully in every Vlambeer game you should go check out Super Crate Box.
 
 * **Dunegon of the Endless Rad looking Space Crawler** [Steam](http://store.steampowered.com/app/249050)
->I am sucker for pixel art ascetics, what can I say? Throw in some top down sci fi action and you have got yourself a really fantastic looking game. You can check it out on Steam.
+> I am sucker for pixel art ascetics, what can I say? Throw in some top down sci fi action and you have got yourself a really fantastic looking game. You can check it out on Steam.
 
 * **The Saints Save Santa** - [Youtube](http://www.youtube.com/watch?v=si7QkZju4-Q)
->Having just recently finished every side quest in Saints Row IV, I don’t know if I am quite ready for more. However, this trailer makes this DLC very  tempting.
+> Having just recently finished every side quest in Saints Row IV, I don’t know if I am quite ready for more. However, this trailer makes this DLC very  tempting.
 
 * **Mighty No 9 Hire Faces an Onslaught of Mysoginy** - [Gameranx](http://www.gameranx.com/features/id/19333/article/be-respectful-and-considerate---mighty-no-9-kickstarter-explodes-with-misogynist-rage/)
->It would appear there are still a lot of insecure people out there in the world who are still afraid of girl cooties. There is so much to say about this topic that it probably warrants it’s own post. I often feel hopeless in these instances because how do we teach all these raging angry internet trolls that just because someone is of a different race or gender or even has a different sexual preference they aren’t out to ruin your video games and comics… Having better female representation in both the entertainment that we consume and within the industries that create it can only yield a better experience for all involved. I am tired of this elitist boys club mentality filling up blogs and news feeds with ignorant nonsense. Cut it out.
+> It would appear there are still a lot of insecure people out there in the world who are still afraid of girl cooties. There is so much to say about this topic that it probably warrants it’s own post. I often feel hopeless in these instances because how do we teach all these raging angry internet trolls that just because someone is of a different race or gender or even has a different sexual preference they aren’t out to ruin your video games and comics… Having better female representation in both the entertainment that we consume and within the industries that create it can only yield a better experience for all involved. I am tired of this elitist boys club mentality filling up blogs and news feeds with ignorant nonsense. Cut it out.
 
 
 ###Comics:###
