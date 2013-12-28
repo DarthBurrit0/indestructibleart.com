@@ -41,6 +41,7 @@ This year is almost over but that doesn't mean there aren't any rad stories to r
 
 * **Hello Games Offices Flooded** - [Joystiq](http://www.joystiq.com/2013/12/26/hello-games-says-goodbye-to-pcs-monitors-and-more-after-office/)
 > Hello Games, famous for the wild No Mans Sky trailer revealed at VGX, had most of their equipment ruined in a flood that hit their offices. Such a bummer.
+    * A recent Update - [Twitter](https://twitter.com/hellogames/status/416895411853737984)
 
 * **Games. On Your Wrist.** - [Polygon](http://www.polygon.com/2013/12/25/5226182/games-fit-for-a-wrist)
 > People are making games for the Pebble Smartwatch, one of the most disappointing Kickstarters I’ve backed. Hopefully this can turn the tide and make that thing worth it? (I’m not too optimistic.)
