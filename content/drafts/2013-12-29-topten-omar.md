@@ -1,7 +1,7 @@
 = yaml =
 title: "Omar's Top Ten Games of 2013"
 author: "Omar de Armas"
-date: 2013-12-21
+date: 2013-12-29
 subtitle: "2013 has been a wild year that flew by way too fast. It's the end of Old Gen and the birth of Next, here are my top ten games for 2013"
 layout: articles
 featuredimg: top-ten.png
@@ -34,11 +34,11 @@ Device 6 is a wonderfully unique experience on iOS. A choose your own adventure 
   
 <img src='/images/forPosts/topten-gunpoint.png' class='articlesImgCenter group'>
 **6. Gunpoint**  
-
+Simple well designed gameplay mechanics. Clearly laid out levels with multiple solutions. Clever storytelling with funny dialog options. Gunpoint ties all these things together really well. 
   
 <img src='/images/forPosts/topten-saintsrow4.png' class='articlesImgCenter group'>
 **5. Saints Row IV**  
-
+Saints Row the Third was one of the most surprisingly entertaining games I've played in the past few years. So when Saints Row 4 came around I was pretty sure it was going to be one of the best things to play this year. While the main story wasn't quite as surprising as 3 it was still really ridiculous and entertaining and all the side stories really pulled it along. The gameplay tho, oh man. World traversal in SR4 is unmatched. Super jump into the air and fly across the sky. Super speed run faster than any car can drive. Hit the side of a building and start running straight up the side into a super jump into flying. What. Basically think "wouldn't it be fun if..." and you can do it in SR4. 
   
 <img src='/images/forPosts/topten-roguelegacy.png' class='articlesImgCenter group'>
 **4. Rouge Legacy**  
@@ -50,13 +50,20 @@ Device 6 is a wonderfully unique experience on iOS. A choose your own adventure 
   
 <img src='/images/forPosts/topten-zelda.png' class='articlesImgCenter group'>
 **2. Legend of Zelda: A Link Between Worlds**  
-
+It's simple, A Link Between Worlds takes everything that most people dislike about the recent editions to the Zelda franchise and sets them straight. 
   
 <img src='/images/forPosts/topten-bioshockinfinite.png' class='articlesImgCenter group'>
 **1. Bioshock Infinite**  
 
   
-####Honorable Mentions (aka Games I didn't Play but Probably Should Have)####
+####Honorable Mentions####
+* **Proteus**
+> 
+* ** **
+> 
+
+  
+####Games I didn't Play but Probably Should Have####
 * **Last of Us**
 > 
 
@@ -68,3 +75,4 @@ Device 6 is a wonderfully unique experience on iOS. A choose your own adventure 
 
 * **Super Mario 3D World**
 > 
+  
