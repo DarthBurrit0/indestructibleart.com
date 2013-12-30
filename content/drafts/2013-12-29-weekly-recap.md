@@ -14,14 +14,14 @@ number: /posts/2013-12-29-weekly-recap.html
 <hr>
 
 This year is almost over but that doesn't mean there aren't any rad stories to read on the internet.
-  
+
 ###Video Games###
 * **Online Services Suffer Xmas Outages** - [Polygon](http://www.polygon.com/2013/12/25/5243580/online-services-experiencing-outages-across-multiple-consoles)
 > All fear the wrath of holiday rush new device activations!
     * **3DS eShop Sale to Continue When eShop Comes Back Online** - [GameInformer](http://www.gameinformer.com/b/news/archive/2013/12/26/big-3ds-sale-to-resume-when-eshop-comes-back-online.aspx)
 
 * **Giant Bomb’s Guest Top Ten Lists** - [GaintBomb](http://www.giantbomb.com)
-> Each year on top of their amazing End of Year videos Giant Bomb asks tons of personalities from around video games to post guest Top Ten Lists. Here are some of my favorites:
+> Each year on top of their amazing End of Year videos Giant Bomb asks tons of personalities from around the games industry to post guest Top Ten Lists. Here are some of my favorites:
     * [Greg Kasavin](http://www.giantbomb.com/articles/greg-kasavin-s-top-10-games-of-2013/1100-4812/)
     * [Zoe Quinn](http://www.giantbomb.com/articles/zoe-quinn-s-top-10-games-of-2013/1100-4813/)
     * [Eric Pope](http://www.giantbomb.com/articles/eric-pope-s-top-10-games-of-2013/1100-4810/)
@@ -30,14 +30,17 @@ This year is almost over but that doesn't mean there aren't any rad stories to r
     * [Ken Levine](http://www.giantbomb.com/articles/ken-levine-s-top-10-games-of-2013/1100-4823/)
     * [Jeff Gerstmann](http://www.giantbomb.com/articles/jeff-gerstmann-s-top-10-games-of-2013/1100-4835/)
 
+* **More videos of the Steam Controller in action** - [Kotaku](http://kotaku.com/watch-the-steam-controller-play-a-bunch-of-pc-games-1488594877)
+> The Steam Controller was one of the most surprising announcements of 2013. Will those wierd circular touch pads really work as well as a pair of traditional sticks? Can you really use it to play more traditional mouse and keyboard games? As we learn more about the device, answers to those questions are beginning to formulate. All these videos kind of help formulate answers as well but we won't really know hoe the controller forms until the official device is released in 2014.
+
 * **Interesting Time Travel Puzzle Platformer** - [IndieGames](http://indiegames.com/2013/12/greenlight_pick_go_back_and_fo.html)
-> Seems like a cool mechanic for a puzzle platformer.
+> Chronology is a puzzle platformer with a really clean art style and an interesting time mechanic. It's worth a look. Also...Giant snail.
 
 * **How-To upgrade your last gen titles to next gen** - [Polygon](http://www.polygon.com/2013/12/26/5245244/heres-how-to-upgrade-your-current-gen-games-to-next-gen)
 > Did you get a new Console for X-Mas? Heres a good list on how to upgrade those cross gen titles you already own to those fancy new Next Gen versions.
 
-* **Free Playstation Plus Games for January** - [Polygon](http://www.polygon.com/2013/12/26/5245258/playstation-plus-january-2014)
-> Another huge month for PS Plus Members. I’m excited and nervous to see how they keep this moving into PS4 titles.
+* **Free Playstation Plus Games for January** - [PS Blog](http://blog.us.playstation.com/2013/12/26/playstation-plus-january-preview/)
+> BioShock Infinite, DMC: Devil May Cry, and Brothers: A tale of Two Sons are all free for PS Plus Members in January. I’m excited and nervous to see how they keep this moving into PS4 titles. Check out the rest of January's Plus Member Benefits with the link above.
 
 * **Hello Games Offices Flooded** - [Joystiq](http://www.joystiq.com/2013/12/26/hello-games-says-goodbye-to-pcs-monitors-and-more-after-office/)
 > Hello Games, famous for the wild No Mans Sky trailer revealed at VGX, had most of their equipment ruined in a flood that hit their offices. Such a bummer.
