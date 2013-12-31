@@ -19,7 +19,8 @@ This year is almost over but that doesn't mean there aren't any rad stories to r
 * **Online Services Suffer Xmas Outages** - [Polygon](http://www.polygon.com/2013/12/25/5243580/online-services-experiencing-outages-across-multiple-consoles)
 > All fear the wrath of holiday rush new device activations!
     * **3DS eShop Sale to Continue When eShop Comes Back Online** - [GameInformer](http://www.gameinformer.com/b/news/archive/2013/12/26/big-3ds-sale-to-resume-when-eshop-comes-back-online.aspx)
-
+    * **UPDATE: Nintendo is back** - [GameInformer](http://www.gameinformer.com/b/news/archive/2013/12/29/nintendo-gives-all-clear-on-network-outtages-promises-pok-233-mon-bank-and-transporter-details-soon.aspx)
+    
 * **Giant Bomb’s Guest Top Ten Lists** - [GaintBomb](http://www.giantbomb.com)
 > Each year on top of their amazing End of Year videos Giant Bomb asks tons of personalities from around video games to post guest Top Ten Lists. Here are some of my favorites:
     * [Greg Kasavin](http://www.giantbomb.com/articles/greg-kasavin-s-top-10-games-of-2013/1100-4812/)
