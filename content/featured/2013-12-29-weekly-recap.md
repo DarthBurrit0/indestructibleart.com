@@ -1,8 +1,8 @@
 = yaml =
 title: "Weekly Recap: Dec 22nd - 29th 2013"
-author: "Omar de Armas"
-date: 2013-12-21
-subtitle: "This year is almost over but that doesn't mean there aren't any rad stories to read on the internet. "
+author: "Omar de Armas and Evan Campbell"
+date: 2013-12-29
+subtitle: "This year is almost over but that doesn't mean there aren't any rad stories to read on the internet."
 layout: articles
 featuredimg: weekly-recap.png
 number: /posts/2013-12-29-weekly-recap.html
@@ -20,7 +20,7 @@ This year is almost over but that doesn't mean there aren't any rad stories to r
 > All fear the wrath of holiday rush new device activations!
     * **3DS eShop Sale to Continue When eShop Comes Back Online** - [GameInformer](http://www.gameinformer.com/b/news/archive/2013/12/26/big-3ds-sale-to-resume-when-eshop-comes-back-online.aspx)
     * **UPDATE: Nintendo is back** - [GameInformer](http://www.gameinformer.com/b/news/archive/2013/12/29/nintendo-gives-all-clear-on-network-outtages-promises-pok-233-mon-bank-and-transporter-details-soon.aspx)
-    
+
 * **Giant Bomb’s Guest Top Ten Lists** - [GaintBomb](http://www.giantbomb.com)
 > Each year on top of their amazing End of Year videos Giant Bomb asks tons of personalities from around the games industry to post guest Top Ten Lists. Here are some of my favorites:
     * [Greg Kasavin](http://www.giantbomb.com/articles/greg-kasavin-s-top-10-games-of-2013/1100-4812/)
@@ -32,7 +32,7 @@ This year is almost over but that doesn't mean there aren't any rad stories to r
     * [Jeff Gerstmann](http://www.giantbomb.com/articles/jeff-gerstmann-s-top-10-games-of-2013/1100-4835/)
 
 * **More videos of the Steam Controller in action** - [Kotaku](http://kotaku.com/watch-the-steam-controller-play-a-bunch-of-pc-games-1488594877)
-> The Steam Controller was one of the most surprising announcements of 2013. Will those wierd circular touch pads really work as well as a pair of traditional sticks? Can you really use it to play more traditional mouse and keyboard games? As we learn more about the device, answers to those questions are beginning to formulate. All these videos kind of help formulate answers as well but we won't really know hoe the controller forms until the official device is released in 2014.
+> The Steam Controller was one of the most surprising announcements of 2013. Will those weird circular touch pads really work as well as a pair of traditional sticks? Can you really use it to play more traditional mouse and keyboard games? As we learn more about the device, answers to those questions are beginning to formulate. All these videos kind of help formulate answers as well but we won't really know how the controller really holds up until the official device is released in 2014.
 
 * **Interesting Time Travel Puzzle Platformer** - [IndieGames](http://indiegames.com/2013/12/greenlight_pick_go_back_and_fo.html)
 > Chronology is a puzzle platformer with a really clean art style and an interesting time mechanic. It's worth a look. Also...Giant snail.
@@ -75,5 +75,3 @@ This year is almost over but that doesn't mean there aren't any rad stories to r
 
 * **Dr. Luigi Available for Download on December 31st** - [Destructoid](http://www.destructoid.com/nintendo-download-dr-luigi-267793.phtml)
 > Announced in last weeks Nintendo Direct, Dr. Luigi will be available on WiiUs starting on the 31st.
-
-###Comic Books###
