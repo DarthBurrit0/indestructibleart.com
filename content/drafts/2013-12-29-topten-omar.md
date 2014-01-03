@@ -42,11 +42,11 @@ Saints Row the Third was one of the most surprisingly entertaining games I've pl
   
 <img src='/images/forPosts/topten-roguelegacy.png' class='articlesImgCenter group'>
 **4. Rouge Legacy**  
-For a little while now we've been living in a world of Rouge-lites, or Rouge-likes, or Rouge-likelikes, that it's getting a bit out of control. Rouge legacy's super tight controls and awesome art style make it stand out in the crowd. I've put a lot of time into this game and while I still have yet to beat all the bosses, every run through the castle is just as entertaining as the first. You'd be hard pressed to find a game with more re-playability this year.
+For a little while now we've been living in a world of Rouge-lites, or Rouge-likes, or Rouge-likelikes, that it's getting a bit out of control. Rouge legacy's super tight controls and awesome art style makes it stand out in the crowd. I've put a lot of time into this game and while I still have yet to beat all the bosses, every run through the castle is just as entertaining as the first. You'd be hard pressed to find a game with more re-playability this year.
   
 <img src='/images/forPosts/topten-stanleyparable.png' class='articlesImgCenter group'>
 **3. The Stanley Parable**  
-I like The Stanley Parable a lot. It's got this undeniable charm that had me going back to it over and over again. The game is built around choice, and the branching narratives based on how you handle those choices. 
+I like The Stanley Parable a lot. I fought with myself for a long time about where on this list this game should land. It's got this undeniable charm that had me going back to it over and over again. The Stanley Parable is built around choice, and the branching narratives based on how you handle those choices. The narrator's dialog makes you feel like they thought of every possible branch, which is insane. I feel like one of the hardest things to accomplish in gaming is giving players a sense that their choices are really making a difference to the story. The Stanley Parable definitely approaches this issue in fun way that leaves you appreciating video games as a whole.
   
 <img src='/images/forPosts/topten-zelda.png' class='articlesImgCenter group'>
 **2. Legend of Zelda: A Link Between Worlds**  
@@ -54,7 +54,7 @@ It's simple, A Link Between Worlds takes everything that most people dislike abo
   
 <img src='/images/forPosts/topten-bioshockinfinite.png' class='articlesImgCenter group'>
 **1. Bioshock Infinite**  
-
+I CANT THINK OF WHAT TO SAY HERE!!!!!!! FUCK
   
 ####Notable Omissions####
 * **Antichamber**
