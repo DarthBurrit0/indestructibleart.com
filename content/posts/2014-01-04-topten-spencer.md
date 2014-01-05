@@ -1,7 +1,7 @@
 = yaml =
-title: "Spencer's Top Ten Games of 2013"
+title: "Spencer Carnage's Top 10 Video Games and Comics of 2013"
 author: "Spencer Carnage"
-date: 2014-01-04
+date: 2014-01-05
 subtitle: "You know the drill."
 layout: articles
 featuredimg: spencer-top-10-2013-featured.png
@@ -12,8 +12,6 @@ number: /posts/2014-01-04-topten-spencer.html
 <p class='postPublished'>{{ page.date.toDateString }}</p>
 <p class='postAuthor'>By: {{ page.author }}</p>
 <hr>
-
-# Spencer Carnage's Top 10 Video Games and Comics of 2013
 
 You know the drill.
 
