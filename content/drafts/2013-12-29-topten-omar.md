@@ -2,7 +2,7 @@
 title: "Omar's Top Ten Games of 2013"
 author: "Omar de Armas"
 date: 2013-12-29
-subtitle: "2013 has been a wild year that flew by way too fast. It's the end of Old Gen and the birth of Next, here are my top ten games for 2013"
+subtitle: "2013 has been a wild year that flew by way too fast. The end of Old Gen and the birth of Next, here are my top ten games for 2013"
 layout: articles
 featuredimg: top-ten.png
 number: /posts/2013-12-29-topten-omar.html
@@ -30,11 +30,11 @@ Need for Speed Rivals was the one game available at launch of the PS4 that I cou
   
 <img src='/images/forPosts/topten-device6.png' class='articlesImgCenter group'>
 **7. Device 6**  
-Device 6 is a wonderfully unique experience on iOS. A choose your own adventure style storybook that wouldn't work anywhere else. Easily considered a must play if you have the means. iPad preferred over smaller screens.
+Simogo delivered two killer games this year, and Device 6 is a wonderfully unique experience on iOS. A choose your own adventure style storybook that wouldn't work anywhere else. Part text adventure part audio visual puzzle that makes use of the hardware like nothing else I've seen so far. It's a game that makes you keep a notebook near by as you scroll though the narrative and uncover clues in the text, pictures or audio. Easily considered a must play if you have the means. iPad preferred over smaller screens.
   
 <img src='/images/forPosts/topten-gunpoint.png' class='articlesImgCenter group'>
 **6. Gunpoint**  
-Simple well designed gameplay mechanics. Clearly laid out levels with multiple solutions. Clever storytelling with funny dialog options. Gunpoint ties all these things together really well. 
+Simple well designed gameplay mechanics. Clearly laid out levels with multiple solutions. Clever storytelling with funny dialog options. Gunpoint ties all these things together really well. The game is built to be played with. Auto-saves happen every few seconds, giving you the freedom to try every possibility solving a room. Also you can punch dude, a lot, like a lot a lot. 
   
 <img src='/images/forPosts/topten-saintsrow4.png' class='articlesImgCenter group'>
 **5. Saints Row IV**  
@@ -42,11 +42,11 @@ Saints Row the Third was one of the most surprisingly entertaining games I've pl
   
 <img src='/images/forPosts/topten-roguelegacy.png' class='articlesImgCenter group'>
 **4. Rouge Legacy**  
-
+For a little while now we've been living in a world of Rouge-lites, or Rouge-likes, or Rouge-likelikes, that it's getting a bit out of control. Rouge legacy's super tight controls and awesome art style makes it stand out in the crowd. I've put a lot of time into this game and while I still have yet to beat all the bosses, every run through the castle is just as entertaining as the first. You'd be hard pressed to find a game with more re-playability this year.
   
 <img src='/images/forPosts/topten-stanleyparable.png' class='articlesImgCenter group'>
 **3. The Stanley Parable**  
-
+I like The Stanley Parable a lot. I fought with myself for a long time about where on this list this game should land. It's got this undeniable charm that had me going back to it over and over again. The Stanley Parable is built around choice, and the branching narratives based on how you handle those choices. The narrator's dialog makes you feel like they thought of every possible branch, which is insane. I feel like one of the hardest things to accomplish in gaming is giving players a sense that their choices are really making a difference to the story. The Stanley Parable definitely approaches this issue in fun way that leaves you appreciating video games as a whole.
   
 <img src='/images/forPosts/topten-zelda.png' class='articlesImgCenter group'>
 **2. Legend of Zelda: A Link Between Worlds**  
@@ -54,20 +54,19 @@ It's simple, A Link Between Worlds takes everything that most people dislike abo
   
 <img src='/images/forPosts/topten-bioshockinfinite.png' class='articlesImgCenter group'>
 **1. Bioshock Infinite**  
-
+I CANT THINK OF WHAT TO SAY HERE!!!!!!! FUCK
   
-####Honorable Mentions####
+####Notable Omissions####
+* **Antichamber**
+> 
+
 * **Proteus**
 > 
+
 * **Metal Gear Solid: Revengence**
 > 
 
-  
-####Games I didn't Play but Probably Should Have####
 * **Last of Us**
-> 
-
-* **Antichamber**
 > 
 
 * **GTA V**
