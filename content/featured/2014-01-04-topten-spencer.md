@@ -4,7 +4,7 @@ author: "Spencer Carnage"
 date: 2014-01-05
 subtitle: "You know the drill."
 layout: articles
-featuredimg: spencer-top-10-2013-featured.png
+featuredimg: topten-spencer.png
 number: /posts/2014-01-04-topten-spencer.html
 = yaml =
 
@@ -29,7 +29,7 @@ A mini-comic publisher that also puts their issues online to read for free, Stud
 
 ##7. [Beta Testing the Apocalypse](http://www.fantagraphics.com/browse-shop/beta-testing-the-apocalypse-2.html?vmcchk=1)
 <img src='/images/forPosts/spencer-top-10-2013-beta-testing-the-apocalypse.png' class='articlesImgCenter group'>
-Tom Kaczynski's collection of short stories provide an important, poignant look into the modern world through a variety of interesting lenses: a young couple in a neighborhood on the brink of gentrification who struggle with their fascination-turned-obsession for a highrise condo that is erected right next door; a method actor embraces existent as a neanderthal when the role he plays in a film becomes more meaningful than his own life; the concept of a traffic jam as the frame that we live our lives within. The metaphors can be run a tad obscure, but Kaczynski nails them every time.
+Tom Kaczynski's collection of short stories provide an important, poignant look into the modern world through a variety of interesting lenses: a young couple in a neighborhood on the brink of gentrification who struggle with their fascination-turned-obsession for a highrise condo that is erected right next door; a method actor embraces existent as a neanderthal when the role he plays in a film becomes more meaningful than his own life; the concept of a traffic jam as the frame that we live our lives within. The metaphors can be a tad obscure, but Kaczynski nails them every time.
 
 ##6. [Pope Hats # 3](http://www.adhousebooks.com/comics/popehats3.html)
 <img src='/images/forPosts/spencer-top-10-2013-pope-hats.png' class='articlesImgCenter group'>
@@ -45,13 +45,13 @@ Mental illness has never been exquisitely captured as it has in the *The Nao Of 
 
 ##3. [Nowhere Men](https://www.imagecomics.com/comics/series/nowhere-men)
 <img src='/images/forPosts/spencer-top-10-2013-nowhere-men.jpg' class='articlesImgCenter group'>
-When science is cooler than Rock n’ Roll, you send people into space and marvel at what happens when they change in ways man has never seen before. *Nowhere Men* covers the rise and fall of a four scientists using various magazine ads, inserts, and interviews that span their careers to tell their story and build the world around them. Add in an experiment on the edge of Earth’s orbit that goes frightening wrong and you have hit upon the recipe for a classic page-turner. This is the *Fantastic Four* comic that Hickman wished he could have written. 
+When science is cooler than Rock n’ Roll, you send people into space and marvel at what happens when they change in ways man has never seen before. *Nowhere Men* covers the rise and fall of a four scientists using various magazine ads, inserts, and interviews that span their careers to tell their story and build the world around them. Add in an experiment on the edge of Earth’s orbit that goes frighteningly wrong and you have hit upon the recipe for a classic page-turner. This is the *Fantastic Four* comic that Hickman wished he could have written.
 
 ##2. [The Last Of Us](http://www.thelastofus.playstation.com/)
 <img src='/images/forPosts/spencer-top-10-2013-last-of-us.jpg' class='articlesImgCenter group'>
-Joel is my dog. Thanks to Joel, Ellie, and their clicker wasting, “every man, woman, and child for themselves” survivalist killing spree, I have a rekindled love for Apocalyptic genre fiction. This game looks great and plays even better. While others deplored the wanton violence, I took solace in the fact that my youth spent reading *Punisher* and *Youngblood* comics properly prepared me to make the choices necessary to survive the end of times. 
+Joel is my dog. Thanks to Joel, Ellie, and their clicker wasting, “every man, woman, and child for themselves” survivalist killing spree, I have a rekindled love for Apocalyptic genre fiction. This game looks great and plays even better. While others deplored the wanton violence, I took solace in the fact that my youth spent reading *Punisher* and *Youngblood* comics properly prepared me to make the choices necessary to survive the end of times.
 
 ##1. [East Of West](https://www.imagecomics.com/comics/series/east-of-west)
 <img src='/images/forPosts/spencer-top-10-2013-east-of-west.png' class='articlesImgCenter group'>
-Jonathan Hickman has done a number of good things in 2013, but his and Nick Draggota’s *East Of West* has been the best thing I have read these past twelve months. An alternate history where the West is still wild and the Four Horseman walk across North America in search of Death himself. Black arts, robotic lazer-face wielding horses, political infighting and intrigue, and a prophecy that seems to signal an end even more nasty than Armageddon itself, this book scratches itches like no one else out there. From the setting to the diverse cast of characters that navigate it, Hickman and Draggota’s *East Of West* is doing a bang up job of delivering a high concept story that has yet to disappoint. 
+Jonathan Hickman has done a number of good things in 2013, but his and Nick Draggota’s *East Of West* has been the best thing I have read these past twelve months. An alternate history where the West is still wild and the Four Horseman walk across North America in search of Death himself. Black arts, robotic lazer-face wielding horses, political infighting and intrigue, and a prophecy that seems to signal an end even more nasty than Armageddon itself, this book scratches itches like no one else out there. From the setting to the diverse cast of characters that navigate it, Hickman and Draggota’s *East Of West* is doing a bang up job of delivering a high concept story that has yet to disappoint.
 
