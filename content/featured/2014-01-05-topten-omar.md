@@ -5,7 +5,7 @@ date: 2014-01-05
 subtitle: "2013 has been a wild year that flew by way too fast. The end of Old Gen and the birth of Next gave us so may rad things to play this year. Here are my top ten games for 2013"
 layout: articles
 featuredimg: topten-omar.png
-number: /posts/2013-12-29-topten-omar.html
+number: /posts/2014-01-05-topten-omar.html
 = yaml =
 
 <a href="{{ page.url }}" class='postTitleLink'><p class='postTitle'>{{ page.title }}</p></a>
