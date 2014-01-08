@@ -1,7 +1,7 @@
 = yaml =
 title: "Spencer Carnage's Top 10 Video Games and Comics of 2013"
 author: "Spencer Carnage"
-date: 2014-01-05
+date: 2014-01-04
 subtitle: "You know the drill."
 layout: articles
 featuredimg: topten-spencer.png
