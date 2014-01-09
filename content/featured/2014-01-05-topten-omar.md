@@ -23,12 +23,12 @@ I've never been good at Fighting games. They move too fast, and have crazy combo
 
 ###9. Ridiculous Fishing###
 <img src='/images/forPosts/topten-ridiculousfishing.png' class='articlesImgCenter group'>
-I have two iOS games on my top ten list. Both games represent the best examples of game controls on iOS. Ridiculous Fishing takes motion controls to a precision that's a little bit amazing when looked at next to all of the thousands of other games in the App Store. It's bite sized twitch gaming that has endless hours of re-playability.
+I have two iOS games on my top ten list. Both games represent the best examples of game controls on iOS. Ridiculous Fishing takes motion controls to a precision that's a little bit amazing when looked at next to all of the thousands of other games in the Appstore. It's bite sized twitch gaming that has endless hours of re-playability.
 
 
 ###8. Need for Speed: Rivals###
 <img src='/images/forPosts/topten-nfsrivals.png' class='articlesImgCenter group'>
-Need for Speed Rivals was the one game available at launch of the PS4 that I could get behind spending 60 bucks on. Racing games aren't usually my thing but Rivals brings a sense of competitiveness that piqued my interest. The game is basically always online. You are matched with 5 other players at the start of each session. The entire game is played on a static open world map, which means you may always come into contact with those other players, but when you do it's super fun. Rivals fast paced high adrenaline gameplay surprised me with the amount that I enjoy getting behind the wheel and taking sharps turns in a fast car. Definitely a game I'll keep in rotation as I try and top all the Autolog Leaderboards. Oh and the cutscenes are freaking amazing.
+Need for Speed Rivals was the one game available at launch of the PS4 that I could get behind spending 60 bucks on. Racing games aren't usually my thing but Rivals brings a sense of competitiveness that piqued my interest. The game is basically always online. You are matched with 5 other players at the start of each session. The entire game is played on a huge open world map, which means you may not always come into contact with those other players, but when you do it's super fun. Rivals' fast paced high adrenaline gameplay surprised me with the amount that I enjoyed it. Getting behind the wheel and taking sharps turns in fast cars while knocking out cops with Pursuit Tech is super entertaining. Definitely a game I'll keep in rotation as I try and top all the Autolog Leaderboards. Oh and the cutscenes are freaking amazing.
 
 
 ###7. Device 6###
@@ -43,7 +43,7 @@ Simple well designed gameplay mechanics. Clearly laid out levels with multiple s
 
 ###5. Saints Row IV###
 <img src='/images/forPosts/topten-saintsrow4.png' class='articlesImgCenter group'>
-Saints Row the Third was one of the most surprisingly entertaining games I've played in the past few years. So when Saints Row 4 came around I was pretty sure it was going to be one of the best things to play this year. While the main story wasn't quite as surprising as SR3 it was still really ridiculous and entertaining. All the side stories really pulled it along allowing you to familliarize self better with some familiar faces as well as some new ones. The gameplay tho, oh man. World traversal in SR4 is unmatched. Super jump into the air and fly across the sky. Super speed run faster than any car can drive. Hit the side of a building and start running straight up only to chain that action into another super jump only to resume flying across the sky once again. What. Basically think "wouldn't it be fun if..." and you can do it in SR4.
+Saints Row the Third was one of the most surprisingly entertaining games I've played in the past few years. So when Saints Row 4 came around I was pretty sure it was going to be one of the best things to play this year. While the main story wasn't quite as surprising as SR3 it was still really ridiculous and entertaining. All the side stories really pulled it along allowing you to familiarize self better with some familiar faces as well as some new ones. The gameplay tho, oh man. World traversal in SR4 is unmatched. Super jump into the air and fly across the sky. Super speed run faster than any car can drive. Hit the side of a building and start running straight up only to chain that action into another super jump only to resume flying across the sky once again. What. Basically think "wouldn't it be fun if..." and you can do it in SR4.
 
 
 ###4. Rogue Legacy###
@@ -53,17 +53,17 @@ For a little while now we've been living in a world of Rogue-lites, or Rogue-lik
 
 ###3. The Stanley Parable###
 <img src='/images/forPosts/topten-stanleyparable.png' class='articlesImgCenter group'>
-I like The Stanley Parable a lot. I fought with myself for a long time about where on this list this game should land. It's got this undeniable charm that had me going back to it over and over again. The Stanley Parable is built around choice, and the branching narratives based on how you handle those choices. The narrator's dialogue makes you feel like they thought of every possible branch, which is insane. I feel like one of the hardest things to accomplish in gaming is giving players a sense that their choices are really making a difference to the story. The Stanley Parable definitely approaches this issue in a fun way that leaves you appreciating video games as a whole.
+I like The Stanley Parable a lot. I fought with myself for a long time about where on this list this game should land. It's got this undeniable charm that had me going back to it over and over again. The Stanley Parable is built around choice, and the branching narratives based on how you handle those choices. The narrator's dialog makes you feel like they thought of every possible branch, which is insane. I feel like one of the hardest things to accomplish in gaming is giving players a sense that their choices are really making a difference to the story. The Stanley Parable definitely approaches this issue in a fun way that leaves you appreciating video games as a whole.
 
 
 ###2. Legend of Zelda: A Link Between Worlds###
 <img src='/images/forPosts/topten-zelda.png' class='articlesImgCenter group'>
-It's simple, A Link Between Worlds takes everything that most people dislike about the recent editions to the Zelda franchise and sets them straight. A Link Between Worlds has received the highest praise from almost every outlet around, and it totally deserves it. The changes to the classic Zelda formula break up what usually becomes a stale and tired formula in a way that I never once felt the game dragging. If you have a 3DS you have to play this game, it's the best the handheld has to offer in a big way.
+It's simple, A Link Between Worlds takes everything that most people dislike about the recent editions to the Zelda franchise and sets them straight. A Link Between Worlds has received the highest praise from almost every outlet around, and it totally deserves it. The changes to the classic Zelda formula break up what usually becomes a stale and tired formula in a way that I never once felt the game dragging. If you have a 3DS you have to play this game, it's the best the hand-held has to offer in a big way.
 
 
 ###1. Bioshock Infinite###
 <img src='/images/forPosts/topten-bioshockinfinite.png' class='articlesImgCenter group'>
-It's really hard for me to distill down what it is about Bioshock Infinite that makes it my top game this year. I really enjoyed everything it had to offer. I'm still a fan of the gun plus plasmid or vigor fight style, and when you add Infinite's skyhook system it takes the combat to a new level. The world design is unlike anything else I played this year. The floating city of Columbia is something that I enjoyed staring at for hours on end. If you take the time to search around, there seems to be an ‘infinite’ amount of small little details creating a more believable world that lives up to what the story is delivering.
+It's really hard for me to distill down what it is about Bioshock Infinite that makes it my top game this year. I really enjoyed everything it had to offer. I'm still a fan of the gun plus plasmid or vigor fight style, and when you add Infinite's skyhook system it takes the combat to a new level. The world design is unlike anything else I played this year. The floating city of Columbia is something that I enjoyed staring at for hours on end. If you take the time to search around, there seems to be an 'infinite' amount of small little details creating a more believable world that lives up to what the story is delivering.
 
 The characters were superbly written and the story as a whole blew me away, but the game's ending is where Infinite really cemented itself as my top game this year. It's easy to pick apart multi-verse stories after the fact, but I really enjoyed what Irrational did with Bioshock Infinite. I had a lot of fun during the course of the game discovering what was really at work in Columbia, and the ending left me dumbstruck for hours afterward. Then for weeks I read theories online and chatted with friends and co-workers, and it was great. So much fun trying to squeak out as much from the game as I could. Its definitely one of the best games I've ever played and easily my top pick of the year.
 
@@ -74,7 +74,7 @@ The characters were superbly written and the story as a whole blew me away, but 
 > I really want to play Antichamber, but it's only available for PC and I don't own a PC. Everything I've seen of the game looks amazing. I mean levels that rearrange themselves as you move around in the game?! Amazing.
 
 * **Proteus**
-> Proteus is definitely an experience that i really enjoyed this year. Its one of those games that some would argue isn't really a game, but you should just ignore all that garage and play it. Its something special.
+> Proteus is definitely an experience that I really enjoyed this year. Its one of those games that some would argue isn't really a game, but you should just ignore all that garage and play it. Its something special.
 
 * **Metal Gear Rising: Revengence**
 > Revengence makes you want to scream "VIDEOGAMES!!!!!!" as you're playing it. Right from the start it lets you know what kind of ride this is going to be. If this was a top eleven it would have made the list.
