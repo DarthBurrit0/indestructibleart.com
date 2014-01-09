@@ -14,4 +14,4 @@ push:
 	git push ryan master
 
 serve:
-	beam ~/Dropbox/ia-episode-drop/ --watch --clean --bucket="indestructibleart.com"
+	beam ~/Dropbox/ia-content-drop/ --watch --clean --bucket="indestructibleart.com"
